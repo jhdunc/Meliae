@@ -76,3 +76,10 @@ DerivedDataCache/*
 # Don't ignore Wwise .dll and .lib files as these are needed for compiling
 !Plugins/Wwise/*.dll
 !Plugins/Wwise/*.lib
+
+# Wwise-related exclusions
+.cache
+*.akd
+*.prof
+*.validationcache
+*/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset
