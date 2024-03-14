@@ -3,7 +3,7 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{5E75469F-274B-4377-95BA-E6889977AF66}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Done_Better__BPRTS_Remix__diff" ID="{B23DF062-954F-4699-935D-500270FAAAA9}">
+				<Event Name="PlayBackgroundMusic" ID="{B23DF062-954F-4699-935D-500270FAAAA9}">
 					<ChildrenList>
 						<Action Name="" ID="{9A6DEC34-B57F-4B2B-BCE8-B4DA589344AF}" ShortID="874812958">
 							<ReferenceList>
