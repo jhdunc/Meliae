@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5E75469F-274B-4377-95BA-E6889977AF66}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{5E75469F-274B-4377-95BA-E6889977AF66}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{5E75469F-274B-4377-95BA-E6889977AF66}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Done_Better__BPRTS_Remix__diff" ID="{B23DF062-954F-4699-935D-500270FAAAA9}">
+					<ChildrenList>
+						<Action Name="" ID="{9A6DEC34-B57F-4B2B-BCE8-B4DA589344AF}" ShortID="874812958">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Done Better (BPRTS Remix) diff" ID="{019798B8-5D88-4AD0-9EA0-CD4DC288F554}" WorkUnitID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

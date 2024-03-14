@@ -23,6 +23,24 @@
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
 		</SoundBank>
+		<SoundBank Id="4056684167" Type="User" GUID="{AB51B660-A76C-491A-9E46-2A4527DB700A}" Language="SFX" Hash="{DF354165-F311-2968-55B4-606932402F5F}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
+			<ShortName>Master</ShortName>
+			<Path>Master.bnk</Path>
+			<Media>
+				<File Id="982727356" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Done Better (BPRTS Remix) diff.wav</ShortName>
+					<CachePath>SFX/Done Better (BPRTS Remix) diff_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3115765196" Name="PlayBackgroundMusic" ObjectPath="\Events\Default Work Unit\PlayBackgroundMusic" GUID="{B23DF062-954F-4699-935D-500270FAAAA9}" DurationType="OneShot" DurationMin="54.857143" DurationMax="54.857143">
+					<MediaRefs>
+						<MediaRef Id="982727356"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0D8AFC35-F204-1767-CC83-AEBB4697664F}</FileHash>
+	<FileHash>{DADC99D6-4376-0386-7112-B8897E20B331}</FileHash>
 </SoundBanksInfo>

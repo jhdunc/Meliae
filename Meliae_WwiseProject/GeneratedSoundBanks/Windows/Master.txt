@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3115765196	PlayBackgroundMusic			\Default Work Unit\PlayBackgroundMusic	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	982727356	Done Better (BPRTS Remix) diff	C:\Users\bas\GitHub\Unreal\Meliae\Meliae_WwiseProject\.cache\Windows\SFX\Done Better (BPRTS Remix) diff_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Done Better (BPRTS Remix) diff		9676896
+
