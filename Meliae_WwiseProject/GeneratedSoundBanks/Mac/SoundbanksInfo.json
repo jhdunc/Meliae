@@ -1,0 +1,211 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "RootPaths": {
+   "ProjectRoot": "../..",
+   "SourceFilesRoot": "../../.cache/Mac",
+   "SoundBanksRoot": ".",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "."
+  },
+  "DialogueEvents": [],
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{D326F752-7CA2-0A14-FDB1-63ECE89D0199}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "GUID": "{F3688C1A-5FA5-4EDF-A323-5470AC8DD49A}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "GUID": "{2B72CD5E-F2D9-445C-8C0D-36D9FA244C0B}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ]
+   },
+   {
+    "Id": "1559987368",
+    "Type": "User",
+    "GUID": "{717A993B-661B-4D4E-8741-E02E96CF3146}",
+    "Language": "SFX",
+    "Hash": "{439BDB52-88D7-78CD-EFC0-C1DB98BB9314}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Wooden_Floor",
+    "ShortName": "Wooden_Floor",
+    "Path": "Wooden_Floor.bnk",
+    "Media": [
+     {
+      "Id": "6545307",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WoodStepShort 6-Voice 060.wav",
+      "CachePath": "SFX/WoodStepShort 6-Voice 060_818F3B66.wem"
+     },
+     {
+      "Id": "17126838",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Untitled 8-Voice 060.wav",
+      "CachePath": "SFX/Untitled 8-Voice 060_818F3B66.wem"
+     },
+     {
+      "Id": "219111941",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Untitled 5-Voice 060.wav",
+      "CachePath": "SFX/Untitled 5-Voice 060_818F3B66.wem"
+     },
+     {
+      "Id": "225583107",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WoodStepShort 7-Voice 060.wav",
+      "CachePath": "SFX/WoodStepShort 7-Voice 060_818F3B66.wem"
+     },
+     {
+      "Id": "462917604",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WoodStepShort 9-Voice 060.wav",
+      "CachePath": "SFX/WoodStepShort 9-Voice 060_818F3B66.wem"
+     },
+     {
+      "Id": "495365243",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WoodStepShort 5-Voice 060.wav",
+      "CachePath": "SFX/WoodStepShort 5-Voice 060_818F3B66.wem"
+     },
+     {
+      "Id": "627375819",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Untitled 9-Voice 060.wav",
+      "CachePath": "SFX/Untitled 9-Voice 060_818F3B66.wem"
+     },
+     {
+      "Id": "734772602",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WoodStepShort 8-Voice 060.wav",
+      "CachePath": "SFX/WoodStepShort 8-Voice 060_818F3B66.wem"
+     },
+     {
+      "Id": "817935438",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Untitled 6-Voice 060.wav",
+      "CachePath": "SFX/Untitled 6-Voice 060_818F3B66.wem"
+     },
+     {
+      "Id": "1044417870",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Untitled 7-Voice 060.wav",
+      "CachePath": "SFX/Untitled 7-Voice 060_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "340271938",
+      "Name": "Walking",
+      "ObjectPath": "\\Events\\Default Work Unit\\Walking",
+      "GUID": "{E26623BA-6A8F-4393-B7AF-B2CF7DB68720}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "17126838"
+       },
+       {
+        "Id": "219111941"
+       },
+       {
+        "Id": "627375819"
+       },
+       {
+        "Id": "817935438"
+       },
+       {
+        "Id": "1044417870"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "1831431028",
+    "Type": "User",
+    "GUID": "{4E1A7E54-9DAA-4119-82EB-A1A65A9EB755}",
+    "Language": "SFX",
+    "Hash": "{40CC477B-D4B4-FAF3-96B7-7788A154B22E}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestSoundBank",
+    "ShortName": "TestSoundBank",
+    "Path": "TestSoundBank.bnk",
+    "Media": [
+     {
+      "Id": "891530983",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lose It All.wav",
+      "CachePath": "SFX/Lose It All_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1097980931",
+      "Name": "TestEvent",
+      "ObjectPath": "\\Events\\Default Work Unit\\TestEvent",
+      "GUID": "{C28F93D9-6BBA-4092-8D7A-21DA67F064CD}",
+      "DurationType": "OneShot",
+      "DurationMin": "38.095238",
+      "DurationMax": "38.095238",
+      "MediaRefs": [
+       {
+        "Id": "891530983"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C196D6FD-32D0-0F35-DACC-E84BC9490DB2}"
+ }
+}

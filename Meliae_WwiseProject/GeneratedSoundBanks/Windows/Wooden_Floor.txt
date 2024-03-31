@@ -1,0 +1,15 @@
+Event	ID	Name			Wwise Object Path	Notes
+	340271938	Walking			\Default Work Unit\Walking	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	6545307	WoodStepShort 6-Voice 060	C:\Users\Bas Peters\GitHub\Meliae\Meliae_WwiseProject\.cache\Windows\SFX\WoodStepShort 6-Voice 060_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\WoodenFloorSprinting\WoodStepShort 6-Voice 060		66248
+	17126838	WoodStepLong4	C:\Users\Bas Peters\GitHub\Meliae\Meliae_WwiseProject\.cache\Windows\SFX\Untitled 8-Voice 060_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\WoodenFloorWalking\WoodStepLong4		88296
+	219111941	WoodStepLong1	C:\Users\Bas Peters\GitHub\Meliae\Meliae_WwiseProject\.cache\Windows\SFX\Untitled 5-Voice 060_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\WoodenFloorWalking\WoodStepLong1		88296
+	225583107	WoodStepShort 7-Voice 060	C:\Users\Bas Peters\GitHub\Meliae\Meliae_WwiseProject\.cache\Windows\SFX\WoodStepShort 7-Voice 060_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\WoodenFloorSprinting\WoodStepShort 7-Voice 060		66248
+	462917604	WoodStepShort 9-Voice 060	C:\Users\Bas Peters\GitHub\Meliae\Meliae_WwiseProject\.cache\Windows\SFX\WoodStepShort 9-Voice 060_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\WoodenFloorSprinting\WoodStepShort 9-Voice 060		66248
+	495365243	WoodStepShort 5-Voice 060	C:\Users\Bas Peters\GitHub\Meliae\Meliae_WwiseProject\.cache\Windows\SFX\WoodStepShort 5-Voice 060_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\WoodenFloorSprinting\WoodStepShort 5-Voice 060		66248
+	627375819	WoodStepLong5	C:\Users\Bas Peters\GitHub\Meliae\Meliae_WwiseProject\.cache\Windows\SFX\Untitled 9-Voice 060_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\WoodenFloorWalking\WoodStepLong5		88296
+	734772602	WoodStepShort 8-Voice 060	C:\Users\Bas Peters\GitHub\Meliae\Meliae_WwiseProject\.cache\Windows\SFX\WoodStepShort 8-Voice 060_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\WoodenFloorSprinting\WoodStepShort 8-Voice 060		66248
+	817935438	WoodStepLong2	C:\Users\Bas Peters\GitHub\Meliae\Meliae_WwiseProject\.cache\Windows\SFX\Untitled 6-Voice 060_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\WoodenFloorWalking\WoodStepLong2		88296
+	1044417870	WoodStepLong3	C:\Users\Bas Peters\GitHub\Meliae\Meliae_WwiseProject\.cache\Windows\SFX\Untitled 7-Voice 060_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\WoodenFloorWalking\WoodStepLong3		88296
+

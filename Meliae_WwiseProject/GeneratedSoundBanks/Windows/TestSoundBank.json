@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1831431028",
+    "Type": "User",
+    "GUID": "{4E1A7E54-9DAA-4119-82EB-A1A65A9EB755}",
+    "Language": "SFX",
+    "Hash": "{40CC477B-D4B4-FAF3-96B7-7788A154B22E}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestSoundBank",
+    "ShortName": "TestSoundBank",
+    "Path": "TestSoundBank.bnk",
+    "Media": [
+     {
+      "Id": "891530983",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lose It All.wav",
+      "CachePath": "SFX/Lose It All_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1097980931",
+      "Name": "TestEvent",
+      "ObjectPath": "\\Events\\Default Work Unit\\TestEvent",
+      "GUID": "{C28F93D9-6BBA-4092-8D7A-21DA67F064CD}",
+      "DurationType": "OneShot",
+      "DurationMin": "38.095238",
+      "DurationMax": "38.095238",
+      "MediaRefs": [
+       {
+        "Id": "891530983"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F87EC02A-56B9-5266-5A4C-DB39531BCF24}"
+ }
+}

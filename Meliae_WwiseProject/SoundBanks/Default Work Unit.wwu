@@ -5,7 +5,15 @@
 			<ChildrenList>
 				<SoundBank Name="Wooden_Floor" ID="{717A993B-661B-4D4E-8741-E02E96CF3146}">
 					<ObjectInclusionList>
+						<ObjectRef Name="WoodenFloorSprinting" ID="{08EF4FBA-EF8B-4920-8183-E4B21966514C}" WorkUnitID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="WoodenFloorWalking" ID="{27E364C7-27B9-4C02-B6C7-4F59AC189C39}" WorkUnitID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="TestSoundBank" ID="{4E1A7E54-9DAA-4119-82EB-A1A65A9EB755}">
+					<ObjectInclusionList>
+						<ObjectRef Name="TestEvent" ID="{C28F93D9-6BBA-4092-8D7A-21DA67F064CD}" WorkUnitID="{5E75469F-274B-4377-95BA-E6889977AF66}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

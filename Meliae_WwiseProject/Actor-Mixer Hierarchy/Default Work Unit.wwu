@@ -28,7 +28,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="Untitled 5-Voice 060" ID="{8351B344-F517-4BF2-AC1B-A3134FD17AD2}" ShortID="74389679">
+						<Sound Name="WoodStepLong1" ID="{8351B344-F517-4BF2-AC1B-A3134FD17AD2}" ShortID="74389679">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
@@ -38,7 +38,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Untitled 5-Voice 060" ID="{68BAC0CC-0011-47ED-88ED-DD4DF50E2607}">
+								<AudioFileSource Name="WoodStepLong1" ID="{68BAC0CC-0011-47ED-88ED-DD4DF50E2607}">
 									<Language>SFX</Language>
 									<AudioFile>Untitled 5-Voice 060.wav</AudioFile>
 									<MediaIDList>
@@ -47,17 +47,10 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Untitled 5-Voice 060" ID="{68BAC0CC-0011-47ED-88ED-DD4DF50E2607}" Platform="Linked"/>
+								<ActiveSource Name="WoodStepLong1" ID="{68BAC0CC-0011-47ED-88ED-DD4DF50E2607}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Untitled 7-Voice 060" ID="{825CE829-6908-4DE1-A26F-4558C9937838}" ShortID="987624782">
-							<PropertyList>
-								<Property Name="Inclusion" Type="bool">
-									<ValueList>
-										<Value>False</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						<Sound Name="WoodStepLong3" ID="{825CE829-6908-4DE1-A26F-4558C9937838}" ShortID="987624782">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
@@ -67,7 +60,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Untitled 7-Voice 060" ID="{9D3FAF5F-DBD7-4534-81FC-92E1BA85930F}">
+								<AudioFileSource Name="WoodStepLong3" ID="{9D3FAF5F-DBD7-4534-81FC-92E1BA85930F}">
 									<Language>SFX</Language>
 									<AudioFile>Untitled 7-Voice 060.wav</AudioFile>
 									<MediaIDList>
@@ -76,17 +69,10 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Untitled 7-Voice 060" ID="{9D3FAF5F-DBD7-4534-81FC-92E1BA85930F}" Platform="Linked"/>
+								<ActiveSource Name="WoodStepLong3" ID="{9D3FAF5F-DBD7-4534-81FC-92E1BA85930F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Untitled 6-Voice 060" ID="{0F766832-7EB9-49B4-B633-1116E0A121DF}" ShortID="514766883">
-							<PropertyList>
-								<Property Name="Inclusion" Type="bool">
-									<ValueList>
-										<Value>False</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						<Sound Name="WoodStepLong2" ID="{0F766832-7EB9-49B4-B633-1116E0A121DF}" ShortID="514766883">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
@@ -96,7 +82,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Untitled 6-Voice 060" ID="{F74B2405-4F96-4BDC-9A7E-0D21C5464DB7}">
+								<AudioFileSource Name="WoodStepLong2" ID="{F74B2405-4F96-4BDC-9A7E-0D21C5464DB7}">
 									<Language>SFX</Language>
 									<AudioFile>Untitled 6-Voice 060.wav</AudioFile>
 									<MediaIDList>
@@ -105,17 +91,10 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Untitled 6-Voice 060" ID="{F74B2405-4F96-4BDC-9A7E-0D21C5464DB7}" Platform="Linked"/>
+								<ActiveSource Name="WoodStepLong2" ID="{F74B2405-4F96-4BDC-9A7E-0D21C5464DB7}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Untitled 8-Voice 060" ID="{A82672C4-4BD4-489E-9741-86912F08530E}" ShortID="619444815">
-							<PropertyList>
-								<Property Name="Inclusion" Type="bool">
-									<ValueList>
-										<Value>False</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						<Sound Name="WoodStepLong4" ID="{A82672C4-4BD4-489E-9741-86912F08530E}" ShortID="619444815">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
@@ -125,7 +104,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Untitled 8-Voice 060" ID="{1416BA3E-BB1D-4B07-977D-41C517C01BFE}">
+								<AudioFileSource Name="WoodStepLong4" ID="{1416BA3E-BB1D-4B07-977D-41C517C01BFE}">
 									<Language>SFX</Language>
 									<AudioFile>Untitled 8-Voice 060.wav</AudioFile>
 									<MediaIDList>
@@ -134,10 +113,10 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Untitled 8-Voice 060" ID="{1416BA3E-BB1D-4B07-977D-41C517C01BFE}" Platform="Linked"/>
+								<ActiveSource Name="WoodStepLong4" ID="{1416BA3E-BB1D-4B07-977D-41C517C01BFE}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Untitled 9-Voice 060" ID="{082FEF0B-7A95-4358-BC1D-2DD6AF0CDF66}" ShortID="166719278">
+						<Sound Name="WoodStepLong5" ID="{082FEF0B-7A95-4358-BC1D-2DD6AF0CDF66}" ShortID="166719278">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
@@ -147,7 +126,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Untitled 9-Voice 060" ID="{B6D02DA8-84A0-4DEA-B4F3-5B3EB5E5069D}">
+								<AudioFileSource Name="WoodStepLong5" ID="{B6D02DA8-84A0-4DEA-B4F3-5B3EB5E5069D}">
 									<Language>SFX</Language>
 									<AudioFile>Untitled 9-Voice 060.wav</AudioFile>
 									<MediaIDList>
@@ -156,11 +135,170 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Untitled 9-Voice 060" ID="{B6D02DA8-84A0-4DEA-B4F3-5B3EB5E5069D}" Platform="Linked"/>
+								<ActiveSource Name="WoodStepLong5" ID="{B6D02DA8-84A0-4DEA-B4F3-5B3EB5E5069D}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="WoodenFloorSprinting" ID="{08EF4FBA-EF8B-4920-8183-E4B21966514C}" ShortID="164659870">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>20</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="WoodStepShort 5-Voice 060" ID="{10C5C62D-42AC-45A2-841C-7A186CC25501}" ShortID="436761727">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WoodStepShort 5-Voice 060" ID="{2291B6CD-E1BE-49AE-A5CA-0A7672EDF689}">
+									<Language>SFX</Language>
+									<AudioFile>WoodStepShort 5-Voice 060.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="495365243"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WoodStepShort 5-Voice 060" ID="{2291B6CD-E1BE-49AE-A5CA-0A7672EDF689}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WoodStepShort 6-Voice 060" ID="{A1E1C7E0-BE56-4170-B416-CBFDB202626C}" ShortID="258836589">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WoodStepShort 6-Voice 060" ID="{D5DA6855-7446-42DB-9FF6-0B7BE984C0B7}">
+									<Language>SFX</Language>
+									<AudioFile>WoodStepShort 6-Voice 060.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="6545307"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WoodStepShort 6-Voice 060" ID="{D5DA6855-7446-42DB-9FF6-0B7BE984C0B7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WoodStepShort 7-Voice 060" ID="{38D6036E-499E-4E63-AAFC-44349168B02F}" ShortID="638577011">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WoodStepShort 7-Voice 060" ID="{1A5ECE24-533A-4043-BD22-178DDDA16E2F}">
+									<Language>SFX</Language>
+									<AudioFile>WoodStepShort 7-Voice 060.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="225583107"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WoodStepShort 7-Voice 060" ID="{1A5ECE24-533A-4043-BD22-178DDDA16E2F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WoodStepShort 8-Voice 060" ID="{7FA3AB78-B83D-4BD9-A3CA-E92739842029}" ShortID="308797125">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WoodStepShort 8-Voice 060" ID="{F944BB42-4A23-4C6C-A1B7-8329461E44BC}">
+									<Language>SFX</Language>
+									<AudioFile>WoodStepShort 8-Voice 060.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="734772602"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WoodStepShort 8-Voice 060" ID="{F944BB42-4A23-4C6C-A1B7-8329461E44BC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WoodStepShort 9-Voice 060" ID="{879E8B9E-BB4F-45CE-A982-C740A5217367}" ShortID="300411912">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WoodStepShort 9-Voice 060" ID="{3B72C020-BCCB-4706-BDD7-23DCCC3A03CB}">
+									<Language>SFX</Language>
+									<AudioFile>WoodStepShort 9-Voice 060.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="462917604"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WoodStepShort 9-Voice 060" ID="{3B72C020-BCCB-4706-BDD7-23DCCC3A03CB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="Lose It All" ID="{20C512CE-D21E-4DA4-A3E4-3517A4833A22}" ShortID="982917290">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Lose It All" ID="{093D2019-DD3C-4C81-AC2C-6AB68BF4DF7C}">
+							<Language>SFX</Language>
+							<AudioFile>Lose It All.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="891530983"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Lose It All" ID="{093D2019-DD3C-4C81-AC2C-6AB68BF4DF7C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
