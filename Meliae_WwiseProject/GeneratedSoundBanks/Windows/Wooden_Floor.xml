@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1559987368" Type="User" GUID="{717A993B-661B-4D4E-8741-E02E96CF3146}" Language="SFX" Hash="{439BDB52-88D7-78CD-EFC0-C1DB98BB9314}">
+		<SoundBank Id="1559987368" Type="User" GUID="{717A993B-661B-4D4E-8741-E02E96CF3146}" Language="SFX" Hash="{32954DC4-31D0-9D6B-441E-607CCF331484}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Wooden_Floor</ObjectPath>
 			<ShortName>Wooden_Floor</ShortName>
 			<Path>Wooden_Floor.bnk</Path>
@@ -48,7 +48,16 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="340271938" Name="Walking" ObjectPath="\Events\Default Work Unit\Walking" GUID="{E26623BA-6A8F-4393-B7AF-B2CF7DB68720}" DurationType="Infinite">
+				<Event Id="755707385" Name="isNotWalking" ObjectPath="\Events\Default Work Unit\isNotWalking" GUID="{C4FB76C6-57EF-45A3-A2D9-3DE2F001D3FF}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="17126838"/>
+						<MediaRef Id="219111941"/>
+						<MediaRef Id="627375819"/>
+						<MediaRef Id="817935438"/>
+						<MediaRef Id="1044417870"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3629409974" Name="isWalking" ObjectPath="\Events\Default Work Unit\isWalking" GUID="{E26623BA-6A8F-4393-B7AF-B2CF7DB68720}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="17126838"/>
 						<MediaRef Id="219111941"/>
@@ -60,5 +69,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D8DADE91-5931-67E0-6DBF-24F68E13C33F}</FileHash>
+	<FileHash>{51964EFE-34E5-4390-E076-D9AD03171EA7}</FileHash>
 </SoundBanksInfo>

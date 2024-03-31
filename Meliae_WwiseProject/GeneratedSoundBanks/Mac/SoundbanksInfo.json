@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{D326F752-7CA2-0A14-FDB1-63ECE89D0199}",
+    "Hash": "{627A464F-7EFB-EDDB-8457-F8FA1D30DC3F}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -49,6 +49,28 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2012657067",
+      "Name": "New_State_Group",
+      "ObjectPath": "\\States\\Default Work Unit\\New_State_Group",
+      "GUID": "{61FE4AE8-07C0-4757-A726-DB7436B6612C}",
+      "States": [
+       {
+        "Id": "340271938",
+        "Name": "Walking",
+        "ObjectPath": "\\States\\Default Work Unit\\New_State_Group\\Walking",
+        "GUID": "{6A0519C6-F744-4F57-B8C5-EFFDE6CF5495}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\New_State_Group\\None",
+        "GUID": "{2EFA73EF-E5E8-483B-81BD-0C317A7BDE2E}"
+       }
+      ]
+     }
     ]
    },
    {
@@ -56,7 +78,7 @@
     "Type": "User",
     "GUID": "{717A993B-661B-4D4E-8741-E02E96CF3146}",
     "Language": "SFX",
-    "Hash": "{439BDB52-88D7-78CD-EFC0-C1DB98BB9314}",
+    "Hash": "{32954DC4-31D0-9D6B-441E-607CCF331484}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Wooden_Floor",
     "ShortName": "Wooden_Floor",
     "Path": "Wooden_Floor.bnk",
@@ -144,9 +166,36 @@
     ],
     "Events": [
      {
-      "Id": "340271938",
-      "Name": "Walking",
-      "ObjectPath": "\\Events\\Default Work Unit\\Walking",
+      "Id": "755707385",
+      "Name": "isNotWalking",
+      "ObjectPath": "\\Events\\Default Work Unit\\isNotWalking",
+      "GUID": "{C4FB76C6-57EF-45A3-A2D9-3DE2F001D3FF}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "MediaRefs": [
+       {
+        "Id": "17126838"
+       },
+       {
+        "Id": "219111941"
+       },
+       {
+        "Id": "627375819"
+       },
+       {
+        "Id": "817935438"
+       },
+       {
+        "Id": "1044417870"
+       }
+      ]
+     },
+     {
+      "Id": "3629409974",
+      "Name": "isWalking",
+      "ObjectPath": "\\Events\\Default Work Unit\\isWalking",
       "GUID": "{E26623BA-6A8F-4393-B7AF-B2CF7DB68720}",
       "DurationType": "Infinite",
       "MediaRefs": [
@@ -174,7 +223,7 @@
     "Type": "User",
     "GUID": "{4E1A7E54-9DAA-4119-82EB-A1A65A9EB755}",
     "Language": "SFX",
-    "Hash": "{40CC477B-D4B4-FAF3-96B7-7788A154B22E}",
+    "Hash": "{7A0115F7-EBF4-6F2E-5976-F0DD94B2D8E1}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestSoundBank",
     "ShortName": "TestSoundBank",
     "Path": "TestSoundBank.bnk",
@@ -206,6 +255,6 @@
     ]
    }
   ],
-  "FileHash": "{C196D6FD-32D0-0F35-DACC-E84BC9490DB2}"
+  "FileHash": "{0150E2D9-3E71-8608-8504-D17A09CA40C7}"
  }
 }

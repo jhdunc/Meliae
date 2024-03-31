@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
-	340271938	Walking			\Default Work Unit\Walking	
+	755707385	isNotWalking			\Default Work Unit\isNotWalking	
+	3629409974	isWalking			\Default Work Unit\isWalking	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	6545307	WoodStepShort 6-Voice 060	C:\Users\Bas Peters\GitHub\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\WoodStepShort 6-Voice 060_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\WoodenFloorSprinting\WoodStepShort 6-Voice 060		66248
