@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5E75469F-274B-4377-95BA-E6889977AF66}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{5E75469F-274B-4377-95BA-E6889977AF66}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{5E75469F-274B-4377-95BA-E6889977AF66}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="isWalking" ID="{E26623BA-6A8F-4393-B7AF-B2CF7DB68720}">
+					<ChildrenList>
+						<Action Name="" ID="{E1E7AE52-CA58-4E98-843D-C4EF5AF69442}" ShortID="187327249">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WoodenFloorSprinting" ID="{08EF4FBA-EF8B-4920-8183-E4B21966514C}" WorkUnitID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TestEvent" ID="{C28F93D9-6BBA-4092-8D7A-21DA67F064CD}">
+					<ChildrenList>
+						<Action Name="" ID="{5F1D1016-BC9B-4CC3-8644-B64002A201A1}" ShortID="813756862">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lose It All" ID="{20C512CE-D21E-4DA4-A3E4-3517A4833A22}" WorkUnitID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="isNotWalking" ID="{C4FB76C6-57EF-45A3-A2D9-3DE2F001D3FF}">
+					<ChildrenList>
+						<Action Name="" ID="{D9886538-DB35-4203-A2C4-49ADB1291F26}" ShortID="615461210">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WoodenFloorSprinting" ID="{08EF4FBA-EF8B-4920-8183-E4B21966514C}" WorkUnitID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

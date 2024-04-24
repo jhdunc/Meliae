@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "Meliae_WwiseProject",
+   "GUID": "{EA160A82-2C32-4BAF-9258-5CB94B5F8C9C}",
+   "Generator": "2023.1.1.8417"
+  },
+  "CacheRoot": "../.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{AACB060A-9C74-4FCF-99F0-DB3A6BD80F38}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{0F378606-47F4-4283-BEF1-DCFF1E7A05A6}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{3DF1CA57-4470-4569-BF1C-E240F0FB5CBB}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{94EC3E3E-1242-0D32-C23A-3A516C2DFCDC}"
+ }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1831431028" Type="User" GUID="{4E1A7E54-9DAA-4119-82EB-A1A65A9EB755}" Language="SFX" Hash="{7A0115F7-EBF4-6F2E-5976-F0DD94B2D8E1}">
+			<ObjectPath>\SoundBanks\Default Work Unit\TestSoundBank</ObjectPath>
+			<ShortName>TestSoundBank</ShortName>
+			<Path>TestSoundBank.bnk</Path>
+			<Media>
+				<File Id="891530983" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Lose It All.wav</ShortName>
+					<CachePath>SFX/Lose It All_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1097980931" Name="TestEvent" ObjectPath="\Events\Default Work Unit\TestEvent" GUID="{C28F93D9-6BBA-4092-8D7A-21DA67F064CD}" DurationType="OneShot" DurationMin="38.095238" DurationMax="38.095238">
+					<MediaRefs>
+						<MediaRef Id="891530983"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{3B7A7647-E7B6-81A4-BC52-70C1A2F67BA3}</FileHash>
+</SoundBanksInfo>

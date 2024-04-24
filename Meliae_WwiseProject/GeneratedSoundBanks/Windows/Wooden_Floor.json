@@ -1,0 +1,156 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1559987368",
+    "Type": "User",
+    "GUID": "{717A993B-661B-4D4E-8741-E02E96CF3146}",
+    "Language": "SFX",
+    "Hash": "{3CEE9692-3803-3755-6438-B7DA85C61927}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Wooden_Floor",
+    "ShortName": "Wooden_Floor",
+    "Path": "Wooden_Floor.bnk",
+    "Media": [
+     {
+      "Id": "6545307",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WoodStepShort 6-Voice 060.wav",
+      "CachePath": "SFX/WoodStepShort 6-Voice 060_818F3B66.wem"
+     },
+     {
+      "Id": "17126838",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Untitled 8-Voice 060.wav",
+      "CachePath": "SFX/Untitled 8-Voice 060_818F3B66.wem"
+     },
+     {
+      "Id": "219111941",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Untitled 5-Voice 060.wav",
+      "CachePath": "SFX/Untitled 5-Voice 060_818F3B66.wem"
+     },
+     {
+      "Id": "225583107",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WoodStepShort 7-Voice 060.wav",
+      "CachePath": "SFX/WoodStepShort 7-Voice 060_818F3B66.wem"
+     },
+     {
+      "Id": "462917604",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WoodStepShort 9-Voice 060.wav",
+      "CachePath": "SFX/WoodStepShort 9-Voice 060_818F3B66.wem"
+     },
+     {
+      "Id": "495365243",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WoodStepShort 5-Voice 060.wav",
+      "CachePath": "SFX/WoodStepShort 5-Voice 060_818F3B66.wem"
+     },
+     {
+      "Id": "627375819",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Untitled 9-Voice 060.wav",
+      "CachePath": "SFX/Untitled 9-Voice 060_818F3B66.wem"
+     },
+     {
+      "Id": "734772602",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WoodStepShort 8-Voice 060.wav",
+      "CachePath": "SFX/WoodStepShort 8-Voice 060_818F3B66.wem"
+     },
+     {
+      "Id": "817935438",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Untitled 6-Voice 060.wav",
+      "CachePath": "SFX/Untitled 6-Voice 060_818F3B66.wem"
+     },
+     {
+      "Id": "1044417870",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Untitled 7-Voice 060.wav",
+      "CachePath": "SFX/Untitled 7-Voice 060_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "755707385",
+      "Name": "isNotWalking",
+      "ObjectPath": "\\Events\\Default Work Unit\\isNotWalking",
+      "GUID": "{C4FB76C6-57EF-45A3-A2D9-3DE2F001D3FF}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "MediaRefs": [
+       {
+        "Id": "6545307"
+       },
+       {
+        "Id": "225583107"
+       },
+       {
+        "Id": "462917604"
+       },
+       {
+        "Id": "495365243"
+       },
+       {
+        "Id": "734772602"
+       }
+      ]
+     },
+     {
+      "Id": "3629409974",
+      "Name": "isWalking",
+      "ObjectPath": "\\Events\\Default Work Unit\\isWalking",
+      "GUID": "{E26623BA-6A8F-4393-B7AF-B2CF7DB68720}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "6545307"
+       },
+       {
+        "Id": "225583107"
+       },
+       {
+        "Id": "462917604"
+       },
+       {
+        "Id": "495365243"
+       },
+       {
+        "Id": "734772602"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{539E2451-1975-CD8B-212C-98DC24898404}"
+ }
+}
