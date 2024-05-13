@@ -8,7 +8,7 @@
 						<Action Name="" ID="{E1E7AE52-CA58-4E98-843D-C4EF5AF69442}" ShortID="187327249">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="WoodenFloorSprinting" ID="{08EF4FBA-EF8B-4920-8183-E4B21966514C}" WorkUnitID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}"/>
+									<ObjectRef Name="WoodenFloorWalking" ID="{27E364C7-27B9-4C02-B6C7-4F59AC189C39}" WorkUnitID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -33,7 +33,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="WoodenFloorSprinting" ID="{08EF4FBA-EF8B-4920-8183-E4B21966514C}" WorkUnitID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}"/>
+									<ObjectRef Name="WoodenFloorWalking" ID="{27E364C7-27B9-4C02-B6C7-4F59AC189C39}" WorkUnitID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
