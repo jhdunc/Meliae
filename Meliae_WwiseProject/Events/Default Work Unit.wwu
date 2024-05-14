@@ -3,42 +3,112 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{5E75469F-274B-4377-95BA-E6889977AF66}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="isWalking" ID="{E26623BA-6A8F-4393-B7AF-B2CF7DB68720}">
+				<Folder Name="Player" ID="{C1DE78D3-D0C1-4A5F-9A05-1E28FD443881}" ShortID="845242745">
 					<ChildrenList>
-						<Action Name="" ID="{E1E7AE52-CA58-4E98-843D-C4EF5AF69442}" ShortID="187327249">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="WoodenFloorWalking" ID="{27E364C7-27B9-4C02-B6C7-4F59AC189C39}" WorkUnitID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Dash" ID="{2424C118-B787-471E-8AD7-496C6A022D8E}">
+							<ChildrenList>
+								<Action Name="" ID="{3CB2E67E-46D4-4EFF-A434-8E605264B5DA}" ShortID="943927243">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dash" ID="{387E9B02-EDCA-4B47-8BF8-0EF45669670A}" WorkUnitID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Walking" ID="{195B55D7-7598-4D9E-B9E3-C6F105E2B789}" ShortID="23293704">
+							<ChildrenList>
+								<Folder Name="Gravel" ID="{DDFBC655-6047-4429-83CF-DC916715BAF7}" ShortID="272110266">
+									<ChildrenList>
+										<Event Name="GravelWalking" ID="{5DA9EE6C-342C-471C-A997-593B0E40C882}">
+											<ChildrenList>
+												<Action Name="" ID="{03016BB0-D738-48DA-B06F-3854AA807AAD}" ShortID="201321232">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="GravelWalking" ID="{C1045415-EA36-4071-B7BE-DAA2A7158908}" WorkUnitID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="NoGravelWalking" ID="{0ED22DC6-EBED-452A-991E-0E262EB488ED}">
+											<ChildrenList>
+												<Action Name="" ID="{379CEDD4-AAAC-4517-BEA6-B6C063D1DF00}" ShortID="424524281">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="GravelWalking" ID="{C1045415-EA36-4071-B7BE-DAA2A7158908}" WorkUnitID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="NoGrassWalking" ID="{A4E45840-F2BE-4DF7-A50F-AED9E8AEDE49}">
+											<ChildrenList>
+												<Action Name="" ID="{86F1C44B-BAF2-4824-94BA-C19500574E07}" ShortID="1045777058">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="GrassWalking" ID="{F6D4B826-2EA3-43F6-ABC8-98384F92E616}" WorkUnitID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Grass" ID="{82D57112-73A4-4155-AB3D-CACDD89BAD2E}" ShortID="1004165665">
+									<ChildrenList>
+										<Event Name="GrassWalking" ID="{703983FA-6CC1-4B1C-B199-6FB69F7F867E}">
+											<ChildrenList>
+												<Action Name="" ID="{E49440B6-65F4-48B4-A740-C91115EC9793}" ShortID="523048425">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="GrassWalking" ID="{F6D4B826-2EA3-43F6-ABC8-98384F92E616}" WorkUnitID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Dirt" ID="{CC76050F-9223-4148-9765-08C74F38B985}" ShortID="848348171">
+									<ChildrenList>
+										<Event Name="DirtWalking" ID="{533AAF0C-0D7F-473A-B4DA-5B5073988DB8}">
+											<ChildrenList>
+												<Action Name="" ID="{587563A1-838A-44AA-AF4C-A8DD80DE5F1B}" ShortID="572254843">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="DirtWalking" ID="{AF017EE0-C4EF-4CDF-8450-BA76AF6720BF}" WorkUnitID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="NoDirtWalking" ID="{321321E7-07C4-43A0-8125-2377ABF19355}">
+											<ChildrenList>
+												<Action Name="" ID="{43E123DC-96E2-488F-AEEC-57C260133EFA}" ShortID="474072412">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="DirtWalking" ID="{AF017EE0-C4EF-4CDF-8450-BA76AF6720BF}" WorkUnitID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
-				</Event>
-				<Event Name="TestEvent" ID="{C28F93D9-6BBA-4092-8D7A-21DA67F064CD}">
-					<ChildrenList>
-						<Action Name="" ID="{5F1D1016-BC9B-4CC3-8644-B64002A201A1}" ShortID="813756862">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Lose It All" ID="{20C512CE-D21E-4DA4-A3E4-3517A4833A22}" WorkUnitID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="isNotWalking" ID="{C4FB76C6-57EF-45A3-A2D9-3DE2F001D3FF}">
-					<ChildrenList>
-						<Action Name="" ID="{D9886538-DB35-4203-A2C4-49ADB1291F26}" ShortID="615461210">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="WoodenFloorWalking" ID="{27E364C7-27B9-4C02-B6C7-4F59AC189C39}" WorkUnitID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
