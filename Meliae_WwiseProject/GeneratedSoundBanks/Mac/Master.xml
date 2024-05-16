@@ -1,28 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
-	<RootPaths>
-		<ProjectRoot>../..</ProjectRoot>
-		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
-		<SoundBanksRoot>.</SoundBanksRoot>
-		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
-	</RootPaths>
-	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{D326F752-7CA2-0A14-FDB1-63ECE89D0199}">
-			<ObjectPath>Init</ObjectPath>
-			<ShortName>Init</ShortName>
-			<Path>Init.bnk</Path>
-			<Plugins>
-				<AudioDevices>
-					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{F3688C1A-5FA5-4EDF-A323-5470AC8DD49A}" LibName="No Output" LibId="11862023"/>
-					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{2B72CD5E-F2D9-445C-8C0D-36D9FA244C0B}" LibName="System" LibId="11403271"/>
-				</AudioDevices>
-			</Plugins>
-			<Busses>
-				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
-			</Busses>
-		</SoundBank>
 		<SoundBank Id="4056684167" Type="User" GUID="{73FF465C-2E5D-4F75-BFD6-4F737D16B83A}" Language="SFX" Hash="{13784519-283A-81BF-703A-3885C2A0C9D0}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
@@ -88,5 +66,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8B6633A9-9864-A576-6DBE-7B363129F375}</FileHash>
+	<FileHash>{119B7CE5-75D0-7150-CE83-48329A9A422A}</FileHash>
 </SoundBanksInfo>

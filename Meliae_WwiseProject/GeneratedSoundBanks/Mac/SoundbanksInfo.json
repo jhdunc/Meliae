@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{627A464F-7EFB-EDDB-8457-F8FA1D30DC3F}",
+    "Hash": "{D326F752-7CA2-0A14-FDB1-63ECE89D0199}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -49,212 +49,179 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
-    ],
-    "StateGroups": [
-     {
-      "Id": "2012657067",
-      "Name": "New_State_Group",
-      "ObjectPath": "\\States\\Default Work Unit\\New_State_Group",
-      "GUID": "{61FE4AE8-07C0-4757-A726-DB7436B6612C}",
-      "States": [
-       {
-        "Id": "340271938",
-        "Name": "Walking",
-        "ObjectPath": "\\States\\Default Work Unit\\New_State_Group\\Walking",
-        "GUID": "{6A0519C6-F744-4F57-B8C5-EFFDE6CF5495}"
-       },
-       {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\New_State_Group\\None",
-        "GUID": "{2EFA73EF-E5E8-483B-81BD-0C317A7BDE2E}"
-       }
-      ]
-     }
     ]
    },
    {
-    "Id": "1559987368",
+    "Id": "4056684167",
     "Type": "User",
-    "GUID": "{717A993B-661B-4D4E-8741-E02E96CF3146}",
+    "GUID": "{73FF465C-2E5D-4F75-BFD6-4F737D16B83A}",
     "Language": "SFX",
-    "Hash": "{32954DC4-31D0-9D6B-441E-607CCF331484}",
-    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Wooden_Floor",
-    "ShortName": "Wooden_Floor",
-    "Path": "Wooden_Floor.bnk",
+    "Hash": "{13784519-283A-81BF-703A-3885C2A0C9D0}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
+    "ShortName": "Master",
+    "Path": "Master.bnk",
     "Media": [
      {
-      "Id": "6545307",
+      "Id": "111329369",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "WoodStepShort 6-Voice 060.wav",
-      "CachePath": "SFX/WoodStepShort 6-Voice 060_818F3B66.wem"
+      "ShortName": "D3 Beep.wav",
+      "CachePath": "SFX/D3 Beep_818F3B66.wem"
      },
      {
-      "Id": "17126838",
+      "Id": "289791171",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Untitled 8-Voice 060.wav",
-      "CachePath": "SFX/Untitled 8-Voice 060_818F3B66.wem"
+      "ShortName": "Beep.wav",
+      "CachePath": "SFX/Beep_818F3B66.wem"
      },
      {
-      "Id": "219111941",
+      "Id": "676671217",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Untitled 5-Voice 060.wav",
-      "CachePath": "SFX/Untitled 5-Voice 060_818F3B66.wem"
+      "ShortName": "G3 Beep.wav",
+      "CachePath": "SFX/G3 Beep_818F3B66.wem"
      },
      {
-      "Id": "225583107",
+      "Id": "816392091",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "WoodStepShort 7-Voice 060.wav",
-      "CachePath": "SFX/WoodStepShort 7-Voice 060_818F3B66.wem"
-     },
-     {
-      "Id": "462917604",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "WoodStepShort 9-Voice 060.wav",
-      "CachePath": "SFX/WoodStepShort 9-Voice 060_818F3B66.wem"
-     },
-     {
-      "Id": "495365243",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "WoodStepShort 5-Voice 060.wav",
-      "CachePath": "SFX/WoodStepShort 5-Voice 060_818F3B66.wem"
-     },
-     {
-      "Id": "627375819",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Untitled 9-Voice 060.wav",
-      "CachePath": "SFX/Untitled 9-Voice 060_818F3B66.wem"
-     },
-     {
-      "Id": "734772602",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "WoodStepShort 8-Voice 060.wav",
-      "CachePath": "SFX/WoodStepShort 8-Voice 060_818F3B66.wem"
-     },
-     {
-      "Id": "817935438",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Untitled 6-Voice 060.wav",
-      "CachePath": "SFX/Untitled 6-Voice 060_818F3B66.wem"
-     },
-     {
-      "Id": "1044417870",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Untitled 7-Voice 060.wav",
-      "CachePath": "SFX/Untitled 7-Voice 060_818F3B66.wem"
+      "ShortName": "A#2 Beep.wav",
+      "CachePath": "SFX/A#2 Beep_818F3B66.wem"
      }
     ],
     "Events": [
      {
-      "Id": "755707385",
-      "Name": "isNotWalking",
-      "ObjectPath": "\\Events\\Default Work Unit\\isNotWalking",
-      "GUID": "{C4FB76C6-57EF-45A3-A2D9-3DE2F001D3FF}",
+      "Id": "1942692385",
+      "Name": "Dash",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Dash",
+      "GUID": "{2424C118-B787-471E-8AD7-496C6A022D8E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5",
+      "DurationMax": "0.5",
+      "MediaRefs": [
+       {
+        "Id": "289791171"
+       }
+      ]
+     },
+     {
+      "Id": "868219787",
+      "Name": "DirtWalking",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Walking\\Dirt\\DirtWalking",
+      "GUID": "{533AAF0C-0D7F-473A-B4DA-5B5073988DB8}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "111329369"
+       },
+       {
+        "Id": "289791171"
+       },
+       {
+        "Id": "676671217"
+       },
+       {
+        "Id": "816392091"
+       }
+      ]
+     },
+     {
+      "Id": "1365126062",
+      "Name": "GrassWalking",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Walking\\Grass\\GrassWalking",
+      "GUID": "{703983FA-6CC1-4B1C-B199-6FB69F7F867E}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "111329369"
+       },
+       {
+        "Id": "289791171"
+       },
+       {
+        "Id": "676671217"
+       },
+       {
+        "Id": "816392091"
+       }
+      ]
+     },
+     {
+      "Id": "947095541",
+      "Name": "GravelWalking",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Walking\\Gravel\\GravelWalking",
+      "GUID": "{5DA9EE6C-342C-471C-A997-593B0E40C882}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1814678816",
+      "Name": "NoDirtWalking",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Walking\\Dirt\\NoDirtWalking",
+      "GUID": "{321321E7-07C4-43A0-8125-2377ABF19355}",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0",
       "MediaRefs": [
        {
-        "Id": "17126838"
+        "Id": "111329369"
        },
        {
-        "Id": "219111941"
+        "Id": "289791171"
        },
        {
-        "Id": "627375819"
+        "Id": "676671217"
        },
        {
-        "Id": "817935438"
-       },
-       {
-        "Id": "1044417870"
+        "Id": "816392091"
        }
       ]
      },
      {
-      "Id": "3629409974",
-      "Name": "isWalking",
-      "ObjectPath": "\\Events\\Default Work Unit\\isWalking",
-      "GUID": "{E26623BA-6A8F-4393-B7AF-B2CF7DB68720}",
-      "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "17126838"
-       },
-       {
-        "Id": "219111941"
-       },
-       {
-        "Id": "627375819"
-       },
-       {
-        "Id": "817935438"
-       },
-       {
-        "Id": "1044417870"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "Id": "1831431028",
-    "Type": "User",
-    "GUID": "{4E1A7E54-9DAA-4119-82EB-A1A65A9EB755}",
-    "Language": "SFX",
-    "Hash": "{7A0115F7-EBF4-6F2E-5976-F0DD94B2D8E1}",
-    "ObjectPath": "\\SoundBanks\\Default Work Unit\\TestSoundBank",
-    "ShortName": "TestSoundBank",
-    "Path": "TestSoundBank.bnk",
-    "Media": [
-     {
-      "Id": "891530983",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Lose It All.wav",
-      "CachePath": "SFX/Lose It All_818F3B66.wem"
-     }
-    ],
-    "Events": [
-     {
-      "Id": "1097980931",
-      "Name": "TestEvent",
-      "ObjectPath": "\\Events\\Default Work Unit\\TestEvent",
-      "GUID": "{C28F93D9-6BBA-4092-8D7A-21DA67F064CD}",
+      "Id": "796055179",
+      "Name": "NoGrassWalking",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Walking\\Gravel\\NoGrassWalking",
+      "GUID": "{A4E45840-F2BE-4DF7-A50F-AED9E8AEDE49}",
+      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "38.095238",
-      "DurationMax": "38.095238",
+      "DurationMin": "0",
+      "DurationMax": "0",
       "MediaRefs": [
        {
-        "Id": "891530983"
+        "Id": "111329369"
+       },
+       {
+        "Id": "289791171"
+       },
+       {
+        "Id": "676671217"
+       },
+       {
+        "Id": "816392091"
        }
       ]
+     },
+     {
+      "Id": "1575883598",
+      "Name": "NoGravelWalking",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Walking\\Gravel\\NoGravelWalking",
+      "GUID": "{0ED22DC6-EBED-452A-991E-0E262EB488ED}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ]
    }
   ],
-  "FileHash": "{0150E2D9-3E71-8608-8504-D17A09CA40C7}"
+  "FileHash": "{FF1AF97B-0F47-E17D-5755-4FDA65B92981}"
  }
 }

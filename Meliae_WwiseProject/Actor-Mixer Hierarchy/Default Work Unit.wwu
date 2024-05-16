@@ -1,6 +1,243 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Player" ID="{CF316DE8-BDEA-4AB1-9FEC-9D436F232FBF}" ShortID="890986414">
+					<ChildrenList>
+						<RandomSequenceContainer Name="DirtWalking" ID="{AF017EE0-C4EF-4CDF-8450-BA76AF6720BF}" ShortID="510423373">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="A#2 Beep" ID="{03674FE0-ED9C-45EC-9968-8AEA41EDEA0A}" ShortID="1010991476">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="A#2 Beep" ID="{A3431950-3C5C-4E21-81A3-BD7656840E37}">
+											<Language>SFX</Language>
+											<AudioFile>A#2 Beep.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="816392091"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="A#2 Beep" ID="{A3431950-3C5C-4E21-81A3-BD7656840E37}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Beep" ID="{9B392970-8380-49AA-87E4-10362429D202}" ShortID="648709248">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Beep" ID="{9183BA6C-8342-4240-B219-417600F6A3A5}">
+											<Language>SFX</Language>
+											<AudioFile>Beep.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="289791171"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Beep" ID="{9183BA6C-8342-4240-B219-417600F6A3A5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="D3 Beep" ID="{6178E579-2AA4-4A50-92C9-199BC763A90D}" ShortID="293521081">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="D3 Beep" ID="{DBB4B351-0001-43ED-8F74-689691E94E23}">
+											<Language>SFX</Language>
+											<AudioFile>D3 Beep.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="111329369"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="D3 Beep" ID="{DBB4B351-0001-43ED-8F74-689691E94E23}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="G3 Beep" ID="{4BC43F58-F33A-4B79-AA84-18006B019464}" ShortID="1014898827">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="G3 Beep" ID="{38D79016-6AA6-4C29-A6BB-E192448F9EFE}">
+											<Language>SFX</Language>
+											<AudioFile>G3 Beep.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="676671217"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="G3 Beep" ID="{38D79016-6AA6-4C29-A6BB-E192448F9EFE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="GrassWalking" ID="{F6D4B826-2EA3-43F6-ABC8-98384F92E616}" ShortID="1059297010">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="A#2 Beep" ID="{1950B793-65FA-4E2C-AC34-145D3AF4899F}" ShortID="64128596">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="A#2 Beep" ID="{94CA60C7-743A-4551-929F-C573CE9B0DE6}">
+											<Language>SFX</Language>
+											<AudioFile>A#2 Beep.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="816392091"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="A#2 Beep" ID="{94CA60C7-743A-4551-929F-C573CE9B0DE6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Beep" ID="{B0E327CD-A36B-47D2-871A-983A57A78FE1}" ShortID="618992162">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Beep" ID="{9EFAED4E-72E4-4FFF-8896-0E465EA70A16}">
+											<Language>SFX</Language>
+											<AudioFile>Beep.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="289791171"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Beep" ID="{9EFAED4E-72E4-4FFF-8896-0E465EA70A16}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="D3 Beep" ID="{0B8A0CC4-18C4-481A-A104-B6D86743AF97}" ShortID="692273208">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="D3 Beep" ID="{CD6D6D14-9C24-42E4-B745-56C749C22EF8}">
+											<Language>SFX</Language>
+											<AudioFile>D3 Beep.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="111329369"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="D3 Beep" ID="{CD6D6D14-9C24-42E4-B745-56C749C22EF8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="G3 Beep" ID="{27EC42D9-B88B-4B3F-AC35-D168BFCF2E1D}" ShortID="8040778">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="G3 Beep" ID="{F3B384A5-B2A4-437C-8D31-8E7A9F9F6659}">
+											<Language>SFX</Language>
+											<AudioFile>G3 Beep.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="676671217"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="G3 Beep" ID="{F3B384A5-B2A4-437C-8D31-8E7A9F9F6659}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="Dash" ID="{387E9B02-EDCA-4B47-8BF8-0EF45669670A}" ShortID="364087904">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Beep" ID="{4261C1EE-F6AB-4A14-BA18-F447D81F5750}">
+									<Language>SFX</Language>
+									<AudioFile>Beep.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="289791171"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Beep" ID="{4261C1EE-F6AB-4A14-BA18-F447D81F5750}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

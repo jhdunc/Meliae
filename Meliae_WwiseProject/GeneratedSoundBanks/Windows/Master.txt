@@ -1,0 +1,15 @@
+Event	ID	Name			Wwise Object Path	Notes
+	796055179	NoGrassWalking			\Default Work Unit\Player\Walking\Gravel\NoGrassWalking	
+	868219787	DirtWalking			\Default Work Unit\Player\Walking\Dirt\DirtWalking	
+	947095541	GravelWalking			\Default Work Unit\Player\Walking\Gravel\GravelWalking	
+	1365126062	GrassWalking			\Default Work Unit\Player\Walking\Grass\GrassWalking	
+	1575883598	NoGravelWalking			\Default Work Unit\Player\Walking\Gravel\NoGravelWalking	
+	1814678816	NoDirtWalking			\Default Work Unit\Player\Walking\Dirt\NoDirtWalking	
+	1942692385	Dash			\Default Work Unit\Player\Dash	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	111329369	D3 Beep	C:\Users\bas\Git\Unreal\Meliae\Meliae_WwiseProject\.cache\Windows\SFX\D3 Beep_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\GrassWalking\D3 Beep		88296
+	289791171	Beep	C:\Users\bas\Git\Unreal\Meliae\Meliae_WwiseProject\.cache\Windows\SFX\Beep_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\DirtWalking\Beep		88296
+	676671217	G3 Beep	C:\Users\bas\Git\Unreal\Meliae\Meliae_WwiseProject\.cache\Windows\SFX\G3 Beep_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\GrassWalking\G3 Beep		88296
+	816392091	A#2 Beep	C:\Users\bas\Git\Unreal\Meliae\Meliae_WwiseProject\.cache\Windows\SFX\A#2 Beep_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\GrassWalking\A#2 Beep		88296
+

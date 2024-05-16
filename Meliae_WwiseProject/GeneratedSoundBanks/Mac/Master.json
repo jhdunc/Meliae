@@ -1,56 +1,10 @@
 {
  "SoundBanksInfo": {
-  "Platform": "Windows",
-  "BasePlatform": "Windows",
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
   "SchemaVersion": "16",
   "SoundBankVersion": "150",
-  "RootPaths": {
-   "ProjectRoot": "../..",
-   "SourceFilesRoot": "../../.cache/Windows",
-   "SoundBanksRoot": ".",
-   "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "."
-  },
-  "DialogueEvents": [],
   "SoundBanks": [
-   {
-    "Id": "1355168291",
-    "Type": "User",
-    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
-    "Language": "SFX",
-    "Hash": "{B6CBD692-12EC-CDBA-0932-48F63C40C91F}",
-    "ObjectPath": "Init",
-    "ShortName": "Init",
-    "Path": "Init.bnk",
-    "Plugins": {
-     "AudioDevices": [
-      {
-       "Id": "2317455096",
-       "Name": "No_Output",
-       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
-       "GUID": "{F3688C1A-5FA5-4EDF-A323-5470AC8DD49A}",
-       "LibName": "No Output",
-       "LibId": "11862023"
-      },
-      {
-       "Id": "3859886410",
-       "Name": "System",
-       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
-       "GUID": "{2B72CD5E-F2D9-445C-8C0D-36D9FA244C0B}",
-       "LibName": "System",
-       "LibId": "11403271"
-      }
-     ]
-    },
-    "Busses": [
-     {
-      "Id": "3803692087",
-      "Name": "Master Audio Bus",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
-      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
-     }
-    ]
-   },
    {
     "Id": "4056684167",
     "Type": "User",
@@ -222,6 +176,6 @@
     ]
    }
   ],
-  "FileHash": "{09F5A371-2B34-7A5E-3F2A-EEF5B8FA600A}"
+  "FileHash": "{3DEFD02E-A573-8624-7008-6F4E785ED1CE}"
  }
 }
