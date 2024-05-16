@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{73FF465C-2E5D-4F75-BFD6-4F737D16B83A}",
     "Language": "SFX",
-    "Hash": "{00482939-9E1B-1710-C5F0-0D2958450925}",
+    "Hash": "{13784519-283A-81BF-703A-3885C2A0C9D0}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -110,21 +110,10 @@
       "Name": "GravelWalking",
       "ObjectPath": "\\Events\\Default Work Unit\\Player\\Walking\\Gravel\\GravelWalking",
       "GUID": "{5DA9EE6C-342C-471C-A997-593B0E40C882}",
-      "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "111329369"
-       },
-       {
-        "Id": "289791171"
-       },
-       {
-        "Id": "676671217"
-       },
-       {
-        "Id": "816392091"
-       }
-      ]
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "1814678816",
@@ -182,25 +171,11 @@
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
-      "DurationMax": "0",
-      "MediaRefs": [
-       {
-        "Id": "111329369"
-       },
-       {
-        "Id": "289791171"
-       },
-       {
-        "Id": "676671217"
-       },
-       {
-        "Id": "816392091"
-       }
-      ]
+      "DurationMax": "0"
      }
     ]
    }
   ],
-  "FileHash": "{5820CDD5-09E7-03A9-320A-2F770B6AB0A1}"
+  "FileHash": "{3DEFD02E-A573-8624-7008-6F4E785ED1CE}"
  }
 }

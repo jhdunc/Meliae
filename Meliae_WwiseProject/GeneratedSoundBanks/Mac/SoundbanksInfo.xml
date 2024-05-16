@@ -23,7 +23,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="4056684167" Type="User" GUID="{73FF465C-2E5D-4F75-BFD6-4F737D16B83A}" Language="SFX" Hash="{00482939-9E1B-1710-C5F0-0D2958450925}">
+		<SoundBank Id="4056684167" Type="User" GUID="{73FF465C-2E5D-4F75-BFD6-4F737D16B83A}" Language="SFX" Hash="{13784519-283A-81BF-703A-3885C2A0C9D0}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -67,14 +67,7 @@
 						<MediaRef Id="816392091"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="947095541" Name="GravelWalking" ObjectPath="\Events\Default Work Unit\Player\Walking\Gravel\GravelWalking" GUID="{5DA9EE6C-342C-471C-A997-593B0E40C882}" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="111329369"/>
-						<MediaRef Id="289791171"/>
-						<MediaRef Id="676671217"/>
-						<MediaRef Id="816392091"/>
-					</MediaRefs>
-				</Event>
+				<Event Id="947095541" Name="GravelWalking" ObjectPath="\Events\Default Work Unit\Player\Walking\Gravel\GravelWalking" GUID="{5DA9EE6C-342C-471C-A997-593B0E40C882}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1814678816" Name="NoDirtWalking" ObjectPath="\Events\Default Work Unit\Player\Walking\Dirt\NoDirtWalking" GUID="{321321E7-07C4-43A0-8125-2377ABF19355}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
 					<MediaRefs>
 						<MediaRef Id="111329369"/>
@@ -91,16 +84,9 @@
 						<MediaRef Id="816392091"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1575883598" Name="NoGravelWalking" ObjectPath="\Events\Default Work Unit\Player\Walking\Gravel\NoGravelWalking" GUID="{0ED22DC6-EBED-452A-991E-0E262EB488ED}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
-					<MediaRefs>
-						<MediaRef Id="111329369"/>
-						<MediaRef Id="289791171"/>
-						<MediaRef Id="676671217"/>
-						<MediaRef Id="816392091"/>
-					</MediaRefs>
-				</Event>
+				<Event Id="1575883598" Name="NoGravelWalking" ObjectPath="\Events\Default Work Unit\Player\Walking\Gravel\NoGravelWalking" GUID="{0ED22DC6-EBED-452A-991E-0E262EB488ED}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AE00B015-A9D7-DA16-976A-F8F245CD8409}</FileHash>
+	<FileHash>{8B6633A9-9864-A576-6DBE-7B363129F375}</FileHash>
 </SoundBanksInfo>
