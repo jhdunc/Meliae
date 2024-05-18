@@ -1,0 +1,181 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "4056684167",
+    "Type": "User",
+    "GUID": "{73FF465C-2E5D-4F75-BFD6-4F737D16B83A}",
+    "Language": "SFX",
+    "Hash": "{13784519-283A-81BF-703A-3885C2A0C9D0}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
+    "ShortName": "Master",
+    "Path": "Master.bnk",
+    "Media": [
+     {
+      "Id": "111329369",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "D3 Beep.wav",
+      "CachePath": "SFX/D3 Beep_818F3B66.wem"
+     },
+     {
+      "Id": "289791171",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Beep.wav",
+      "CachePath": "SFX/Beep_818F3B66.wem"
+     },
+     {
+      "Id": "676671217",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "G3 Beep.wav",
+      "CachePath": "SFX/G3 Beep_818F3B66.wem"
+     },
+     {
+      "Id": "816392091",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "A#2 Beep.wav",
+      "CachePath": "SFX/A#2 Beep_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1942692385",
+      "Name": "Dash",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Dash",
+      "GUID": "{2424C118-B787-471E-8AD7-496C6A022D8E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5",
+      "DurationMax": "0.5",
+      "MediaRefs": [
+       {
+        "Id": "289791171"
+       }
+      ]
+     },
+     {
+      "Id": "868219787",
+      "Name": "DirtWalking",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Walking\\Dirt\\DirtWalking",
+      "GUID": "{533AAF0C-0D7F-473A-B4DA-5B5073988DB8}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "111329369"
+       },
+       {
+        "Id": "289791171"
+       },
+       {
+        "Id": "676671217"
+       },
+       {
+        "Id": "816392091"
+       }
+      ]
+     },
+     {
+      "Id": "1365126062",
+      "Name": "GrassWalking",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Walking\\Grass\\GrassWalking",
+      "GUID": "{703983FA-6CC1-4B1C-B199-6FB69F7F867E}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "111329369"
+       },
+       {
+        "Id": "289791171"
+       },
+       {
+        "Id": "676671217"
+       },
+       {
+        "Id": "816392091"
+       }
+      ]
+     },
+     {
+      "Id": "947095541",
+      "Name": "GravelWalking",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Walking\\Gravel\\GravelWalking",
+      "GUID": "{5DA9EE6C-342C-471C-A997-593B0E40C882}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1814678816",
+      "Name": "NoDirtWalking",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Walking\\Dirt\\NoDirtWalking",
+      "GUID": "{321321E7-07C4-43A0-8125-2377ABF19355}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "MediaRefs": [
+       {
+        "Id": "111329369"
+       },
+       {
+        "Id": "289791171"
+       },
+       {
+        "Id": "676671217"
+       },
+       {
+        "Id": "816392091"
+       }
+      ]
+     },
+     {
+      "Id": "796055179",
+      "Name": "NoGrassWalking",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Walking\\Gravel\\NoGrassWalking",
+      "GUID": "{A4E45840-F2BE-4DF7-A50F-AED9E8AEDE49}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "MediaRefs": [
+       {
+        "Id": "111329369"
+       },
+       {
+        "Id": "289791171"
+       },
+       {
+        "Id": "676671217"
+       },
+       {
+        "Id": "816392091"
+       }
+      ]
+     },
+     {
+      "Id": "1575883598",
+      "Name": "NoGravelWalking",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Walking\\Gravel\\NoGravelWalking",
+      "GUID": "{0ED22DC6-EBED-452A-991E-0E262EB488ED}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{DC195E7A-B7CA-E4E9-0A52-9110691DDC52}"
+ }
+}
