@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A8B789B3-9908-46F0-B67C-E58AC4ECDB1A}" SchemaVersion="119">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{A8B789B3-9908-46F0-B67C-E58AC4ECDB1A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A8B789B3-9908-46F0-B67C-E58AC4ECDB1A}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="EnemyHealth" ID="{73308350-D2C8-4AA7-B609-5CFFF9B0FE7E}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="ForestHealth" ID="{3924D219-0678-4A12-BB74-B5A4411FAC49}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="MainVolume" ID="{7887A6A7-6EDD-4631-984F-DAC025289B79}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>
