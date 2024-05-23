@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{D326F752-7CA2-0A14-FDB1-63ECE89D0199}",
+    "Hash": "{77F934B8-7908-389C-395A-C7D2D4AB2339}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -41,9 +41,29 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "669816173",
+      "Name": "EnemyHealth",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\EnemyHealth",
+      "GUID": "{73308350-D2C8-4AA7-B609-5CFFF9B0FE7E}"
+     },
+     {
+      "Id": "1843561328",
+      "Name": "MainVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MainVolume",
+      "GUID": "{7887A6A7-6EDD-4631-984F-DAC025289B79}"
+     },
+     {
+      "Id": "4118653392",
+      "Name": "ForestHealth",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\ForestHealth",
+      "GUID": "{3924D219-0678-4A12-BB74-B5A4411FAC49}"
+     }
     ]
    }
   ],
-  "FileHash": "{C29E0EFD-92A2-7289-5A9B-951DA132114B}"
+  "FileHash": "{3423F5D5-CA46-0AD4-4B4C-54C0A9CF0B0E}"
  }
 }
