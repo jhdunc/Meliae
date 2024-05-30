@@ -91,6 +91,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="New Virtual Folder" ID="{017F06AA-0CAB-4F3F-813E-D658C2A0908E}" ShortID="605504208"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
