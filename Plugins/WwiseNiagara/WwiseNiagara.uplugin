@@ -12,7 +12,7 @@
 		{
 			"Name": "WwiseNiagara",
 			"Type": "Runtime",
-			"LoadingPhase": "PreDefault"
+			"LoadingPhase": "Default"
 		}
 	],
 	"Plugins": [
