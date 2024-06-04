@@ -14,11 +14,96 @@
   "DialogueEvents": [],
   "SoundBanks": [
    {
+    "Id": "626769978",
+    "Type": "User",
+    "GUID": "{48E72166-C9F4-4E47-B2EC-5AC63D0B1074}",
+    "Language": "SFX",
+    "Hash": "{D4A08F83-357D-7272-2585-719C4BE058FE}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\BackgroundMusic",
+    "ShortName": "BackgroundMusic",
+    "Path": "BackgroundMusic.bnk",
+    "Media": [
+     {
+      "Id": "8433341",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Alarm.wav",
+      "CachePath": "SFX/Alarm_818F3B66.wem"
+     },
+     {
+      "Id": "316178426",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SoftKeysMinor.wav",
+      "CachePath": "SFX/SoftKeysMinor_FBC78EF0.wem"
+     },
+     {
+      "Id": "328183945",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1st Violins.wav",
+      "CachePath": "SFX/1st Violins_818F3B66.wem"
+     },
+     {
+      "Id": "522731968",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Celli.wav",
+      "CachePath": "SFX/Celli_818F3B66.wem"
+     },
+     {
+      "Id": "694397461",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CalmDrones.wav",
+      "CachePath": "SFX/CalmDrones_FBC78EF0.wem"
+     },
+     {
+      "Id": "848631786",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Basses.wav",
+      "CachePath": "SFX/Basses_818F3B66.wem"
+     },
+     {
+      "Id": "957107462",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Background Drone.wav",
+      "CachePath": "SFX/Background Drone_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3827058668",
+      "Name": "StartMusic",
+      "ObjectPath": "\\Events\\BackgroundMusicEventWorkUnit\\StartMusic",
+      "GUID": "{182C6952-56AA-44D1-827D-3C36735B9EA4}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "316178426"
+       },
+       {
+        "Id": "694397461"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "1355168291",
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{77F934B8-7908-389C-395A-C7D2D4AB2339}",
+    "Hash": "{10BFCAF4-2353-E50B-3B4A-62613B30D78E}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -69,6 +154,34 @@
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\ForestHealth",
       "GUID": "{3924D219-0678-4A12-BB74-B5A4411FAC49}"
      }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2166867310",
+      "Name": "BackgroundMusicStateGroup",
+      "ObjectPath": "\\States\\Default Work Unit\\BackgroundMusicStateGroup",
+      "GUID": "{4C40F3D8-5C46-4FE6-97AC-F532885085F5}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\BackgroundMusicStateGroup\\None",
+        "GUID": "{FEC6D832-5E83-4970-9272-1CCAC9041506}"
+       },
+       {
+        "Id": "1772229705",
+        "Name": "LowEnergy",
+        "ObjectPath": "\\States\\Default Work Unit\\BackgroundMusicStateGroup\\LowEnergy",
+        "GUID": "{E2F8406F-69F3-4DE9-9B42-B25630E569E9}"
+       },
+       {
+        "Id": "3604647259",
+        "Name": "MainMenu",
+        "ObjectPath": "\\States\\Default Work Unit\\BackgroundMusicStateGroup\\MainMenu",
+        "GUID": "{B7018D9A-F6B2-4F50-A795-F72BBF483120}"
+       }
+      ]
+     }
     ]
    },
    {
@@ -76,19 +189,11 @@
     "Type": "User",
     "GUID": "{73FF465C-2E5D-4F75-BFD6-4F737D16B83A}",
     "Language": "SFX",
-    "Hash": "{65CBF66F-1A7B-43DA-AB32-4307D8167B92}",
+    "Hash": "{864B6A43-14FF-E529-31C8-87D917C948FD}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
     "Media": [
-     {
-      "Id": "84973949",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Seems Like Nothing Promo Piano Intro.wav",
-      "CachePath": "SFX/Seems Like Nothing Promo Piano Intro_818F3B66.wem"
-     },
      {
       "Id": "111329369",
       "Language": "SFX",
@@ -226,20 +331,6 @@
         "Id": "816392091"
        }
       ]
-     },
-     {
-      "Id": "1256202815",
-      "Name": "play",
-      "ObjectPath": "\\Events\\Default Work Unit\\play",
-      "GUID": "{43B7DFA7-051B-4F9C-AE59-118A98B9F4C1}",
-      "DurationType": "OneShot",
-      "DurationMin": "35.238094",
-      "DurationMax": "35.238094",
-      "MediaRefs": [
-       {
-        "Id": "84973949"
-       }
-      ]
      }
     ],
     "GameParameters": [
@@ -258,6 +349,6 @@
     ]
    }
   ],
-  "FileHash": "{05783A93-69FC-0015-B11A-18B0EC725E31}"
+  "FileHash": "{9AB9A587-7914-E0CA-9AD9-7690B4F05875}"
  }
 }

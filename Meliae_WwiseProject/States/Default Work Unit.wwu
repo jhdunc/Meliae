@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5FCC10BA-35D6-4ECD-8603-0F992C3A73E6}" SchemaVersion="119">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{5FCC10BA-35D6-4ECD-8603-0F992C3A73E6}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{5FCC10BA-35D6-4ECD-8603-0F992C3A73E6}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="BackgroundMusicStateGroup" ID="{4C40F3D8-5C46-4FE6-97AC-F532885085F5}">
+					<ChildrenList>
+						<State Name="None" ID="{FEC6D832-5E83-4970-9272-1CCAC9041506}"/>
+						<State Name="MainMenu" ID="{B7018D9A-F6B2-4F50-A795-F72BBF483120}"/>
+						<State Name="LowEnergy" ID="{E2F8406F-69F3-4DE9-9B42-B25630E569E9}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="MainMenu" ID="{B7018D9A-F6B2-4F50-A795-F72BBF483120}"/>
+							<EndState Name="LowEnergy" ID="{E2F8406F-69F3-4DE9-9B42-B25630E569E9}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

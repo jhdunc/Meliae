@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{40B02061-9189-5E48-291C-575BD784523A}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{779FFC43-9F00-ED84-24E2-F4C1C6135481}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -19,7 +19,16 @@
 				<GameParameter Id="1843561328" Name="MainVolume" ObjectPath="\Game Parameters\Default Work Unit\MainVolume" GUID="{7887A6A7-6EDD-4631-984F-DAC025289B79}"/>
 				<GameParameter Id="4118653392" Name="ForestHealth" ObjectPath="\Game Parameters\Default Work Unit\ForestHealth" GUID="{3924D219-0678-4A12-BB74-B5A4411FAC49}"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="2166867310" Name="BackgroundMusicStateGroup" ObjectPath="\States\Default Work Unit\BackgroundMusicStateGroup" GUID="{4C40F3D8-5C46-4FE6-97AC-F532885085F5}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\BackgroundMusicStateGroup\None" GUID="{FEC6D832-5E83-4970-9272-1CCAC9041506}"/>
+						<State Id="1772229705" Name="LowEnergy" ObjectPath="\States\Default Work Unit\BackgroundMusicStateGroup\LowEnergy" GUID="{E2F8406F-69F3-4DE9-9B42-B25630E569E9}"/>
+						<State Id="3604647259" Name="MainMenu" ObjectPath="\States\Default Work Unit\BackgroundMusicStateGroup\MainMenu" GUID="{B7018D9A-F6B2-4F50-A795-F72BBF483120}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{96F1962F-DC88-EAF1-4C2A-63AE72D5935C}</FileHash>
+	<FileHash>{C5987033-3DC6-0CC4-D3CB-497DE4953A5B}</FileHash>
 </SoundBanksInfo>

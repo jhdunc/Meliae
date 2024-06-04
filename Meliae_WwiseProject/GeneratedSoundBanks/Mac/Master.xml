@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="4056684167" Type="User" GUID="{73FF465C-2E5D-4F75-BFD6-4F737D16B83A}" Language="SFX" Hash="{65CBF66F-1A7B-43DA-AB32-4307D8167B92}">
+		<SoundBank Id="4056684167" Type="User" GUID="{73FF465C-2E5D-4F75-BFD6-4F737D16B83A}" Language="SFX" Hash="{864B6A43-14FF-E529-31C8-87D917C948FD}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
 			<Media>
-				<File Id="84973949" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Seems Like Nothing Promo Piano Intro.wav</ShortName>
-					<CachePath>SFX/Seems Like Nothing Promo Piano Intro_818F3B66.wem</CachePath>
-				</File>
 				<File Id="111329369" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>D3 Beep.wav</ShortName>
 					<CachePath>SFX/D3 Beep_818F3B66.wem</CachePath>
@@ -65,11 +61,6 @@
 						<MediaRef Id="816392091"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1256202815" Name="play" ObjectPath="\Events\Default Work Unit\play" GUID="{43B7DFA7-051B-4F9C-AE59-118A98B9F4C1}" DurationType="OneShot" DurationMin="35.238094" DurationMax="35.238094">
-					<MediaRefs>
-						<MediaRef Id="84973949"/>
-					</MediaRefs>
-				</Event>
 			</Events>
 			<GameParameters>
 				<GameParameter Id="669816173" Name="EnemyHealth" ObjectPath="\Game Parameters\Default Work Unit\EnemyHealth" GUID="{73308350-D2C8-4AA7-B609-5CFFF9B0FE7E}"/>
@@ -77,5 +68,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C2370CA5-8DDC-6D03-B033-5941628E1183}</FileHash>
+	<FileHash>{682578FC-0DE9-3D36-2B09-CE249E68BF2F}</FileHash>
 </SoundBanksInfo>

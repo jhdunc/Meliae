@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{40B02061-9189-5E48-291C-575BD784523A}",
+    "Hash": "{779FFC43-9F00-ED84-24E2-F4C1C6135481}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -61,9 +61,37 @@
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\ForestHealth",
       "GUID": "{3924D219-0678-4A12-BB74-B5A4411FAC49}"
      }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2166867310",
+      "Name": "BackgroundMusicStateGroup",
+      "ObjectPath": "\\States\\Default Work Unit\\BackgroundMusicStateGroup",
+      "GUID": "{4C40F3D8-5C46-4FE6-97AC-F532885085F5}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\BackgroundMusicStateGroup\\None",
+        "GUID": "{FEC6D832-5E83-4970-9272-1CCAC9041506}"
+       },
+       {
+        "Id": "1772229705",
+        "Name": "LowEnergy",
+        "ObjectPath": "\\States\\Default Work Unit\\BackgroundMusicStateGroup\\LowEnergy",
+        "GUID": "{E2F8406F-69F3-4DE9-9B42-B25630E569E9}"
+       },
+       {
+        "Id": "3604647259",
+        "Name": "MainMenu",
+        "ObjectPath": "\\States\\Default Work Unit\\BackgroundMusicStateGroup\\MainMenu",
+        "GUID": "{B7018D9A-F6B2-4F50-A795-F72BBF483120}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{AD91C57C-4AA3-863F-4844-5D61F47B427B}"
+  "FileHash": "{9FF37A75-8041-9E03-2611-51402174846D}"
  }
 }

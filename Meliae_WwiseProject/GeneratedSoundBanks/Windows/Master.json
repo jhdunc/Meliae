@@ -10,19 +10,11 @@
     "Type": "User",
     "GUID": "{73FF465C-2E5D-4F75-BFD6-4F737D16B83A}",
     "Language": "SFX",
-    "Hash": "{65CBF66F-1A7B-43DA-AB32-4307D8167B92}",
+    "Hash": "{864B6A43-14FF-E529-31C8-87D917C948FD}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
     "Media": [
-     {
-      "Id": "84973949",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Seems Like Nothing Promo Piano Intro.wav",
-      "CachePath": "SFX/Seems Like Nothing Promo Piano Intro_818F3B66.wem"
-     },
      {
       "Id": "111329369",
       "Language": "SFX",
@@ -160,20 +152,6 @@
         "Id": "816392091"
        }
       ]
-     },
-     {
-      "Id": "1256202815",
-      "Name": "play",
-      "ObjectPath": "\\Events\\Default Work Unit\\play",
-      "GUID": "{43B7DFA7-051B-4F9C-AE59-118A98B9F4C1}",
-      "DurationType": "OneShot",
-      "DurationMin": "35.238094",
-      "DurationMax": "35.238094",
-      "MediaRefs": [
-       {
-        "Id": "84973949"
-       }
-      ]
      }
     ],
     "GameParameters": [
@@ -192,6 +170,6 @@
     ]
    }
   ],
-  "FileHash": "{CE9F2C8F-8F8B-D777-B133-58F0AB1F1706}"
+  "FileHash": "{A630B7AA-7E56-A0F6-49DA-55D352A667E4}"
  }
 }

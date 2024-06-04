@@ -80,17 +80,6 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
-				<Event Name="play" ID="{43B7DFA7-051B-4F9C-AE59-118A98B9F4C1}">
-					<ChildrenList>
-						<Action Name="" ID="{F7DA1043-1B2F-4C0D-8F51-6DF5BDD630D5}" ShortID="595005127">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Seems Like Nothing Promo Piano Intro" ID="{050A2DC0-C3CD-4EBF-94C1-3098CEE87DC0}" WorkUnitID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
