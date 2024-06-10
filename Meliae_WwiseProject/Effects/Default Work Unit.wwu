@@ -4,6 +4,21 @@
 		<WorkUnit Name="Default Work Unit" ID="{42BBA3A7-8108-4EF4-A830-DE69E9378C62}" PersistMode="Standalone">
 			<ChildrenList>
 				<Effect Name="New_Flanger" ID="{DBEA21E5-F289-4527-AF7D-7D35BFB20139}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3"/>
+				<Effect Name="New_Expander" ID="{01A9B913-52BF-419F-93F1-0C7F453B0A12}" PluginName="Wwise Expander" CompanyID="0" PluginID="109" PluginType="3">
+					<PropertyList>
+						<Property Name="Ratio" Type="Real32" Value="22.9"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0"/>
+						<Property Name="Threshold" Type="Real32" Value="-58.8"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="New_Matrix_Reverb" ID="{8E37490C-05CE-4FF9-92EB-6D34EEBE93C6}" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+					<PropertyList>
+						<Property Name="DryLevel" Type="Real32" Value="-0.3"/>
+						<Property Name="HFRatio" Type="Real32" Value="0.5"/>
+						<Property Name="ReverbTime" Type="Real32" Value="3"/>
+						<Property Name="WetLevel" Type="Real32" Value="-20"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

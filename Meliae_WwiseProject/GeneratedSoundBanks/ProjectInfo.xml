@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectInfo>
-	<Project Name="Meliae_WwiseProject" GUID="{EA160A82-2C32-4BAF-9258-5CB94B5F8C9C}" Generator="2023.1.4.8496"/>
+	<Project Name="Meliae_WwiseProject" GUID="{EA160A82-2C32-4BAF-9258-5CB94B5F8C9C}" Generator="2023.1.2.8444"/>
 	<CacheRoot>../.cache</CacheRoot>
 	<Platforms>
 		<Platform Name="Mac" GUID="{AACB060A-9C74-4FCF-99F0-DB3A6BD80F38}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="Mac"/>
@@ -9,5 +9,5 @@
 	<Languages>
 		<Language Name="English(US)" Id="684519430" GUID="{3DF1CA57-4470-4569-BF1C-E240F0FB5CBB}" Default="true" UseAsStandIn="true"/>
 	</Languages>
-	<FileHash>{D4E76A47-760D-ED97-5C13-D3DBA893C2D3}</FileHash>
+	<FileHash>{2F6CBAFB-5313-1670-F201-7D29B6FEE8A0}</FileHash>
 </ProjectInfo>

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{779FFC43-9F00-ED84-24E2-F4C1C6135481}",
+    "Hash": "{5E38FEFC-0897-9673-CA64-5B51EF5255FA}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -70,28 +70,34 @@
       "GUID": "{4C40F3D8-5C46-4FE6-97AC-F532885085F5}",
       "States": [
        {
+        "Id": "565721261",
+        "Name": "FirstStage",
+        "ObjectPath": "\\States\\Default Work Unit\\BackgroundMusicStateGroup\\FirstStage",
+        "GUID": "{80A8229F-E6E1-44F7-B2C6-84371ACEE598}"
+       },
+       {
         "Id": "748895195",
         "Name": "None",
         "ObjectPath": "\\States\\Default Work Unit\\BackgroundMusicStateGroup\\None",
-        "GUID": "{FEC6D832-5E83-4970-9272-1CCAC9041506}"
+        "GUID": "{4AFBDA2D-F04F-4A4C-96F8-A3D25EA9FC72}"
        },
        {
-        "Id": "1772229705",
-        "Name": "LowEnergy",
-        "ObjectPath": "\\States\\Default Work Unit\\BackgroundMusicStateGroup\\LowEnergy",
-        "GUID": "{E2F8406F-69F3-4DE9-9B42-B25630E569E9}"
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\States\\Default Work Unit\\BackgroundMusicStateGroup\\Menu",
+        "GUID": "{4A5444FB-9486-43D4-AED3-370BD493FA45}"
        },
        {
-        "Id": "3604647259",
-        "Name": "MainMenu",
-        "ObjectPath": "\\States\\Default Work Unit\\BackgroundMusicStateGroup\\MainMenu",
-        "GUID": "{B7018D9A-F6B2-4F50-A795-F72BBF483120}"
+        "Id": "2693282833",
+        "Name": "SecondStage",
+        "ObjectPath": "\\States\\Default Work Unit\\BackgroundMusicStateGroup\\SecondStage",
+        "GUID": "{CB0CC6D4-ED80-4642-B4D6-C1ED83914477}"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{9FF37A75-8041-9E03-2611-51402174846D}"
+  "FileHash": "{D61FA27B-6707-D46A-B2A3-F1370EA9FA47}"
  }
 }

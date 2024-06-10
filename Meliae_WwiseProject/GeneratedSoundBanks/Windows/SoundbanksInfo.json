@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{48E72166-C9F4-4E47-B2EC-5AC63D0B1074}",
     "Language": "SFX",
-    "Hash": "{D4A08F83-357D-7272-2585-719C4BE058FE}",
+    "Hash": "{AD5FF216-128D-1FB8-3153-3695C6DE33C5}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\BackgroundMusic",
     "ShortName": "BackgroundMusic",
     "Path": "BackgroundMusic.bnk",
@@ -56,12 +56,20 @@
       "CachePath": "SFX/Celli_818F3B66.wem"
      },
      {
-      "Id": "694397461",
+      "Id": "617701566",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "CalmDrones.wav",
-      "CachePath": "SFX/CalmDrones_FBC78EF0.wem"
+      "ShortName": "Intro Stage.wav",
+      "CachePath": "SFX/Intro Stage_F54517FD.wem"
+     },
+     {
+      "Id": "777174210",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "RegularEnemyStage.wav",
+      "CachePath": "SFX/RegularEnemyStage_FBC78EF0.wem"
      },
      {
       "Id": "848631786",
@@ -92,7 +100,10 @@
         "Id": "316178426"
        },
        {
-        "Id": "694397461"
+        "Id": "617701566"
+       },
+       {
+        "Id": "777174210"
        }
       ]
      }
@@ -103,7 +114,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{779FFC43-9F00-ED84-24E2-F4C1C6135481}",
+    "Hash": "{5E38FEFC-0897-9673-CA64-5B51EF5255FA}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -163,22 +174,28 @@
       "GUID": "{4C40F3D8-5C46-4FE6-97AC-F532885085F5}",
       "States": [
        {
+        "Id": "565721261",
+        "Name": "FirstStage",
+        "ObjectPath": "\\States\\Default Work Unit\\BackgroundMusicStateGroup\\FirstStage",
+        "GUID": "{80A8229F-E6E1-44F7-B2C6-84371ACEE598}"
+       },
+       {
         "Id": "748895195",
         "Name": "None",
         "ObjectPath": "\\States\\Default Work Unit\\BackgroundMusicStateGroup\\None",
-        "GUID": "{FEC6D832-5E83-4970-9272-1CCAC9041506}"
+        "GUID": "{4AFBDA2D-F04F-4A4C-96F8-A3D25EA9FC72}"
        },
        {
-        "Id": "1772229705",
-        "Name": "LowEnergy",
-        "ObjectPath": "\\States\\Default Work Unit\\BackgroundMusicStateGroup\\LowEnergy",
-        "GUID": "{E2F8406F-69F3-4DE9-9B42-B25630E569E9}"
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\States\\Default Work Unit\\BackgroundMusicStateGroup\\Menu",
+        "GUID": "{4A5444FB-9486-43D4-AED3-370BD493FA45}"
        },
        {
-        "Id": "3604647259",
-        "Name": "MainMenu",
-        "ObjectPath": "\\States\\Default Work Unit\\BackgroundMusicStateGroup\\MainMenu",
-        "GUID": "{B7018D9A-F6B2-4F50-A795-F72BBF483120}"
+        "Id": "2693282833",
+        "Name": "SecondStage",
+        "ObjectPath": "\\States\\Default Work Unit\\BackgroundMusicStateGroup\\SecondStage",
+        "GUID": "{CB0CC6D4-ED80-4642-B4D6-C1ED83914477}"
        }
       ]
      }
@@ -189,11 +206,91 @@
     "Type": "User",
     "GUID": "{73FF465C-2E5D-4F75-BFD6-4F737D16B83A}",
     "Language": "SFX",
-    "Hash": "{864B6A43-14FF-E529-31C8-87D917C948FD}",
+    "Hash": "{43D84FDE-5B29-D634-4EBF-AF096D21BF6C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
     "Media": [
+     {
+      "Id": "16869835",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MetalHit 15-RANDOM.wav",
+      "CachePath": "SFX/MetalHit 15-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "34872186",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WalkingGrass 29 GrassHit.wav",
+      "CachePath": "SFX/WalkingGrass 29 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "38069380",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Walking 14-9_Jun_15.40.wav",
+      "CachePath": "SFX/Walking 14-9_Jun_15.40_818F3B66.wem"
+     },
+     {
+      "Id": "43453150",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MetalHit 19-RANDOM.wav",
+      "CachePath": "SFX/MetalHit 19-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "55864292",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WalkingGrass 19 GrassHit.wav",
+      "CachePath": "SFX/WalkingGrass 19 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "70258969",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PlayerWalkingGrass 33 GrassHit.wav",
+      "CachePath": "SFX/PlayerWalkingGrass 33 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "87955643",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MetalHit 7-RANDOM.wav",
+      "CachePath": "SFX/MetalHit 7-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "91159618",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MetalHit 21-RANDOM.wav",
+      "CachePath": "SFX/MetalHit 21-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "101721338",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "2024-06-09_13-31-02 Rando 120 bpm.wav",
+      "CachePath": "SFX/2024-06-09_13-31-02 Rando 120 bpm_8C0F3470.wem"
+     },
+     {
+      "Id": "104539329",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PlayerWalkingGrass 30 GrassHit.wav",
+      "CachePath": "SFX/PlayerWalkingGrass 30 GrassHit_818F3B66.wem"
+     },
      {
       "Id": "111329369",
       "Language": "SFX",
@@ -201,6 +298,150 @@
       "Location": "Memory",
       "ShortName": "D3 Beep.wav",
       "CachePath": "SFX/D3 Beep_818F3B66.wem"
+     },
+     {
+      "Id": "115490422",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MetalHit 26-RANDOM.wav",
+      "CachePath": "SFX/MetalHit 26-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "125448873",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Walking 6-9_Jun_15.40.wav",
+      "CachePath": "SFX/Walking 6-9_Jun_15.40_818F3B66.wem"
+     },
+     {
+      "Id": "145407617",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MetalHit 14-RANDOM.wav",
+      "CachePath": "SFX/MetalHit 14-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "155916183",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MetalHit 11-RANDOM.wav",
+      "CachePath": "SFX/MetalHit 11-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "176730849",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Walking 8-9_Jun_15.40.wav",
+      "CachePath": "SFX/Walking 8-9_Jun_15.40_818F3B66.wem"
+     },
+     {
+      "Id": "178921316",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PlayerHit 51-Audio.wav",
+      "CachePath": "SFX/PlayerHit 51-Audio_818F3B66.wem"
+     },
+     {
+      "Id": "178936160",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Walking 13-9_Jun_15.40.wav",
+      "CachePath": "SFX/Walking 13-9_Jun_15.40_818F3B66.wem"
+     },
+     {
+      "Id": "179541410",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PlayerWalkingGrass 21 GrassHit.wav",
+      "CachePath": "SFX/PlayerWalkingGrass 21 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "207441468",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MetalHit 9-RANDOM.wav",
+      "CachePath": "SFX/MetalHit 9-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "210031203",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MetalHit 24-RANDOM.wav",
+      "CachePath": "SFX/MetalHit 24-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "215550662",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MetalHit 23-RANDOM.wav",
+      "CachePath": "SFX/MetalHit 23-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "242355400",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MetalHit 25-RANDOM.wav",
+      "CachePath": "SFX/MetalHit 25-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "244363605",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PlayerHit 49-Audio.wav",
+      "CachePath": "SFX/PlayerHit 49-Audio_818F3B66.wem"
+     },
+     {
+      "Id": "245250048",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Hit 43-RANDOM.wav",
+      "CachePath": "SFX/Hit 43-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "245778423",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WalkingGrass 38 GrassHit.wav",
+      "CachePath": "SFX/WalkingGrass 38 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "247715091",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WalkingGrass 31 GrassHit.wav",
+      "CachePath": "SFX/WalkingGrass 31 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "260529802",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Walking 11-9_Jun_15.40.wav",
+      "CachePath": "SFX/Walking 11-9_Jun_15.40_818F3B66.wem"
+     },
+     {
+      "Id": "262852702",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WalkingGrass 34 GrassHit.wav",
+      "CachePath": "SFX/WalkingGrass 34 GrassHit_818F3B66.wem"
      },
      {
       "Id": "289791171",
@@ -211,6 +452,222 @@
       "CachePath": "SFX/Beep_818F3B66.wem"
      },
      {
+      "Id": "306713969",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WalkingGrass 22 GrassHit.wav",
+      "CachePath": "SFX/WalkingGrass 22 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "307125574",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MetalHit 6-RANDOM.wav",
+      "CachePath": "SFX/MetalHit 6-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "328985746",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PlayerWalkingGrass 20 GrassHit.wav",
+      "CachePath": "SFX/PlayerWalkingGrass 20 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "331865734",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PlayerHit 52-Audio.wav",
+      "CachePath": "SFX/PlayerHit 52-Audio_818F3B66.wem"
+     },
+     {
+      "Id": "343610143",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PlayerWalkingGrass 25 GrassHit.wav",
+      "CachePath": "SFX/PlayerWalkingGrass 25 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "361492288",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Walking 4-9_Jun_15.40.wav",
+      "CachePath": "SFX/Walking 4-9_Jun_15.40_818F3B66.wem"
+     },
+     {
+      "Id": "374179396",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WalkingGrass 28 GrassHit.wav",
+      "CachePath": "SFX/WalkingGrass 28 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "375260587",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Walking 5-9_Jun_15.40.wav",
+      "CachePath": "SFX/Walking 5-9_Jun_15.40_818F3B66.wem"
+     },
+     {
+      "Id": "412773908",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pickup.wav",
+      "CachePath": "SFX/Pickup_010E7B7D.wem"
+     },
+     {
+      "Id": "421409710",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MetalHit 10-RANDOM.wav",
+      "CachePath": "SFX/MetalHit 10-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "424289547",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WalkingGrass 24 GrassHit.wav",
+      "CachePath": "SFX/WalkingGrass 24 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "437585737",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Hit 40-RANDOM.wav",
+      "CachePath": "SFX/Hit 40-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "442655402",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MetalHit 18-RANDOM.wav",
+      "CachePath": "SFX/MetalHit 18-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "471760166",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PlayerWalkingGrass 23 GrassHit.wav",
+      "CachePath": "SFX/PlayerWalkingGrass 23 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "475921520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MetalHit 12-RANDOM.wav",
+      "CachePath": "SFX/MetalHit 12-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "481509670",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MetalHit 22-RANDOM.wav",
+      "CachePath": "SFX/MetalHit 22-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "505463667",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Hit 42-RANDOM.wav",
+      "CachePath": "SFX/Hit 42-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "512990256",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WalkingGrass 20 GrassHit.wav",
+      "CachePath": "SFX/WalkingGrass 20 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "533045900",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WalkingGrass 35 GrassHit.wav",
+      "CachePath": "SFX/WalkingGrass 35 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "551331426",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Hit 35-RANDOM.wav",
+      "CachePath": "SFX/Hit 35-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "561706018",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Hit 38-RANDOM.wav",
+      "CachePath": "SFX/Hit 38-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "581888402",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PlayerWalkingGrass 27 GrassHit.wav",
+      "CachePath": "SFX/PlayerWalkingGrass 27 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "608734124",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WalkingGrass 27 GrassHit.wav",
+      "CachePath": "SFX/WalkingGrass 27 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "623666477",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Hit 44-RANDOM.wav",
+      "CachePath": "SFX/Hit 44-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "639938064",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Walking 10-9_Jun_15.40.wav",
+      "CachePath": "SFX/Walking 10-9_Jun_15.40_818F3B66.wem"
+     },
+     {
+      "Id": "644434276",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AttackPluck.wav",
+      "CachePath": "SFX/AttackPluck_818F3B66.wem"
+     },
+     {
+      "Id": "674838887",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PlayerWalkingGrass 36 GrassHit.wav",
+      "CachePath": "SFX/PlayerWalkingGrass 36 GrassHit_818F3B66.wem"
+     },
+     {
       "Id": "676671217",
       "Language": "SFX",
       "Streaming": "false",
@@ -219,12 +676,308 @@
       "CachePath": "SFX/G3 Beep_818F3B66.wem"
      },
      {
+      "Id": "689687990",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WalkingGrass 26 GrassHit.wav",
+      "CachePath": "SFX/WalkingGrass 26 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "693064197",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WalkingGrass 21 GrassHit.wav",
+      "CachePath": "SFX/WalkingGrass 21 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "697682049",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PlayerWalkingGrass 28 GrassHit.wav",
+      "CachePath": "SFX/PlayerWalkingGrass 28 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "706091047",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Walking 12-9_Jun_15.40.wav",
+      "CachePath": "SFX/Walking 12-9_Jun_15.40_818F3B66.wem"
+     },
+     {
+      "Id": "709981680",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WalkingGrass 37 GrassHit.wav",
+      "CachePath": "SFX/WalkingGrass 37 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "731149071",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PlayerWalkingGrass 24 GrassHit.wav",
+      "CachePath": "SFX/PlayerWalkingGrass 24 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "757545993",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PlayerWalkingGrass 37 GrassHit.wav",
+      "CachePath": "SFX/PlayerWalkingGrass 37 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "760478632",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Hit 39-RANDOM.wav",
+      "CachePath": "SFX/Hit 39-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "769364730",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WalkingGrass 30 GrassHit.wav",
+      "CachePath": "SFX/WalkingGrass 30 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "771814435",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PlayerHit 53-Audio.wav",
+      "CachePath": "SFX/PlayerHit 53-Audio_818F3B66.wem"
+     },
+     {
+      "Id": "773039608",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PlayerWalkingGrass 19 GrassHit.wav",
+      "CachePath": "SFX/PlayerWalkingGrass 19 GrassHit_A70FAE71.wem"
+     },
+     {
+      "Id": "790771010",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MetalHit 13-RANDOM.wav",
+      "CachePath": "SFX/MetalHit 13-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "798356355",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MetalHit 17-RANDOM.wav",
+      "CachePath": "SFX/MetalHit 17-RANDOM_818F3B66.wem"
+     },
+     {
       "Id": "816392091",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "A#2 Beep.wav",
       "CachePath": "SFX/A#2 Beep_818F3B66.wem"
+     },
+     {
+      "Id": "830990940",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WalkingGrass 23 GrassHit.wav",
+      "CachePath": "SFX/WalkingGrass 23 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "846984518",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WalkingGrass 36 GrassHit.wav",
+      "CachePath": "SFX/WalkingGrass 36 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "857942053",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PlayerHit 48-Audio.wav",
+      "CachePath": "SFX/PlayerHit 48-Audio_818F3B66.wem"
+     },
+     {
+      "Id": "875930412",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Hit 36-RANDOM.wav",
+      "CachePath": "SFX/Hit 36-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "885788340",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PlayerWalkingGrass 34 GrassHit.wav",
+      "CachePath": "SFX/PlayerWalkingGrass 34 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "894243155",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Walking 2-9_Jun_15.40.wav",
+      "CachePath": "SFX/Walking 2-9_Jun_15.40_818F3B66.wem"
+     },
+     {
+      "Id": "901234980",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MetalHit 8-RANDOM.wav",
+      "CachePath": "SFX/MetalHit 8-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "911173519",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PlayerWalkingGrass 22 GrassHit.wav",
+      "CachePath": "SFX/PlayerWalkingGrass 22 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "914221359",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Hit 37-RANDOM.wav",
+      "CachePath": "SFX/Hit 37-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "935450380",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PlayerWalkingGrass 35 GrassHit.wav",
+      "CachePath": "SFX/PlayerWalkingGrass 35 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "942115357",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PlayerHit 54-Audio.wav",
+      "CachePath": "SFX/PlayerHit 54-Audio_818F3B66.wem"
+     },
+     {
+      "Id": "945510887",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PlayerWalkingGrass 32 GrassHit.wav",
+      "CachePath": "SFX/PlayerWalkingGrass 32 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "953201254",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PlayerWalkingGrass 26 GrassHit.wav",
+      "CachePath": "SFX/PlayerWalkingGrass 26 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "953425312",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Walking 3-9_Jun_15.40.wav",
+      "CachePath": "SFX/Walking 3-9_Jun_15.40_818F3B66.wem"
+     },
+     {
+      "Id": "964295609",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PlayerWalkingGrass 29 GrassHit.wav",
+      "CachePath": "SFX/PlayerWalkingGrass 29 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "966266207",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MetalHit 20-RANDOM.wav",
+      "CachePath": "SFX/MetalHit 20-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "982542825",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WalkingGrass 33 GrassHit.wav",
+      "CachePath": "SFX/WalkingGrass 33 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "1016878780",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WalkingGrass 32 GrassHit.wav",
+      "CachePath": "SFX/WalkingGrass 32 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "1030249328",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PlayerWalkingGrass 31 GrassHit.wav",
+      "CachePath": "SFX/PlayerWalkingGrass 31 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "1037969641",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WalkingGrass 25 GrassHit.wav",
+      "CachePath": "SFX/WalkingGrass 25 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "1050135430",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PlayerWalkingGrass 38 GrassHit.wav",
+      "CachePath": "SFX/PlayerWalkingGrass 38 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "1052096493",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PlayerHit 50-Audio.wav",
+      "CachePath": "SFX/PlayerHit 50-Audio_818F3B66.wem"
+     },
+     {
+      "Id": "1058516337",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "2024-06-09_13-25-12 Rando 120 bpm(2).wav",
+      "CachePath": "SFX/2024-06-09_13-25-12 Rando 120 bpm(2)_818F3B66.wem"
+     },
+     {
+      "Id": "1068508385",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Hit 41-RANDOM.wav",
+      "CachePath": "SFX/Hit 41-RANDOM_818F3B66.wem"
      }
     ],
     "Events": [
@@ -250,16 +1003,203 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "111329369"
+        "Id": "70258969"
        },
        {
-        "Id": "289791171"
+        "Id": "104539329"
        },
        {
-        "Id": "676671217"
+        "Id": "179541410"
        },
        {
-        "Id": "816392091"
+        "Id": "328985746"
+       },
+       {
+        "Id": "343610143"
+       },
+       {
+        "Id": "471760166"
+       },
+       {
+        "Id": "581888402"
+       },
+       {
+        "Id": "674838887"
+       },
+       {
+        "Id": "697682049"
+       },
+       {
+        "Id": "731149071"
+       },
+       {
+        "Id": "757545993"
+       },
+       {
+        "Id": "773039608"
+       },
+       {
+        "Id": "885788340"
+       },
+       {
+        "Id": "911173519"
+       },
+       {
+        "Id": "935450380"
+       },
+       {
+        "Id": "945510887"
+       },
+       {
+        "Id": "953201254"
+       },
+       {
+        "Id": "964295609"
+       },
+       {
+        "Id": "1030249328"
+       },
+       {
+        "Id": "1050135430"
+       }
+      ]
+     },
+     {
+      "Id": "1116398592",
+      "Name": "Hit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Hit",
+      "GUID": "{FD219EB7-1E96-4089-80CB-4242B2C9CC55}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5",
+      "DurationMax": "0.5",
+      "MediaRefs": [
+       {
+        "Id": "178921316"
+       },
+       {
+        "Id": "244363605"
+       },
+       {
+        "Id": "331865734"
+       },
+       {
+        "Id": "771814435"
+       },
+       {
+        "Id": "857942053"
+       },
+       {
+        "Id": "942115357"
+       },
+       {
+        "Id": "1052096493"
+       }
+      ]
+     },
+     {
+      "Id": "27719897",
+      "Name": "MetalHit",
+      "ObjectPath": "\\Events\\Default Work Unit\\MetalHit",
+      "GUID": "{BD1EADB5-529F-4E8B-A751-4CC85FF03B20}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5353388",
+      "DurationMax": "0.5353388",
+      "MediaRefs": [
+       {
+        "Id": "16869835"
+       },
+       {
+        "Id": "43453150"
+       },
+       {
+        "Id": "87955643"
+       },
+       {
+        "Id": "91159618"
+       },
+       {
+        "Id": "101721338"
+       },
+       {
+        "Id": "115490422"
+       },
+       {
+        "Id": "145407617"
+       },
+       {
+        "Id": "155916183"
+       },
+       {
+        "Id": "207441468"
+       },
+       {
+        "Id": "210031203"
+       },
+       {
+        "Id": "215550662"
+       },
+       {
+        "Id": "242355400"
+       },
+       {
+        "Id": "245250048"
+       },
+       {
+        "Id": "307125574"
+       },
+       {
+        "Id": "421409710"
+       },
+       {
+        "Id": "437585737"
+       },
+       {
+        "Id": "442655402"
+       },
+       {
+        "Id": "475921520"
+       },
+       {
+        "Id": "481509670"
+       },
+       {
+        "Id": "505463667"
+       },
+       {
+        "Id": "551331426"
+       },
+       {
+        "Id": "561706018"
+       },
+       {
+        "Id": "623666477"
+       },
+       {
+        "Id": "760478632"
+       },
+       {
+        "Id": "790771010"
+       },
+       {
+        "Id": "798356355"
+       },
+       {
+        "Id": "875930412"
+       },
+       {
+        "Id": "901234980"
+       },
+       {
+        "Id": "914221359"
+       },
+       {
+        "Id": "966266207"
+       },
+       {
+        "Id": "1058516337"
+       },
+       {
+        "Id": "1068508385"
        }
       ]
      },
@@ -271,16 +1211,64 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "111329369"
+        "Id": "70258969"
        },
        {
-        "Id": "289791171"
+        "Id": "104539329"
        },
        {
-        "Id": "676671217"
+        "Id": "179541410"
        },
        {
-        "Id": "816392091"
+        "Id": "328985746"
+       },
+       {
+        "Id": "343610143"
+       },
+       {
+        "Id": "471760166"
+       },
+       {
+        "Id": "581888402"
+       },
+       {
+        "Id": "674838887"
+       },
+       {
+        "Id": "697682049"
+       },
+       {
+        "Id": "731149071"
+       },
+       {
+        "Id": "757545993"
+       },
+       {
+        "Id": "773039608"
+       },
+       {
+        "Id": "885788340"
+       },
+       {
+        "Id": "911173519"
+       },
+       {
+        "Id": "935450380"
+       },
+       {
+        "Id": "945510887"
+       },
+       {
+        "Id": "953201254"
+       },
+       {
+        "Id": "964295609"
+       },
+       {
+        "Id": "1030249328"
+       },
+       {
+        "Id": "1050135430"
        }
       ]
      },
@@ -292,21 +1280,7 @@
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
-      "DurationMax": "0",
-      "MediaRefs": [
-       {
-        "Id": "111329369"
-       },
-       {
-        "Id": "289791171"
-       },
-       {
-        "Id": "676671217"
-       },
-       {
-        "Id": "816392091"
-       }
-      ]
+      "DurationMax": "0"
      },
      {
       "Id": "3733591335",
@@ -316,19 +1290,137 @@
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
-      "DurationMax": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3966132538",
+      "Name": "PickupHealItem",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Heal\\PickupHealItem",
+      "GUID": "{63C6B1B1-02EC-4406-984A-0BF615CC02CE}",
+      "DurationType": "OneShot",
+      "DurationMin": "1",
+      "DurationMax": "1",
       "MediaRefs": [
        {
-        "Id": "111329369"
+        "Id": "412773908"
+       }
+      ]
+     },
+     {
+      "Id": "2538918815",
+      "Name": "PlayerShoot",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Shoot\\PlayerShoot",
+      "GUID": "{7FEA7EED-1C36-4EAE-865F-F0843E24269C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5",
+      "DurationMax": "0.5",
+      "MediaRefs": [
+       {
+        "Id": "644434276"
+       }
+      ]
+     },
+     {
+      "Id": "340271938",
+      "Name": "Walking",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Walking",
+      "GUID": "{F179C591-7C60-4CA5-90DA-11A6BB3FA246}",
+      "DurationType": "OneShot",
+      "DurationMin": "1",
+      "DurationMax": "1",
+      "MediaRefs": [
+       {
+        "Id": "34872186"
        },
        {
-        "Id": "289791171"
+        "Id": "38069380"
        },
        {
-        "Id": "676671217"
+        "Id": "55864292"
        },
        {
-        "Id": "816392091"
+        "Id": "125448873"
+       },
+       {
+        "Id": "176730849"
+       },
+       {
+        "Id": "178936160"
+       },
+       {
+        "Id": "245778423"
+       },
+       {
+        "Id": "247715091"
+       },
+       {
+        "Id": "260529802"
+       },
+       {
+        "Id": "262852702"
+       },
+       {
+        "Id": "306713969"
+       },
+       {
+        "Id": "361492288"
+       },
+       {
+        "Id": "374179396"
+       },
+       {
+        "Id": "375260587"
+       },
+       {
+        "Id": "424289547"
+       },
+       {
+        "Id": "512990256"
+       },
+       {
+        "Id": "533045900"
+       },
+       {
+        "Id": "608734124"
+       },
+       {
+        "Id": "639938064"
+       },
+       {
+        "Id": "689687990"
+       },
+       {
+        "Id": "693064197"
+       },
+       {
+        "Id": "706091047"
+       },
+       {
+        "Id": "709981680"
+       },
+       {
+        "Id": "769364730"
+       },
+       {
+        "Id": "830990940"
+       },
+       {
+        "Id": "846984518"
+       },
+       {
+        "Id": "894243155"
+       },
+       {
+        "Id": "953425312"
+       },
+       {
+        "Id": "982542825"
+       },
+       {
+        "Id": "1016878780"
+       },
+       {
+        "Id": "1037969641"
        }
       ]
      }
@@ -349,6 +1441,6 @@
     ]
    }
   ],
-  "FileHash": "{1C5A2CAA-221B-315E-52FF-D3F029E4379D}"
+  "FileHash": "{A342A12A-FE24-F343-291B-D937D086B60F}"
  }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="626769978" Type="User" GUID="{48E72166-C9F4-4E47-B2EC-5AC63D0B1074}" Language="SFX" Hash="{D4A08F83-357D-7272-2585-719C4BE058FE}">
+		<SoundBank Id="626769978" Type="User" GUID="{48E72166-C9F4-4E47-B2EC-5AC63D0B1074}" Language="SFX" Hash="{AD5FF216-128D-1FB8-3153-3695C6DE33C5}">
 			<ObjectPath>\SoundBanks\Default Work Unit\BackgroundMusic</ObjectPath>
 			<ShortName>BackgroundMusic</ShortName>
 			<Path>BackgroundMusic.bnk</Path>
@@ -22,9 +22,13 @@
 					<ShortName>Celli.wav</ShortName>
 					<CachePath>SFX/Celli_818F3B66.wem</CachePath>
 				</File>
-				<File Id="694397461" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>CalmDrones.wav</ShortName>
-					<CachePath>SFX/CalmDrones_FBC78EF0.wem</CachePath>
+				<File Id="617701566" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Intro Stage.wav</ShortName>
+					<CachePath>SFX/Intro Stage_F54517FD.wem</CachePath>
+				</File>
+				<File Id="777174210" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RegularEnemyStage.wav</ShortName>
+					<CachePath>SFX/RegularEnemyStage_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="848631786" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Basses.wav</ShortName>
@@ -39,11 +43,12 @@
 				<Event Id="3827058668" Name="StartMusic" ObjectPath="\Events\BackgroundMusicEventWorkUnit\StartMusic" GUID="{182C6952-56AA-44D1-827D-3C36735B9EA4}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="316178426"/>
-						<MediaRef Id="694397461"/>
+						<MediaRef Id="617701566"/>
+						<MediaRef Id="777174210"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{07068CFC-95D1-51BD-6E48-65FEA9F7383F}</FileHash>
+	<FileHash>{36D6F8EC-D5B0-AC4D-5913-8261B1C509F7}</FileHash>
 </SoundBanksInfo>

@@ -5,16 +5,29 @@
 			<ChildrenList>
 				<StateGroup Name="BackgroundMusicStateGroup" ID="{4C40F3D8-5C46-4FE6-97AC-F532885085F5}">
 					<ChildrenList>
-						<State Name="None" ID="{FEC6D832-5E83-4970-9272-1CCAC9041506}"/>
-						<State Name="MainMenu" ID="{B7018D9A-F6B2-4F50-A795-F72BBF483120}"/>
-						<State Name="LowEnergy" ID="{E2F8406F-69F3-4DE9-9B42-B25630E569E9}"/>
+						<State Name="None" ID="{4AFBDA2D-F04F-4A4C-96F8-A3D25EA9FC72}"/>
+						<State Name="FirstStage" ID="{80A8229F-E6E1-44F7-B2C6-84371ACEE598}"/>
+						<State Name="Menu" ID="{4A5444FB-9486-43D4-AED3-370BD493FA45}"/>
+						<State Name="SecondStage" ID="{CB0CC6D4-ED80-4642-B4D6-C1ED83914477}"/>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>
-							<StartState Name="MainMenu" ID="{B7018D9A-F6B2-4F50-A795-F72BBF483120}"/>
-							<EndState Name="LowEnergy" ID="{E2F8406F-69F3-4DE9-9B42-B25630E569E9}"/>
+							<StartState Name="Menu" ID="{4A5444FB-9486-43D4-AED3-370BD493FA45}"/>
+							<EndState Name="FirstStage" ID="{80A8229F-E6E1-44F7-B2C6-84371ACEE598}"/>
 							<Time>1</Time>
-							<IsShared>false</IsShared>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="FirstStage" ID="{80A8229F-E6E1-44F7-B2C6-84371ACEE598}"/>
+							<EndState Name="SecondStage" ID="{CB0CC6D4-ED80-4642-B4D6-C1ED83914477}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="SecondStage" ID="{CB0CC6D4-ED80-4642-B4D6-C1ED83914477}"/>
+							<EndState Name="Menu" ID="{4A5444FB-9486-43D4-AED3-370BD493FA45}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
 						</Transition>
 					</TransitionList>
 				</StateGroup>

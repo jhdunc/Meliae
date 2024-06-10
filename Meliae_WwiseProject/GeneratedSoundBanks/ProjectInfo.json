@@ -3,7 +3,7 @@
   "Project": {
    "Name": "Meliae_WwiseProject",
    "GUID": "{EA160A82-2C32-4BAF-9258-5CB94B5F8C9C}",
-   "Generator": "2023.1.4.8496"
+   "Generator": "2023.1.2.8444"
   },
   "CacheRoot": "../.cache",
   "Platforms": [
@@ -31,6 +31,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{9C64E4B9-2FB5-38DE-E7C1-043EEFA7659B}"
+  "FileHash": "{81E7474D-A192-5A0C-900D-95700F7FCF06}"
  }
 }

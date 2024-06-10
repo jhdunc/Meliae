@@ -18,7 +18,14 @@
 						<Action Name="" ID="{E01DA872-2D91-465F-83EE-5FE97608FD43}" ShortID="168373051">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="CalmDrones" ID="{4C1E16EE-3470-4B2E-A178-14AC447C0AD4}" WorkUnitID="{822226DB-5840-48F0-9D92-CD19061C9B58}"/>
+									<ObjectRef Name="FirstStage" ID="{5E87460E-9061-47D6-ADB4-41A4C7DFED8A}" WorkUnitID="{822226DB-5840-48F0-9D92-CD19061C9B58}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8BABE6B5-937B-48CC-9575-A2C6BC7C3B9D}" ShortID="782541808">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RegularEnemyStage" ID="{518BBF9D-4CD2-47C4-AF0C-16B098A309A1}" WorkUnitID="{822226DB-5840-48F0-9D92-CD19061C9B58}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
