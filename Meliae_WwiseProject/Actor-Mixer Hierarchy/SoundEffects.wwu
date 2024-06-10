@@ -1029,6 +1029,13 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="WalkingSoundGrass" ID="{ADD58D73-4F23-49D6-B151-7A950E0D39EE}" ShortID="145685074">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
@@ -1604,6 +1611,315 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<Folder Name="Heavy" ID="{CA0ABB54-FEF0-4036-9E6F-38F06A5534CC}" ShortID="467375025">
+							<ChildrenList>
+								<RandomSequenceContainer Name="HeavyStompMetal" ID="{AAE2BD5A-91B1-4C55-B0AE-DC3FEBD75572}" ShortID="82427081">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="HeavyStompMetal 16-9_Jun_15_40" ID="{EA2BD9CF-7944-497F-B74E-A5CE8E853FEC}" ShortID="766429357">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="HeavyStompMetal 16-9_Jun_15_40" ID="{649D8B9F-79CB-4B8E-A578-60560C5E7800}">
+													<Language>SFX</Language>
+													<AudioFile>HeavyStompMetal 16-9_Jun_15.40.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="835810071"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="HeavyStompMetal 16-9_Jun_15_40" ID="{649D8B9F-79CB-4B8E-A578-60560C5E7800}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="HeavyStompMetal 17-9_Jun_15_40" ID="{6793331E-E4EE-4CB8-BB0C-6C566EAF6233}" ShortID="308412878">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="HeavyStompMetal 17-9_Jun_15_40" ID="{8F629376-C237-41B7-B26E-493EC69055BE}">
+													<Language>SFX</Language>
+													<AudioFile>HeavyStompMetal 17-9_Jun_15.40.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="337795702"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="HeavyStompMetal 17-9_Jun_15_40" ID="{8F629376-C237-41B7-B26E-493EC69055BE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="HeavyStompMetal 18-9_Jun_15_40" ID="{3944299B-3F2F-48E9-8ED4-1226154730EB}" ShortID="674354665">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="HeavyStompMetal 18-9_Jun_15_40" ID="{D38E4A78-70AA-4630-B361-7679F5B903A1}">
+													<Language>SFX</Language>
+													<AudioFile>HeavyStompMetal 18-9_Jun_15.40.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="930169712"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="HeavyStompMetal 18-9_Jun_15_40" ID="{D38E4A78-70AA-4630-B361-7679F5B903A1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="HeavyStompMetal 19-9_Jun_15_40" ID="{CFC7F873-4677-47C8-8DDD-E10ACDC04A15}" ShortID="607726267">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="HeavyStompMetal 19-9_Jun_15_40" ID="{CE903CF2-E25F-4C37-9974-4F26D199C155}">
+													<Language>SFX</Language>
+													<AudioFile>HeavyStompMetal 19-9_Jun_15.40.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="247149033"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="HeavyStompMetal 19-9_Jun_15_40" ID="{CE903CF2-E25F-4C37-9974-4F26D199C155}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="HeavyStompMetal 20-9_Jun_15_40" ID="{FD1FEB24-1E84-4543-8920-AA088D406974}" ShortID="103196722">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="HeavyStompMetal 20-9_Jun_15_40" ID="{2CB42D1A-4DF5-42E9-807F-B341D91CEF34}">
+													<Language>SFX</Language>
+													<AudioFile>HeavyStompMetal 20-9_Jun_15.40.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="711922725"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="HeavyStompMetal 20-9_Jun_15_40" ID="{2CB42D1A-4DF5-42E9-807F-B341D91CEF34}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="HeavyStompMetal 21-9_Jun_15_40" ID="{BB4A0752-C685-49E5-8BF2-7E08F077E280}" ShortID="280370948">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="HeavyStompMetal 21-9_Jun_15_40" ID="{21E2EF37-1D95-473D-B8EF-C1AD5BFB4FD4}">
+													<Language>SFX</Language>
+													<AudioFile>HeavyStompMetal 21-9_Jun_15.40.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1040962635"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="HeavyStompMetal 21-9_Jun_15_40" ID="{21E2EF37-1D95-473D-B8EF-C1AD5BFB4FD4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="HeavyStompMetal 22-9_Jun_15_40" ID="{FF5292F5-D26D-43AE-B574-4D754DB5B97B}" ShortID="398929738">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="HeavyStompMetal 22-9_Jun_15_40" ID="{A215C388-5AC0-4EB9-9770-3DBF8CC45C19}">
+													<Language>SFX</Language>
+													<AudioFile>HeavyStompMetal 22-9_Jun_15.40.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1019976163"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="HeavyStompMetal 22-9_Jun_15_40" ID="{A215C388-5AC0-4EB9-9770-3DBF8CC45C19}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="HeavyStompMetal 23-9_Jun_15_40" ID="{31AA90F3-7A2C-445E-B2A7-10B3822F14DB}" ShortID="1005690395">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="HeavyStompMetal 23-9_Jun_15_40" ID="{70F11851-E09D-45A3-8C57-61A127A19DF8}">
+													<Language>SFX</Language>
+													<AudioFile>HeavyStompMetal 23-9_Jun_15.40.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="728831614"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="HeavyStompMetal 23-9_Jun_15_40" ID="{70F11851-E09D-45A3-8C57-61A127A19DF8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="HeavyStompMetal 24-9_Jun_15_40" ID="{C88A2692-1AAA-4610-9DC6-E9166A9BA5FF}" ShortID="273814869">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="HeavyStompMetal 24-9_Jun_15_40" ID="{B0D2F12A-CD37-47E0-89C9-CA218F9227BF}">
+													<Language>SFX</Language>
+													<AudioFile>HeavyStompMetal 24-9_Jun_15.40.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="26402324"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="HeavyStompMetal 24-9_Jun_15_40" ID="{B0D2F12A-CD37-47E0-89C9-CA218F9227BF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="HeavyStompMetal 25-9_Jun_15_40" ID="{AFB21EF4-3818-4A50-874C-D121D958263D}" ShortID="171488585">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="HeavyStompMetal 25-9_Jun_15_40" ID="{87A33BDB-484A-4D61-9576-2B92F4F762D2}">
+													<Language>SFX</Language>
+													<AudioFile>HeavyStompMetal 25-9_Jun_15.40.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="938895768"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="HeavyStompMetal 25-9_Jun_15_40" ID="{87A33BDB-484A-4D61-9576-2B92F4F762D2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="HeavyStompMetal 26-9_Jun_15_40" ID="{5A85F31E-E3B3-42B9-8AB2-2647AE5C0F64}" ShortID="130006662">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="HeavyStompMetal 26-9_Jun_15_40" ID="{62E81FE1-C17A-44D8-827D-D83B450708BD}">
+													<Language>SFX</Language>
+													<AudioFile>HeavyStompMetal 26-9_Jun_15.40.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="339955164"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="HeavyStompMetal 26-9_Jun_15_40" ID="{62E81FE1-C17A-44D8-827D-D83B450708BD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="HeavyStompMetal 27-9_Jun_15_40" ID="{6E11872F-7D6B-4A09-911D-D1508E0B7587}" ShortID="360204101">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="HeavyStompMetal 27-9_Jun_15_40" ID="{D59D15D1-4E66-42BE-B411-002BA50E5B0D}">
+													<Language>SFX</Language>
+													<AudioFile>HeavyStompMetal 27-9_Jun_15.40.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="496629524"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="HeavyStompMetal 27-9_Jun_15_40" ID="{D59D15D1-4E66-42BE-B411-002BA50E5B0D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="HeavyStompMetal 28-9_Jun_15_40" ID="{A0609FE3-DA20-4C4D-90B1-D5FE44E8292B}" ShortID="454844374">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="HeavyStompMetal 28-9_Jun_15_40" ID="{C098C79D-ABD0-4318-9510-E579B39B6296}">
+													<Language>SFX</Language>
+													<AudioFile>HeavyStompMetal 28-9_Jun_15.40.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="635209506"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="HeavyStompMetal 28-9_Jun_15_40" ID="{C098C79D-ABD0-4318-9510-E579B39B6296}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Player" ID="{7352F96A-1789-4EAF-B3BB-995FDD25BCB8}" ShortID="1065578521">

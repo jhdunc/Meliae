@@ -191,6 +191,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Folder Name="Heavy" ID="{D61CC267-A82E-4796-9411-2135A8AF02C1}" ShortID="399804695">
+							<ChildrenList>
+								<Event Name="HeavyStomping" ID="{B789B7FB-7435-4D63-B829-2087933272C6}">
+									<ChildrenList>
+										<Action Name="" ID="{A52CFD19-BFBA-44B1-A43B-E1604D2F37BA}" ShortID="540082018">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="HeavyStompMetal" ID="{AAE2BD5A-91B1-4C55-B0AE-DC3FEBD75572}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{51124C10-5F6E-4AC5-889E-E62C0AE2B2DE}" ShortID="191991814">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="WalkingSoundGrass" ID="{ADD58D73-4F23-49D6-B151-7A950E0D39EE}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UX" ID="{F32BAA6B-622E-4422-A9A4-46106637842D}" ShortID="731380421">

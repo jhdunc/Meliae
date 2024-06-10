@@ -206,7 +206,7 @@
     "Type": "User",
     "GUID": "{73FF465C-2E5D-4F75-BFD6-4F737D16B83A}",
     "Language": "SFX",
-    "Hash": "{ECF56C6E-B9D0-DB8C-4DD4-373D4AB9ED21}",
+    "Hash": "{E4E5EDCD-27A6-AB20-B25F-1A9FF20118E0}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -218,6 +218,14 @@
       "Location": "Memory",
       "ShortName": "MetalHit 15-RANDOM.wav",
       "CachePath": "SFX/MetalHit 15-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "26402324",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyStompMetal 24-9_Jun_15.40.wav",
+      "CachePath": "SFX/HeavyStompMetal 24-9_Jun_15.40_818F3B66.wem"
      },
      {
       "Id": "34872186",
@@ -428,6 +436,14 @@
       "CachePath": "SFX/WalkingGrass 38 GrassHit_818F3B66.wem"
      },
      {
+      "Id": "247149033",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyStompMetal 19-9_Jun_15.40.wav",
+      "CachePath": "SFX/HeavyStompMetal 19-9_Jun_15.40_818F3B66.wem"
+     },
+     {
       "Id": "247715091",
       "Language": "SFX",
       "Streaming": "false",
@@ -490,6 +506,22 @@
       "Location": "Memory",
       "ShortName": "PlayerHit 52-Audio.wav",
       "CachePath": "SFX/PlayerHit 52-Audio_818F3B66.wem"
+     },
+     {
+      "Id": "337795702",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyStompMetal 17-9_Jun_15.40.wav",
+      "CachePath": "SFX/HeavyStompMetal 17-9_Jun_15.40_818F3B66.wem"
+     },
+     {
+      "Id": "339955164",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyStompMetal 26-9_Jun_15.40.wav",
+      "CachePath": "SFX/HeavyStompMetal 26-9_Jun_15.40_818F3B66.wem"
      },
      {
       "Id": "343610143",
@@ -596,6 +628,14 @@
       "CachePath": "SFX/MetalHit 22-RANDOM_818F3B66.wem"
      },
      {
+      "Id": "496629524",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyStompMetal 27-9_Jun_15.40.wav",
+      "CachePath": "SFX/HeavyStompMetal 27-9_Jun_15.40_818F3B66.wem"
+     },
+     {
       "Id": "505463667",
       "Language": "SFX",
       "Streaming": "false",
@@ -666,6 +706,14 @@
       "Location": "Memory",
       "ShortName": "Hit 44-RANDOM.wav",
       "CachePath": "SFX/Hit 44-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "635209506",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyStompMetal 28-9_Jun_15.40.wav",
+      "CachePath": "SFX/HeavyStompMetal 28-9_Jun_15.40_818F3B66.wem"
      },
      {
       "Id": "639938064",
@@ -756,6 +804,22 @@
       "CachePath": "SFX/WalkingGrass 37 GrassHit_818F3B66.wem"
      },
      {
+      "Id": "711922725",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyStompMetal 20-9_Jun_15.40.wav",
+      "CachePath": "SFX/HeavyStompMetal 20-9_Jun_15.40_818F3B66.wem"
+     },
+     {
+      "Id": "728831614",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyStompMetal 23-9_Jun_15.40.wav",
+      "CachePath": "SFX/HeavyStompMetal 23-9_Jun_15.40_818F3B66.wem"
+     },
+     {
       "Id": "731149071",
       "Language": "SFX",
       "Streaming": "false",
@@ -836,6 +900,14 @@
       "CachePath": "SFX/WalkingGrass 23 GrassHit_818F3B66.wem"
      },
      {
+      "Id": "835810071",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyStompMetal 16-9_Jun_15.40.wav",
+      "CachePath": "SFX/HeavyStompMetal 16-9_Jun_15.40_818F3B66.wem"
+     },
+     {
       "Id": "846984518",
       "Language": "SFX",
       "Streaming": "false",
@@ -908,12 +980,28 @@
       "CachePath": "SFX/Destroyed_818F3B66.wem"
      },
      {
+      "Id": "930169712",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyStompMetal 18-9_Jun_15.40.wav",
+      "CachePath": "SFX/HeavyStompMetal 18-9_Jun_15.40_818F3B66.wem"
+     },
+     {
       "Id": "935450380",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "PlayerWalkingGrass 35 GrassHit.wav",
       "CachePath": "SFX/PlayerWalkingGrass 35 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "938895768",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyStompMetal 25-9_Jun_15.40.wav",
+      "CachePath": "SFX/HeavyStompMetal 25-9_Jun_15.40_818F3B66.wem"
      },
      {
       "Id": "942115357",
@@ -980,6 +1068,14 @@
       "CachePath": "SFX/WalkingGrass 32 GrassHit_818F3B66.wem"
      },
      {
+      "Id": "1019976163",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyStompMetal 22-9_Jun_15.40.wav",
+      "CachePath": "SFX/HeavyStompMetal 22-9_Jun_15.40_818F3B66.wem"
+     },
+     {
       "Id": "1030249328",
       "Language": "SFX",
       "Streaming": "false",
@@ -994,6 +1090,14 @@
       "Location": "Memory",
       "ShortName": "WalkingGrass 25 GrassHit.wav",
       "CachePath": "SFX/WalkingGrass 25 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "1040962635",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyStompMetal 21-9_Jun_15.40.wav",
+      "CachePath": "SFX/HeavyStompMetal 21-9_Jun_15.40_818F3B66.wem"
      },
      {
       "Id": "1050135430",
@@ -1135,6 +1239,116 @@
        },
        {
         "Id": "1050135430"
+       }
+      ]
+     },
+     {
+      "Id": "3581033663",
+      "Name": "HeavyStomping",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Heavy\\HeavyStomping",
+      "GUID": "{B789B7FB-7435-4D63-B829-2087933272C6}",
+      "DurationType": "OneShot",
+      "DurationMin": "1",
+      "DurationMax": "1",
+      "MediaRefs": [
+       {
+        "Id": "26402324"
+       },
+       {
+        "Id": "34872186"
+       },
+       {
+        "Id": "55864292"
+       },
+       {
+        "Id": "245778423"
+       },
+       {
+        "Id": "247149033"
+       },
+       {
+        "Id": "247715091"
+       },
+       {
+        "Id": "262852702"
+       },
+       {
+        "Id": "306713969"
+       },
+       {
+        "Id": "337795702"
+       },
+       {
+        "Id": "339955164"
+       },
+       {
+        "Id": "374179396"
+       },
+       {
+        "Id": "424289547"
+       },
+       {
+        "Id": "496629524"
+       },
+       {
+        "Id": "512990256"
+       },
+       {
+        "Id": "533045900"
+       },
+       {
+        "Id": "608734124"
+       },
+       {
+        "Id": "635209506"
+       },
+       {
+        "Id": "689687990"
+       },
+       {
+        "Id": "693064197"
+       },
+       {
+        "Id": "709981680"
+       },
+       {
+        "Id": "711922725"
+       },
+       {
+        "Id": "728831614"
+       },
+       {
+        "Id": "769364730"
+       },
+       {
+        "Id": "830990940"
+       },
+       {
+        "Id": "835810071"
+       },
+       {
+        "Id": "846984518"
+       },
+       {
+        "Id": "930169712"
+       },
+       {
+        "Id": "938895768"
+       },
+       {
+        "Id": "982542825"
+       },
+       {
+        "Id": "1016878780"
+       },
+       {
+        "Id": "1019976163"
+       },
+       {
+        "Id": "1037969641"
+       },
+       {
+        "Id": "1040962635"
        }
       ]
      },
@@ -1529,6 +1743,6 @@
     ]
    }
   ],
-  "FileHash": "{4778F1CF-196B-EE91-1681-A9500AFC5A27}"
+  "FileHash": "{E4901033-6FF6-DBF3-A057-8AE9A078FC74}"
  }
 }
