@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{551AFD34-4395-4B10-8026-1A562F4EDB69}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="BackgroundMusicEventWorkUnit" ID="{551AFD34-4395-4B10-8026-1A562F4EDB69}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="StartMusic" ID="{182C6952-56AA-44D1-827D-3C36735B9EA4}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="14"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{AD1C4B56-89D1-43C2-BAD5-0DD21FD79611}" ShortID="266712140">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SoftKeysMinor" ID="{21179918-2DBF-498B-9953-C7D86487AD3C}" WorkUnitID="{822226DB-5840-48F0-9D92-CD19061C9B58}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E01DA872-2D91-465F-83EE-5FE97608FD43}" ShortID="168373051">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FirstStage" ID="{5E87460E-9061-47D6-ADB4-41A4C7DFED8A}" WorkUnitID="{822226DB-5840-48F0-9D92-CD19061C9B58}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8BABE6B5-937B-48CC-9575-A2C6BC7C3B9D}" ShortID="782541808">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RegularEnemyStage" ID="{518BBF9D-4CD2-47C4-AF0C-16B098A309A1}" WorkUnitID="{822226DB-5840-48F0-9D92-CD19061C9B58}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

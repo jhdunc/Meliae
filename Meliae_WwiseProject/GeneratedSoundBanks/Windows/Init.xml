@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{40B02061-9189-5E48-291C-575BD784523A}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{5E38FEFC-0897-9673-CA64-5B51EF5255FA}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -19,7 +19,17 @@
 				<GameParameter Id="1843561328" Name="MainVolume" ObjectPath="\Game Parameters\Default Work Unit\MainVolume" GUID="{7887A6A7-6EDD-4631-984F-DAC025289B79}"/>
 				<GameParameter Id="4118653392" Name="ForestHealth" ObjectPath="\Game Parameters\Default Work Unit\ForestHealth" GUID="{3924D219-0678-4A12-BB74-B5A4411FAC49}"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="2166867310" Name="BackgroundMusicStateGroup" ObjectPath="\States\Default Work Unit\BackgroundMusicStateGroup" GUID="{4C40F3D8-5C46-4FE6-97AC-F532885085F5}">
+					<States>
+						<State Id="565721261" Name="FirstStage" ObjectPath="\States\Default Work Unit\BackgroundMusicStateGroup\FirstStage" GUID="{80A8229F-E6E1-44F7-B2C6-84371ACEE598}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\BackgroundMusicStateGroup\None" GUID="{4AFBDA2D-F04F-4A4C-96F8-A3D25EA9FC72}"/>
+						<State Id="2607556080" Name="Menu" ObjectPath="\States\Default Work Unit\BackgroundMusicStateGroup\Menu" GUID="{4A5444FB-9486-43D4-AED3-370BD493FA45}"/>
+						<State Id="2693282833" Name="SecondStage" ObjectPath="\States\Default Work Unit\BackgroundMusicStateGroup\SecondStage" GUID="{CB0CC6D4-ED80-4642-B4D6-C1ED83914477}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{96F1962F-DC88-EAF1-4C2A-63AE72D5935C}</FileHash>
+	<FileHash>{7600E3B2-A5F0-D693-22A0-BC8F3A402E8E}</FileHash>
 </SoundBanksInfo>

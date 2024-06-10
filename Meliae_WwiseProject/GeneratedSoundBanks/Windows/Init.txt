@@ -1,3 +1,12 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2166867310	BackgroundMusicStateGroup			\Default Work Unit\BackgroundMusicStateGroup	
+
+State	ID	Name	State Group			Notes
+	565721261	FirstStage	BackgroundMusicStateGroup			
+	748895195	None	BackgroundMusicStateGroup			
+	2607556080	Menu	BackgroundMusicStateGroup			
+	2693282833	SecondStage	BackgroundMusicStateGroup			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1843561328	MainVolume			\Default Work Unit\MainVolume	
 

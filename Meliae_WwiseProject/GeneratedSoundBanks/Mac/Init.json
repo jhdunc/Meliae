@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{77F934B8-7908-389C-395A-C7D2D4AB2339}",
+    "Hash": "{2CC404C0-D949-E997-644D-174691368510}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -61,9 +61,43 @@
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\ForestHealth",
       "GUID": "{3924D219-0678-4A12-BB74-B5A4411FAC49}"
      }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2166867310",
+      "Name": "BackgroundMusicStateGroup",
+      "ObjectPath": "\\States\\Default Work Unit\\BackgroundMusicStateGroup",
+      "GUID": "{4C40F3D8-5C46-4FE6-97AC-F532885085F5}",
+      "States": [
+       {
+        "Id": "565721261",
+        "Name": "FirstStage",
+        "ObjectPath": "\\States\\Default Work Unit\\BackgroundMusicStateGroup\\FirstStage",
+        "GUID": "{80A8229F-E6E1-44F7-B2C6-84371ACEE598}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\BackgroundMusicStateGroup\\None",
+        "GUID": "{4AFBDA2D-F04F-4A4C-96F8-A3D25EA9FC72}"
+       },
+       {
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\States\\Default Work Unit\\BackgroundMusicStateGroup\\Menu",
+        "GUID": "{4A5444FB-9486-43D4-AED3-370BD493FA45}"
+       },
+       {
+        "Id": "2693282833",
+        "Name": "SecondStage",
+        "ObjectPath": "\\States\\Default Work Unit\\BackgroundMusicStateGroup\\SecondStage",
+        "GUID": "{CB0CC6D4-ED80-4642-B4D6-C1ED83914477}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{3423F5D5-CA46-0AD4-4B4C-54C0A9CF0B0E}"
+  "FileHash": "{809BC076-4DCF-F5DE-F37B-219200A78EEB}"
  }
 }

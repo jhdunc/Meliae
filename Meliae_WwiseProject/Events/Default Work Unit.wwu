@@ -25,7 +25,7 @@
 												<Action Name="" ID="{E49440B6-65F4-48B4-A740-C91115EC9793}" ShortID="523048425">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="GrassWalking" ID="{F6D4B826-2EA3-43F6-ABC8-98384F92E616}" WorkUnitID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}"/>
+															<ObjectRef Name="PlayerWalkingGrass" ID="{A9B6138F-9119-4C11-A85A-6945C4D594C6}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -39,7 +39,7 @@
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="GrassWalking" ID="{F6D4B826-2EA3-43F6-ABC8-98384F92E616}" WorkUnitID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}"/>
+															<ObjectRef Name="PlayerWalkingGrass" ID="{A9B6138F-9119-4C11-A85A-6945C4D594C6}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -54,7 +54,7 @@
 												<Action Name="" ID="{587563A1-838A-44AA-AF4C-A8DD80DE5F1B}" ShortID="572254843">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="MudWalking" ID="{AF017EE0-C4EF-4CDF-8450-BA76AF6720BF}" WorkUnitID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}"/>
+															<ObjectRef Name="PlayerWalkingGrass" ID="{A9B6138F-9119-4C11-A85A-6945C4D594C6}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -68,7 +68,7 @@
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="MudWalking" ID="{AF017EE0-C4EF-4CDF-8450-BA76AF6720BF}" WorkUnitID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}"/>
+															<ObjectRef Name="PlayerWalkingGrass" ID="{A9B6138F-9119-4C11-A85A-6945C4D594C6}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -78,19 +78,136 @@
 								</Folder>
 							</ChildrenList>
 						</Folder>
+						<Event Name="Hit" ID="{FD219EB7-1E96-4089-80CB-4242B2C9CC55}">
+							<ChildrenList>
+								<Action Name="" ID="{9B38B5C3-68A7-451D-8359-08F88BA83BAB}" ShortID="609071986">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerHit" ID="{EAC63804-C97D-45E6-9E76-013409EDDD08}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Heal" ID="{F8312683-0B09-41B5-877C-45BA21AE16EF}" ShortID="848720628">
+							<ChildrenList>
+								<Event Name="PickupHealItem" ID="{63C6B1B1-02EC-4406-984A-0BF615CC02CE}">
+									<ChildrenList>
+										<Action Name="" ID="{E9AB77D4-D3A1-4B8B-854F-91E648809F1F}" ShortID="776353006">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="PickupHealItem" ID="{DAADFF14-FA2A-4485-8F27-1724FF278C73}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Shoot" ID="{DF909821-D4FE-41D1-8769-94F516467CDF}" ShortID="14268156">
+							<ChildrenList>
+								<Event Name="PlayerShoot" ID="{7FEA7EED-1C36-4EAE-865F-F0843E24269C}">
+									<ChildrenList>
+										<Action Name="" ID="{64ECBB2A-1C24-417A-AACB-EC42069AC8EF}" ShortID="512754938">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Shoot" ID="{F5DE2828-03F1-4C58-883D-827645417520}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
-				<Event Name="play" ID="{43B7DFA7-051B-4F9C-AE59-118A98B9F4C1}">
+				<Event Name="MetalHit" ID="{BD1EADB5-529F-4E8B-A751-4CC85FF03B20}">
 					<ChildrenList>
-						<Action Name="" ID="{F7DA1043-1B2F-4C0D-8F51-6DF5BDD630D5}" ShortID="595005127">
+						<Action Name="" ID="{B5DA7F97-BB1B-447A-BA58-9FB0C5EAC599}" ShortID="858471529">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Seems Like Nothing Promo Piano Intro" ID="{050A2DC0-C3CD-4EBF-94C1-3098CEE87DC0}" WorkUnitID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}"/>
+									<ObjectRef Name="MetalHit" ID="{D5333084-5D5C-4BBD-8CC5-F8F262A9213B}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{55D8A9A2-AF00-4342-BD7B-CEB6EA30D009}" ShortID="266685987">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MetalHit2" ID="{E07DB874-CF1C-4354-BAE0-C9BF039BCB5C}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4315C470-FD56-4B16-B331-A08C99542300}" ShortID="367823527">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hit Part 1" ID="{34526E31-F766-4211-BDE1-CD31BF99DA15}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3AC2E26C-9694-45F8-8152-1300BB2ED3E7}" ShortID="719499025">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hit" ID="{8628522E-16B2-455D-9391-1ABAB6849A1A}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EA8278B8-F77E-439F-A85A-DD6C875D031A}" ShortID="663060410">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hit2" ID="{7A0FB8EC-40F4-43B4-B1B4-DB9E21327624}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Enemy" ID="{4C038B56-C723-443B-ACF6-1AAB8DC25C10}" ShortID="112803097">
+					<ChildrenList>
+						<Event Name="Walking" ID="{F179C591-7C60-4CA5-90DA-11A6BB3FA246}">
+							<ChildrenList>
+								<Action Name="" ID="{F4DFFB1C-8363-4F06-A013-E5B99A41BC1D}" ShortID="48345375">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WalkingSoundOne" ID="{F72AFF4B-D315-4465-835A-DB8DCE9BA76B}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A07A0EA3-BEBA-47A5-A841-9C73DC2F9363}" ShortID="749068539">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WalkingSoundGrass" ID="{ADD58D73-4F23-49D6-B151-7A950E0D39EE}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EnemyDestroyed" ID="{E6101DB3-37B5-4446-87B5-E4D44CFC0875}">
+							<ChildrenList>
+								<Action Name="" ID="{8C0B1D11-F084-401C-895F-6F7EE99EA9BB}" ShortID="992999163">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DestroyEnemy" ID="{BC647245-094F-4006-A914-3656E1DEE6A9}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UX" ID="{F32BAA6B-622E-4422-A9A4-46106637842D}" ShortID="731380421">
+					<ChildrenList>
+						<Event Name="StageRestored" ID="{FF189B06-05EF-49B8-A71C-175687DEA3B5}">
+							<ChildrenList>
+								<Action Name="" ID="{CD88DBAC-1EFA-4E5B-BE73-EE9974E8F6A1}" ShortID="489368433">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="StageRestoredSound" ID="{BF44ECA0-D052-4095-9CF0-69FCC05563FF}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

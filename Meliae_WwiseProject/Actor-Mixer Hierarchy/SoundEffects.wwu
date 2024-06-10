@@ -1,0 +1,2355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3C908C3C-EC40-4E61-B168-564B32D23840}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="SoundEffects" ID="{3C908C3C-EC40-4E61-B168-564B32D23840}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="MetalHit" ID="{D5333084-5D5C-4BBD-8CC5-F8F262A9213B}" ShortID="776664713">
+					<PropertyList>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="MetalHit 15-RANDOM" ID="{D34FD192-247F-4047-9414-D39AB59A5923}" ShortID="886670145">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MetalHit 15-RANDOM" ID="{8793B3F9-648B-44F9-88E3-5F2A12ABE85C}">
+									<Language>SFX</Language>
+									<AudioFile>MetalHit 15-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="16869835"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MetalHit 15-RANDOM" ID="{8793B3F9-648B-44F9-88E3-5F2A12ABE85C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MetalHit 14-RANDOM" ID="{66652529-89FB-4C80-9635-7BAD5AE1111B}" ShortID="762013097">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MetalHit 14-RANDOM" ID="{C96A7116-0EFB-4CAD-885A-CD3A3266F997}">
+									<Language>SFX</Language>
+									<AudioFile>MetalHit 14-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="145407617"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MetalHit 14-RANDOM" ID="{C96A7116-0EFB-4CAD-885A-CD3A3266F997}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MetalHit 13-RANDOM" ID="{7FC3CE25-FD38-4A22-A741-9D0B7EAA29EE}" ShortID="109197157">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MetalHit 13-RANDOM" ID="{0A99773A-BFD1-4566-8F6F-D385C6AFD584}">
+									<Language>SFX</Language>
+									<AudioFile>MetalHit 13-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="790771010"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MetalHit 13-RANDOM" ID="{0A99773A-BFD1-4566-8F6F-D385C6AFD584}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MetalHit 12-RANDOM" ID="{5EAF34CF-8AA4-4298-91A3-0DC2BE5AB82B}" ShortID="436286197">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MetalHit 12-RANDOM" ID="{055E86B6-1918-4BA6-889A-A906CB57B52D}">
+									<Language>SFX</Language>
+									<AudioFile>MetalHit 12-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="475921520"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MetalHit 12-RANDOM" ID="{055E86B6-1918-4BA6-889A-A906CB57B52D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MetalHit 11-RANDOM" ID="{05363B3F-C835-4960-ADDC-0B92F99C6129}" ShortID="81415397">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MetalHit 11-RANDOM" ID="{594EF9CE-D3E0-4395-9766-477FF53D2B3B}">
+									<Language>SFX</Language>
+									<AudioFile>MetalHit 11-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="155916183"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MetalHit 11-RANDOM" ID="{594EF9CE-D3E0-4395-9766-477FF53D2B3B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MetalHit 10-RANDOM" ID="{4588061F-43B7-465F-ABAC-79380C56FC79}" ShortID="958079332">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MetalHit 10-RANDOM" ID="{F6E5E7A0-ACC2-4F2E-81DE-7A68B15C2B24}">
+									<Language>SFX</Language>
+									<AudioFile>MetalHit 10-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="421409710"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MetalHit 10-RANDOM" ID="{F6E5E7A0-ACC2-4F2E-81DE-7A68B15C2B24}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MetalHit 9-RANDOM" ID="{F1105981-C617-4015-8B55-69DC58F048A2}" ShortID="196503220">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MetalHit 9-RANDOM" ID="{62E27C5B-7FA2-45D0-B91D-404585B20F83}">
+									<Language>SFX</Language>
+									<AudioFile>MetalHit 9-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="207441468"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MetalHit 9-RANDOM" ID="{62E27C5B-7FA2-45D0-B91D-404585B20F83}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MetalHit 8-RANDOM" ID="{315C793A-7BF0-43AE-91CE-E13F37BF667A}" ShortID="969397949">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MetalHit 8-RANDOM" ID="{B82AE08B-BE60-4677-96D7-EE72ED199E00}">
+									<Language>SFX</Language>
+									<AudioFile>MetalHit 8-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="901234980"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MetalHit 8-RANDOM" ID="{B82AE08B-BE60-4677-96D7-EE72ED199E00}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MetalHit 7-RANDOM" ID="{1EB22240-7905-4FDA-AB92-70BE7C7B1F45}" ShortID="674527637">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MetalHit 7-RANDOM" ID="{BD5B9AC4-8437-4BA1-A795-EFF69E703FAF}">
+									<Language>SFX</Language>
+									<AudioFile>MetalHit 7-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="87955643"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MetalHit 7-RANDOM" ID="{BD5B9AC4-8437-4BA1-A795-EFF69E703FAF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MetalHit 6-RANDOM" ID="{BB7E86CC-D5A8-4E25-A056-712F5E2AD1E3}" ShortID="218032790">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MetalHit 6-RANDOM" ID="{3BD95BD9-7065-4559-A770-2686F5A72F2F}">
+									<Language>SFX</Language>
+									<AudioFile>MetalHit 6-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="307125574"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MetalHit 6-RANDOM" ID="{3BD95BD9-7065-4559-A770-2686F5A72F2F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="MetalHit2" ID="{E07DB874-CF1C-4354-BAE0-C9BF039BCB5C}" ShortID="134786716">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="MetalHit 26-RANDOM" ID="{6CC5AFDD-1738-48C0-B0CD-506BF12DC390}" ShortID="567338739">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MetalHit 26-RANDOM" ID="{FDA0F305-46EE-4721-8B7E-567A6386A024}">
+									<Language>SFX</Language>
+									<AudioFile>MetalHit 26-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="115490422"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MetalHit 26-RANDOM" ID="{FDA0F305-46EE-4721-8B7E-567A6386A024}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MetalHit 25-RANDOM" ID="{A1244162-E1F2-40D7-A17B-0E8EE269E250}" ShortID="729846300">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MetalHit 25-RANDOM" ID="{64BBE6CC-9C3E-4F39-B1ED-80E548021586}">
+									<Language>SFX</Language>
+									<AudioFile>MetalHit 25-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="242355400"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MetalHit 25-RANDOM" ID="{64BBE6CC-9C3E-4F39-B1ED-80E548021586}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MetalHit 24-RANDOM" ID="{D76166B8-615D-45EE-881B-382440D9962C}" ShortID="357020323">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MetalHit 24-RANDOM" ID="{5A27942D-F48E-41BC-90D6-4E3B3685965A}">
+									<Language>SFX</Language>
+									<AudioFile>MetalHit 24-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="210031203"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MetalHit 24-RANDOM" ID="{5A27942D-F48E-41BC-90D6-4E3B3685965A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MetalHit 23-RANDOM" ID="{728165DB-18B7-48C7-B0C8-3ACA7027D408}" ShortID="788554235">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MetalHit 23-RANDOM" ID="{D2FB0C64-54AE-4A45-9B63-8DC5C9B24AFA}">
+									<Language>SFX</Language>
+									<AudioFile>MetalHit 23-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="215550662"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MetalHit 23-RANDOM" ID="{D2FB0C64-54AE-4A45-9B63-8DC5C9B24AFA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MetalHit 22-RANDOM" ID="{3F76BE12-95DC-43D0-9531-051EBAF40E0D}" ShortID="493491661">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MetalHit 22-RANDOM" ID="{1510E017-F617-4E9F-AA29-FA85826A80EC}">
+									<Language>SFX</Language>
+									<AudioFile>MetalHit 22-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="481509670"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MetalHit 22-RANDOM" ID="{1510E017-F617-4E9F-AA29-FA85826A80EC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MetalHit 21-RANDOM" ID="{6D5FED63-B0FA-4A56-BCC3-78A685352072}" ShortID="612976890">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MetalHit 21-RANDOM" ID="{1F5C5EAC-0955-4B78-8EFA-F349442BB590}">
+									<Language>SFX</Language>
+									<AudioFile>MetalHit 21-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="91159618"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MetalHit 21-RANDOM" ID="{1F5C5EAC-0955-4B78-8EFA-F349442BB590}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MetalHit 20-RANDOM" ID="{9D36C5BB-267A-4550-A0B0-6636283A3591}" ShortID="718496733">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MetalHit 20-RANDOM" ID="{94579CBA-A14B-4673-900D-9D767F8BA340}">
+									<Language>SFX</Language>
+									<AudioFile>MetalHit 20-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="966266207"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MetalHit 20-RANDOM" ID="{94579CBA-A14B-4673-900D-9D767F8BA340}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MetalHit 19-RANDOM" ID="{553F716E-38D9-4F2F-A1AC-0EBE6CD38DAB}" ShortID="1024384034">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MetalHit 19-RANDOM" ID="{D624C911-808F-4743-A51B-BBBCE2417AB3}">
+									<Language>SFX</Language>
+									<AudioFile>MetalHit 19-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="43453150"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MetalHit 19-RANDOM" ID="{D624C911-808F-4743-A51B-BBBCE2417AB3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MetalHit 18-RANDOM" ID="{6FC21D14-C537-4317-9128-BF6BA77809A8}" ShortID="973309908">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MetalHit 18-RANDOM" ID="{549EE107-4BD4-4072-9FD3-9AD55EAE0021}">
+									<Language>SFX</Language>
+									<AudioFile>MetalHit 18-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="442655402"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MetalHit 18-RANDOM" ID="{549EE107-4BD4-4072-9FD3-9AD55EAE0021}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MetalHit 17-RANDOM" ID="{3E02FEDF-2C23-4D26-8648-3333A4A8E2A6}" ShortID="486664598">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MetalHit 17-RANDOM" ID="{6ACC3863-407D-4F64-80E1-409F64818456}">
+									<Language>SFX</Language>
+									<AudioFile>MetalHit 17-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="798356355"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MetalHit 17-RANDOM" ID="{6ACC3863-407D-4F64-80E1-409F64818456}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Hit Part 1" ID="{34526E31-F766-4211-BDE1-CD31BF99DA15}" ShortID="694488766">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Hit 43-RANDOM" ID="{080403B3-CD9B-47E3-8094-10D0DD4ABA68}" ShortID="136020539">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hit 43-RANDOM" ID="{063D1C00-7C65-4960-BB10-ED6801526255}">
+									<Language>SFX</Language>
+									<AudioFile>Hit 43-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="245250048"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Hit 43-RANDOM" ID="{063D1C00-7C65-4960-BB10-ED6801526255}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Hit 42-RANDOM" ID="{B2A95AB2-D3F4-46EA-89E1-4CE4613A70BB}" ShortID="767375654">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hit 42-RANDOM" ID="{8A6B2074-2EC0-44A2-B676-35B9833EFEF9}">
+									<Language>SFX</Language>
+									<AudioFile>Hit 42-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="505463667"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Hit 42-RANDOM" ID="{8A6B2074-2EC0-44A2-B676-35B9833EFEF9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Hit 41-RANDOM" ID="{14AB727C-A29E-4F1C-8AE1-E79DB2823F7E}" ShortID="437996101">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hit 41-RANDOM" ID="{6ABD2A05-EB1E-4960-85BE-1278DE5DF764}">
+									<Language>SFX</Language>
+									<AudioFile>Hit 41-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1068508385"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Hit 41-RANDOM" ID="{6ABD2A05-EB1E-4960-85BE-1278DE5DF764}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Hit 40-RANDOM" ID="{15576E6F-31BA-4D78-9DE6-93D0E5F25C37}" ShortID="219515709">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hit 40-RANDOM" ID="{263AB818-68FA-4DD1-BFBF-4F9C8C0F5B2B}">
+									<Language>SFX</Language>
+									<AudioFile>Hit 40-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="437585737"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Hit 40-RANDOM" ID="{263AB818-68FA-4DD1-BFBF-4F9C8C0F5B2B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Hit 39-RANDOM" ID="{6C1D3326-300E-4316-A13B-535CD84ED2D3}" ShortID="406611944">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hit 39-RANDOM" ID="{387570DD-C9F9-41A5-B556-ABB51F0DF87E}">
+									<Language>SFX</Language>
+									<AudioFile>Hit 39-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="760478632"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Hit 39-RANDOM" ID="{387570DD-C9F9-41A5-B556-ABB51F0DF87E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Hit 38-RANDOM" ID="{DD61214B-95AE-4C08-AFA2-1D9E5D000B90}" ShortID="774216935">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hit 38-RANDOM" ID="{2D1055C6-BFE9-4877-9045-1E612E6AEAD8}">
+									<Language>SFX</Language>
+									<AudioFile>Hit 38-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="561706018"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Hit 38-RANDOM" ID="{2D1055C6-BFE9-4877-9045-1E612E6AEAD8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Hit 37-RANDOM" ID="{C499170A-F94D-4871-A5BC-6813B7FCD0E3}" ShortID="225972053">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hit 37-RANDOM" ID="{367D2412-6D06-48BB-9AFB-E5D1FB3978AA}">
+									<Language>SFX</Language>
+									<AudioFile>Hit 37-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="914221359"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Hit 37-RANDOM" ID="{367D2412-6D06-48BB-9AFB-E5D1FB3978AA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Hit 36-RANDOM" ID="{4581E275-132B-4AB7-BAB9-B81D0CC3E874}" ShortID="450124628">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hit 36-RANDOM" ID="{03A5B2EA-C4E7-4950-97B1-480B6D0EB802}">
+									<Language>SFX</Language>
+									<AudioFile>Hit 36-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="875930412"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Hit 36-RANDOM" ID="{03A5B2EA-C4E7-4950-97B1-480B6D0EB802}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Hit 35-RANDOM" ID="{A78453BE-1D4C-4ABB-8533-6FCAFD3B41FF}" ShortID="750700528">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hit 35-RANDOM" ID="{7DBED366-4020-4ADA-8237-3CC8CE2C0921}">
+									<Language>SFX</Language>
+									<AudioFile>Hit 35-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="551331426"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Hit 35-RANDOM" ID="{7DBED366-4020-4ADA-8237-3CC8CE2C0921}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Hit 44-RANDOM" ID="{A3BE4E37-99C9-49C2-8AC4-319EF0C915C6}" ShortID="263497131">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hit 44-RANDOM" ID="{45E53E0F-1398-47FC-AC31-00C38B4A5E8B}">
+									<Language>SFX</Language>
+									<AudioFile>Hit 44-RANDOM.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="623666477"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Hit 44-RANDOM" ID="{45E53E0F-1398-47FC-AC31-00C38B4A5E8B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="Hit" ID="{8628522E-16B2-455D-9391-1ABAB6849A1A}" ShortID="940837842">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="2024-06-09_13-25-12 Rando 120 bpm(2)" ID="{FB64498A-03D1-48B7-8206-C589FC2F1A76}">
+							<Language>SFX</Language>
+							<AudioFile>2024-06-09_13-25-12 Rando 120 bpm(2).wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1058516337"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="2024-06-09_13-25-12 Rando 120 bpm(2)" ID="{FB64498A-03D1-48B7-8206-C589FC2F1A76}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Hit2" ID="{7A0FB8EC-40F4-43B4-B1B4-DB9E21327624}" ShortID="426999630">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="2024-06-09_13-31-02 Rando 120 bpm" ID="{A443E365-3264-4698-A970-25006D11F0FA}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.105952470226936"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.535338796936097"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>2024-06-09_13-31-02 Rando 120 bpm.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="101721338"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="2024-06-09_13-31-02 Rando 120 bpm" ID="{A443E365-3264-4698-A970-25006D11F0FA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Folder Name="Enemy" ID="{EC16B501-A8DA-419B-A573-3F6CA21E59F4}" ShortID="881048441">
+					<ChildrenList>
+						<Folder Name="Walking" ID="{F0CB2322-B723-43FC-9ECC-FE5D9F514202}" ShortID="518258368">
+							<ChildrenList>
+								<RandomSequenceContainer Name="WalkingSoundOne" ID="{F72AFF4B-D315-4465-835A-DB8DCE9BA76B}" ShortID="834784954">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Walking 12-9_Jun_15_40" ID="{D2BB4013-7BF3-4ED1-9AB3-A5112A931ED9}" ShortID="576574151">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Walking 12-9_Jun_15_40" ID="{B52989E0-9C30-4525-B567-9635961A7974}">
+													<Language>SFX</Language>
+													<AudioFile>Walking 12-9_Jun_15.40.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="706091047"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Walking 12-9_Jun_15_40" ID="{B52989E0-9C30-4525-B567-9635961A7974}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Walking 13-9_Jun_15_40" ID="{A5DC9198-06D7-4A23-8F63-4250B28C2630}" ShortID="722474470">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Walking 13-9_Jun_15_40" ID="{FE7E20E3-147A-4A01-ADFB-BE889FFD6F89}">
+													<Language>SFX</Language>
+													<AudioFile>Walking 13-9_Jun_15.40.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="178936160"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Walking 13-9_Jun_15_40" ID="{FE7E20E3-147A-4A01-ADFB-BE889FFD6F89}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Walking 14-9_Jun_15_40" ID="{C6B1DDF4-D61E-4B67-9E25-A2BB51AF0407}" ShortID="724205298">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Walking 14-9_Jun_15_40" ID="{B1E9770B-47A4-4FD2-BBFC-8299843C2057}">
+													<Language>SFX</Language>
+													<AudioFile>Walking 14-9_Jun_15.40.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="38069380"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Walking 14-9_Jun_15_40" ID="{B1E9770B-47A4-4FD2-BBFC-8299843C2057}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Walking 2-9_Jun_15_40" ID="{62244231-8ACE-4B61-8CCA-F1FF77AA238B}" ShortID="863761361">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Walking 2-9_Jun_15_40" ID="{52BFBD27-11B8-40CC-B88B-75C456948305}">
+													<Language>SFX</Language>
+													<AudioFile>Walking 2-9_Jun_15.40.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="894243155"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Walking 2-9_Jun_15_40" ID="{52BFBD27-11B8-40CC-B88B-75C456948305}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Walking 3-9_Jun_15_40" ID="{9A34B074-28EB-4BFD-80C2-4ADE706AC9C2}" ShortID="553446038">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Walking 3-9_Jun_15_40" ID="{0104DB3E-20AB-4853-B28F-D7B7A4EFC6E8}">
+													<Language>SFX</Language>
+													<AudioFile>Walking 3-9_Jun_15.40.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="953425312"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Walking 3-9_Jun_15_40" ID="{0104DB3E-20AB-4853-B28F-D7B7A4EFC6E8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Walking 4-9_Jun_15_40" ID="{516EDD98-C9B8-45F9-9F07-589AED178B0C}" ShortID="582678726">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Walking 4-9_Jun_15_40" ID="{A575962D-EE5A-4989-92E8-A7DD57C546AD}">
+													<Language>SFX</Language>
+													<AudioFile>Walking 4-9_Jun_15.40.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="361492288"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Walking 4-9_Jun_15_40" ID="{A575962D-EE5A-4989-92E8-A7DD57C546AD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Walking 5-9_Jun_15_40" ID="{ADA41BCA-9D8F-4D72-8DC7-DE133B84E6D9}" ShortID="311779679">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Walking 5-9_Jun_15_40" ID="{2D151E2A-3B2A-4BE5-9D4D-37D6825B1E65}">
+													<Language>SFX</Language>
+													<AudioFile>Walking 5-9_Jun_15.40.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="375260587"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Walking 5-9_Jun_15_40" ID="{2D151E2A-3B2A-4BE5-9D4D-37D6825B1E65}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Walking 6-9_Jun_15_40" ID="{07C418D8-F1DC-4C45-80B2-4BF3E7BE17A9}" ShortID="499549036">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Walking 6-9_Jun_15_40" ID="{8F1E1A24-46E9-4337-BD49-A202B075C2BE}">
+													<Language>SFX</Language>
+													<AudioFile>Walking 6-9_Jun_15.40.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="125448873"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Walking 6-9_Jun_15_40" ID="{8F1E1A24-46E9-4337-BD49-A202B075C2BE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Walking 8-9_Jun_15_40" ID="{8E138E3B-805E-4DAB-8A80-BD054EB33B90}" ShortID="444987346">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Walking 8-9_Jun_15_40" ID="{46657BA0-7A60-474B-91E0-47182D4D7773}">
+													<Language>SFX</Language>
+													<AudioFile>Walking 8-9_Jun_15.40.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="176730849"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Walking 8-9_Jun_15_40" ID="{46657BA0-7A60-474B-91E0-47182D4D7773}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Walking 10-9_Jun_15_40" ID="{A86E49FD-4DC1-44C9-8EFC-A98009839A79}" ShortID="815204138">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Walking 10-9_Jun_15_40" ID="{53711D86-F47C-42B1-9606-3D8A8A897003}">
+													<Language>SFX</Language>
+													<AudioFile>Walking 10-9_Jun_15.40.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="639938064"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Walking 10-9_Jun_15_40" ID="{53711D86-F47C-42B1-9606-3D8A8A897003}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Walking 11-9_Jun_15_40" ID="{0593C2A2-BCC1-4ABE-B8E2-D6C21453165D}" ShortID="65486143">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Walking 11-9_Jun_15_40" ID="{256865A3-63C6-41AE-97CD-553AC1BC7BCA}">
+													<Language>SFX</Language>
+													<AudioFile>Walking 11-9_Jun_15.40.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="260529802"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Walking 11-9_Jun_15_40" ID="{256865A3-63C6-41AE-97CD-553AC1BC7BCA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="WalkingSoundGrass" ID="{ADD58D73-4F23-49D6-B151-7A950E0D39EE}" ShortID="145685074">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="WalkingGrass 19 GrassHit" ID="{E2386CE9-6559-4C67-AD4B-DA36EBA8E5C8}" ShortID="925190267">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WalkingGrass 19 GrassHit" ID="{4486E6E5-9513-4E60-ACCD-DEC61B3F1032}">
+													<Language>SFX</Language>
+													<AudioFile>WalkingGrass 19 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="55864292"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WalkingGrass 19 GrassHit" ID="{4486E6E5-9513-4E60-ACCD-DEC61B3F1032}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WalkingGrass 20 GrassHit" ID="{296581FA-F94F-4DD8-BBF4-FC8FEAB13D5F}" ShortID="673242531">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WalkingGrass 20 GrassHit" ID="{D2BD7F61-DDA2-4127-8B99-67DDB107390B}">
+													<Language>SFX</Language>
+													<AudioFile>WalkingGrass 20 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="512990256"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WalkingGrass 20 GrassHit" ID="{D2BD7F61-DDA2-4127-8B99-67DDB107390B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WalkingGrass 21 GrassHit" ID="{EF7BDD0D-CC70-4D43-920C-20764CDB772E}" ShortID="557808504">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WalkingGrass 21 GrassHit" ID="{C339FF64-73D6-4F29-B984-F33784EA959B}">
+													<Language>SFX</Language>
+													<AudioFile>WalkingGrass 21 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="693064197"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WalkingGrass 21 GrassHit" ID="{C339FF64-73D6-4F29-B984-F33784EA959B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WalkingGrass 22 GrassHit" ID="{65EA7A73-1CA4-4AC4-AE7B-5E54604BCD44}" ShortID="709894938">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WalkingGrass 22 GrassHit" ID="{BBDEBB12-D295-4ECB-8ED5-709A958C25F4}">
+													<Language>SFX</Language>
+													<AudioFile>WalkingGrass 22 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="306713969"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WalkingGrass 22 GrassHit" ID="{BBDEBB12-D295-4ECB-8ED5-709A958C25F4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WalkingGrass 23 GrassHit" ID="{7B564D86-1DB9-4DEE-B94B-81376FF211EF}" ShortID="541629821">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WalkingGrass 23 GrassHit" ID="{7FDB23FD-76A8-4F25-8968-AD2F76E8E5CB}">
+													<Language>SFX</Language>
+													<AudioFile>WalkingGrass 23 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="830990940"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WalkingGrass 23 GrassHit" ID="{7FDB23FD-76A8-4F25-8968-AD2F76E8E5CB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WalkingGrass 24 GrassHit" ID="{861102AD-E6D9-46BB-BC07-9E5A30B3FEC4}" ShortID="379410911">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WalkingGrass 24 GrassHit" ID="{0FD25CA5-A383-46B2-B1C0-5F60AB1D58F7}">
+													<Language>SFX</Language>
+													<AudioFile>WalkingGrass 24 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="424289547"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WalkingGrass 24 GrassHit" ID="{0FD25CA5-A383-46B2-B1C0-5F60AB1D58F7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WalkingGrass 25 GrassHit" ID="{4EB7CBD3-6275-482D-993C-FAA72794D536}" ShortID="1056430742">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WalkingGrass 25 GrassHit" ID="{9415BAFE-140C-481E-8904-BBEFD6BD44A7}">
+													<Language>SFX</Language>
+													<AudioFile>WalkingGrass 25 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1037969641"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WalkingGrass 25 GrassHit" ID="{9415BAFE-140C-481E-8904-BBEFD6BD44A7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WalkingGrass 26 GrassHit" ID="{3A452F9F-456F-4D9F-9449-533E686D1A94}" ShortID="816418957">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WalkingGrass 26 GrassHit" ID="{FEBCAB95-5874-4E33-90BF-9FDF1329BA27}">
+													<Language>SFX</Language>
+													<AudioFile>WalkingGrass 26 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="689687990"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WalkingGrass 26 GrassHit" ID="{FEBCAB95-5874-4E33-90BF-9FDF1329BA27}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WalkingGrass 27 GrassHit" ID="{89F5B8B4-6308-47B7-83A9-FF6B7506C02C}" ShortID="870779842">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WalkingGrass 27 GrassHit" ID="{2288FC93-08C5-4267-A8DA-3EE8EB7D529D}">
+													<Language>SFX</Language>
+													<AudioFile>WalkingGrass 27 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="608734124"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WalkingGrass 27 GrassHit" ID="{2288FC93-08C5-4267-A8DA-3EE8EB7D529D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WalkingGrass 28 GrassHit" ID="{D0D1CEED-EA95-4D61-953A-D7F3F07594BF}" ShortID="853961306">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WalkingGrass 28 GrassHit" ID="{37B41F6A-1D05-4F33-AAC3-AE898FAE65E3}">
+													<Language>SFX</Language>
+													<AudioFile>WalkingGrass 28 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="374179396"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WalkingGrass 28 GrassHit" ID="{37B41F6A-1D05-4F33-AAC3-AE898FAE65E3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WalkingGrass 29 GrassHit" ID="{53105D86-CBCB-4A2D-9E9E-15E41E809A3F}" ShortID="47558976">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WalkingGrass 29 GrassHit" ID="{C555675F-C187-4ED9-A45C-95A9BEA2A352}">
+													<Language>SFX</Language>
+													<AudioFile>WalkingGrass 29 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="34872186"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WalkingGrass 29 GrassHit" ID="{C555675F-C187-4ED9-A45C-95A9BEA2A352}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WalkingGrass 30 GrassHit" ID="{CCD14212-F716-4955-B89D-6E7A5DDF450D}" ShortID="22061746">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WalkingGrass 30 GrassHit" ID="{40ADE5D0-217B-423F-BA3C-187B53FE1C68}">
+													<Language>SFX</Language>
+													<AudioFile>WalkingGrass 30 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="769364730"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WalkingGrass 30 GrassHit" ID="{40ADE5D0-217B-423F-BA3C-187B53FE1C68}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WalkingGrass 31 GrassHit" ID="{4EC219F9-3065-4801-893D-C2CBBAB97874}" ShortID="550265333">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WalkingGrass 31 GrassHit" ID="{1F9558EB-DE79-4A6D-BE8C-77DC3791AD86}">
+													<Language>SFX</Language>
+													<AudioFile>WalkingGrass 31 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="247715091"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WalkingGrass 31 GrassHit" ID="{1F9558EB-DE79-4A6D-BE8C-77DC3791AD86}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WalkingGrass 32 GrassHit" ID="{12BB8E8B-2861-4AC2-8A61-F1DEDAB9B28F}" ShortID="722255658">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WalkingGrass 32 GrassHit" ID="{CF486FDA-FECC-416B-8ACC-65434177455A}">
+													<Language>SFX</Language>
+													<AudioFile>WalkingGrass 32 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1016878780"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WalkingGrass 32 GrassHit" ID="{CF486FDA-FECC-416B-8ACC-65434177455A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WalkingGrass 33 GrassHit" ID="{33BCD223-D3C5-475D-B7B3-13B7A65E6284}" ShortID="375030311">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WalkingGrass 33 GrassHit" ID="{D2AC6D18-8F65-40C3-8DD9-D00803B3B148}">
+													<Language>SFX</Language>
+													<AudioFile>WalkingGrass 33 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="982542825"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WalkingGrass 33 GrassHit" ID="{D2AC6D18-8F65-40C3-8DD9-D00803B3B148}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WalkingGrass 34 GrassHit" ID="{7C6428CE-DFC4-4332-916F-CB6EF185784C}" ShortID="385356524">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WalkingGrass 34 GrassHit" ID="{4ED2CD85-E104-47C9-A821-6288A3424B0B}">
+													<Language>SFX</Language>
+													<AudioFile>WalkingGrass 34 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="262852702"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WalkingGrass 34 GrassHit" ID="{4ED2CD85-E104-47C9-A821-6288A3424B0B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WalkingGrass 35 GrassHit" ID="{40E1A249-B965-4987-BFF7-5622A59938F7}" ShortID="1037543020">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WalkingGrass 35 GrassHit" ID="{34031211-C7B1-4CC5-9902-F7AF705A7895}">
+													<Language>SFX</Language>
+													<AudioFile>WalkingGrass 35 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="533045900"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WalkingGrass 35 GrassHit" ID="{34031211-C7B1-4CC5-9902-F7AF705A7895}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WalkingGrass 36 GrassHit" ID="{874D7879-ABBE-4A41-81FA-CDAA43994B87}" ShortID="557889035">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WalkingGrass 36 GrassHit" ID="{787665B1-74BA-4202-BAC3-D18BE3FF272A}">
+													<Language>SFX</Language>
+													<AudioFile>WalkingGrass 36 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="846984518"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WalkingGrass 36 GrassHit" ID="{787665B1-74BA-4202-BAC3-D18BE3FF272A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WalkingGrass 37 GrassHit" ID="{432AEB64-6B3B-4A93-9BDE-3D647E7C7EC0}" ShortID="865027506">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WalkingGrass 37 GrassHit" ID="{52CCDEB2-6013-41CA-8A48-0494B68AAB15}">
+													<Language>SFX</Language>
+													<AudioFile>WalkingGrass 37 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="709981680"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WalkingGrass 37 GrassHit" ID="{52CCDEB2-6013-41CA-8A48-0494B68AAB15}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WalkingGrass 38 GrassHit" ID="{7817EF7A-D901-4F4D-B876-1548AF6355C6}" ShortID="1032371286">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WalkingGrass 38 GrassHit" ID="{B744A7F8-1D55-4179-BD4C-1B009AB940C0}">
+													<Language>SFX</Language>
+													<AudioFile>WalkingGrass 38 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="245778423"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WalkingGrass 38 GrassHit" ID="{B744A7F8-1D55-4179-BD4C-1B009AB940C0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<RandomSequenceContainer Name="DestroyEnemy" ID="{BC647245-094F-4006-A914-3656E1DEE6A9}" ShortID="847993306">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Destroy1" ID="{BD21D15B-B7C6-4DD7-8421-572B95F3541F}" ShortID="246684751">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Destroy1" ID="{F31705DF-744A-4354-A2D7-F9DCE11E3E79}">
+											<Language>SFX</Language>
+											<AudioFile>Destroy1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="700328011"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Destroy1" ID="{F31705DF-744A-4354-A2D7-F9DCE11E3E79}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Destroy2" ID="{7288E071-B336-4398-A01E-5E2AA6EE3591}" ShortID="934619742">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Destroy2" ID="{40551B66-6751-4BA9-9A0B-80B0FD0EF635}">
+											<Language>SFX</Language>
+											<AudioFile>Destroy2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="480753632"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Destroy2" ID="{40551B66-6751-4BA9-9A0B-80B0FD0EF635}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Destroy3" ID="{697B9784-5897-4BE2-995B-B0DAAEE443ED}" ShortID="336849721">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Destroy3" ID="{269B7A57-2190-4A48-87B4-7170AC2A096F}">
+											<Language>SFX</Language>
+											<AudioFile>Destroy3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="545210375"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Destroy3" ID="{269B7A57-2190-4A48-87B4-7170AC2A096F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Destroy4" ID="{74FEDF49-1B4A-439D-87C7-587186BE416E}" ShortID="794312905">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Destroy4" ID="{241AFAEC-DE0B-4826-9DC5-71FCF400D887}">
+											<Language>SFX</Language>
+											<AudioFile>Destroy4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="217664670"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Destroy4" ID="{241AFAEC-DE0B-4826-9DC5-71FCF400D887}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Destroyed" ID="{922ED50D-CBBC-4698-9961-A78F639A833A}" ShortID="419196316">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Destroyed" ID="{8A7718AD-2A1E-4041-99EA-32C18069F9C3}">
+											<Language>SFX</Language>
+											<AudioFile>Destroyed.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="917197262"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Destroyed" ID="{8A7718AD-2A1E-4041-99EA-32C18069F9C3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Player" ID="{7352F96A-1789-4EAF-B3BB-995FDD25BCB8}" ShortID="1065578521">
+					<ChildrenList>
+						<Folder Name="Walking" ID="{0D693218-4554-4D0B-A225-EFA0861BE269}" ShortID="719754542">
+							<ChildrenList>
+								<RandomSequenceContainer Name="PlayerWalkingGrass" ID="{A9B6138F-9119-4C11-A85A-6945C4D594C6}" ShortID="403879754">
+									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="PlayerWalkingGrass 19 GrassHit" ID="{3FEA4B13-1987-4985-A0D6-5CC9306F620F}" ShortID="1063518341">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerWalkingGrass 19 GrassHit" ID="{F9233FD0-475F-46A6-B39B-42628F8C36F0}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.00325027085590457"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>PlayerWalkingGrass 19 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="773039608"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerWalkingGrass 19 GrassHit" ID="{F9233FD0-475F-46A6-B39B-42628F8C36F0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerWalkingGrass 20 GrassHit" ID="{69928FE3-A855-47EC-AFB8-D435624B277A}" ShortID="634362145">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerWalkingGrass 20 GrassHit" ID="{71D25487-DBBE-4CDB-A199-4A4E51ACD27C}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerWalkingGrass 20 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="328985746"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerWalkingGrass 20 GrassHit" ID="{71D25487-DBBE-4CDB-A199-4A4E51ACD27C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerWalkingGrass 21 GrassHit" ID="{CCFEA2AD-D0EB-4506-B4A0-32FEA208FD70}" ShortID="196525399">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerWalkingGrass 21 GrassHit" ID="{BDF894B5-4F45-4741-A587-FF6EF4619EBD}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerWalkingGrass 21 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="179541410"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerWalkingGrass 21 GrassHit" ID="{BDF894B5-4F45-4741-A587-FF6EF4619EBD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerWalkingGrass 22 GrassHit" ID="{5F3B0146-C139-4294-A39D-247ADF382FD7}" ShortID="276136248">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerWalkingGrass 22 GrassHit" ID="{13E5B885-7EE7-4A48-8E5E-518A9E4F0F51}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerWalkingGrass 22 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="911173519"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerWalkingGrass 22 GrassHit" ID="{13E5B885-7EE7-4A48-8E5E-518A9E4F0F51}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerWalkingGrass 23 GrassHit" ID="{07877C87-C2AC-4BE6-8574-6183F3278201}" ShortID="865320836">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerWalkingGrass 23 GrassHit" ID="{C34250BB-B563-4711-A842-4D91FD6D3324}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerWalkingGrass 23 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="471760166"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerWalkingGrass 23 GrassHit" ID="{C34250BB-B563-4711-A842-4D91FD6D3324}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerWalkingGrass 24 GrassHit" ID="{A80956A3-6EA7-4FA9-8CA4-1CCA8197A465}" ShortID="921573502">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerWalkingGrass 24 GrassHit" ID="{ED8B6392-4A00-4BAC-8E3D-4D6E1ADD887B}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerWalkingGrass 24 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="731149071"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerWalkingGrass 24 GrassHit" ID="{ED8B6392-4A00-4BAC-8E3D-4D6E1ADD887B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerWalkingGrass 25 GrassHit" ID="{21323DFA-1B5F-40C2-9264-94DC08FD1B16}" ShortID="906577619">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerWalkingGrass 25 GrassHit" ID="{4558F630-DD41-4D48-8343-45B1AC653446}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerWalkingGrass 25 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="343610143"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerWalkingGrass 25 GrassHit" ID="{4558F630-DD41-4D48-8343-45B1AC653446}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerWalkingGrass 26 GrassHit" ID="{FA2329D1-8140-479D-AA33-3E3D04080076}" ShortID="743146094">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerWalkingGrass 26 GrassHit" ID="{BDC0115D-3BB0-4B61-B289-B9DFB7C2A7F4}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerWalkingGrass 26 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="953201254"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerWalkingGrass 26 GrassHit" ID="{BDC0115D-3BB0-4B61-B289-B9DFB7C2A7F4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerWalkingGrass 27 GrassHit" ID="{900D1E58-303E-4DA7-8A96-AC8AC867C820}" ShortID="568620265">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerWalkingGrass 27 GrassHit" ID="{B6166481-D8C4-4224-A739-5924AB54C573}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerWalkingGrass 27 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="581888402"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerWalkingGrass 27 GrassHit" ID="{B6166481-D8C4-4224-A739-5924AB54C573}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerWalkingGrass 28 GrassHit" ID="{9C41B920-B480-49B9-8F9E-6F973EFBABC5}" ShortID="543752925">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerWalkingGrass 28 GrassHit" ID="{8A7E2EE1-9389-41BD-A08E-2C40D64977EB}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerWalkingGrass 28 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="697682049"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerWalkingGrass 28 GrassHit" ID="{8A7E2EE1-9389-41BD-A08E-2C40D64977EB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerWalkingGrass 29 GrassHit" ID="{4C933DDF-9C2F-4E9A-8C1C-7F83FBE30717}" ShortID="392285501">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerWalkingGrass 29 GrassHit" ID="{FDC65844-D7C8-4D5E-B915-9212F968E819}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerWalkingGrass 29 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="964295609"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerWalkingGrass 29 GrassHit" ID="{FDC65844-D7C8-4D5E-B915-9212F968E819}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerWalkingGrass 30 GrassHit" ID="{EFBD29BF-E615-4E65-85A8-BE6C00374EEB}" ShortID="49645925">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerWalkingGrass 30 GrassHit" ID="{29EA63AD-854E-4054-8819-5C6F5D0B5A7B}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerWalkingGrass 30 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="104539329"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerWalkingGrass 30 GrassHit" ID="{29EA63AD-854E-4054-8819-5C6F5D0B5A7B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerWalkingGrass 31 GrassHit" ID="{126600A1-FC2D-47C1-B303-F05EFA05ED4D}" ShortID="820735808">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerWalkingGrass 31 GrassHit" ID="{3C92DF55-03FD-4FD9-B02E-82D44A569759}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerWalkingGrass 31 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1030249328"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerWalkingGrass 31 GrassHit" ID="{3C92DF55-03FD-4FD9-B02E-82D44A569759}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerWalkingGrass 32 GrassHit" ID="{788FD120-AE18-40C1-ABBE-551072BEAFAB}" ShortID="143886449">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerWalkingGrass 32 GrassHit" ID="{8BA4A468-2790-42FC-940B-1594AFC42266}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerWalkingGrass 32 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="945510887"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerWalkingGrass 32 GrassHit" ID="{8BA4A468-2790-42FC-940B-1594AFC42266}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerWalkingGrass 33 GrassHit" ID="{C4D06682-B460-4E04-A178-E307659368CD}" ShortID="191100226">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerWalkingGrass 33 GrassHit" ID="{76CA1B67-6A4E-4571-8732-1A1A74CE8A89}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerWalkingGrass 33 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="70258969"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerWalkingGrass 33 GrassHit" ID="{76CA1B67-6A4E-4571-8732-1A1A74CE8A89}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerWalkingGrass 34 GrassHit" ID="{35521FE6-37E8-4FE6-A4A1-6A95218AB383}" ShortID="288923365">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerWalkingGrass 34 GrassHit" ID="{2FE3C12E-01B9-4A12-A1C2-9E1E31596E38}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerWalkingGrass 34 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="885788340"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerWalkingGrass 34 GrassHit" ID="{2FE3C12E-01B9-4A12-A1C2-9E1E31596E38}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerWalkingGrass 35 GrassHit" ID="{D88CB87A-44EC-43C2-A9F6-6265805E1513}" ShortID="247800641">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerWalkingGrass 35 GrassHit" ID="{CEC8D7A4-0EC0-4720-9D2C-A283EFE2D607}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerWalkingGrass 35 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="935450380"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerWalkingGrass 35 GrassHit" ID="{CEC8D7A4-0EC0-4720-9D2C-A283EFE2D607}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerWalkingGrass 36 GrassHit" ID="{A0943023-85EE-4EC0-A25F-FC388E13FD79}" ShortID="302926651">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerWalkingGrass 36 GrassHit" ID="{EA794155-E6BB-4246-B348-015782931FB2}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerWalkingGrass 36 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="674838887"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerWalkingGrass 36 GrassHit" ID="{EA794155-E6BB-4246-B348-015782931FB2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerWalkingGrass 37 GrassHit" ID="{EE1806C7-7A79-44A8-83E3-74EDFE64F11F}" ShortID="328057580">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerWalkingGrass 37 GrassHit" ID="{2D232532-8B92-4FE6-A06A-31591B68D781}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerWalkingGrass 37 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="757545993"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerWalkingGrass 37 GrassHit" ID="{2D232532-8B92-4FE6-A06A-31591B68D781}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerWalkingGrass 38 GrassHit" ID="{D8CD8A82-0FFC-404A-97A0-FB09922BAFBF}" ShortID="93044360">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerWalkingGrass 38 GrassHit" ID="{147E47CC-8226-4097-879D-5090EC69996D}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerWalkingGrass 38 GrassHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1050135430"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerWalkingGrass 38 GrassHit" ID="{147E47CC-8226-4097-879D-5090EC69996D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="PlayerHit" ID="{BC1D801E-BD07-43C3-8B46-7B9DC6345A16}" ShortID="1039447728">
+							<ChildrenList>
+								<RandomSequenceContainer Name="PlayerHit" ID="{EAC63804-C97D-45E6-9E76-013409EDDD08}" ShortID="1019103138">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="PlayerHit 48-Audio" ID="{169FB209-AAD8-4D8A-94FC-FE82D331DB17}" ShortID="935126859">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerHit 48-Audio" ID="{AE6669F6-B5C6-4B15-8890-5CA5FFE3B8E3}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerHit 48-Audio.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="857942053"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerHit 48-Audio" ID="{AE6669F6-B5C6-4B15-8890-5CA5FFE3B8E3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerHit 49-Audio" ID="{29E81877-B09D-4106-B8A8-19A2FA94F4BC}" ShortID="808394580">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerHit 49-Audio" ID="{6582E8FF-49E7-4264-88E1-F216DF2CBE17}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerHit 49-Audio.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="244363605"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerHit 49-Audio" ID="{6582E8FF-49E7-4264-88E1-F216DF2CBE17}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerHit 50-Audio" ID="{1A6F1E1F-CE2A-4421-AEA9-49AFF53F6F07}" ShortID="705538751">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerHit 50-Audio" ID="{A51929A3-4EA1-461C-845C-F9C74C092429}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerHit 50-Audio.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1052096493"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerHit 50-Audio" ID="{A51929A3-4EA1-461C-845C-F9C74C092429}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerHit 51-Audio" ID="{64F1BFBB-5A01-4838-8D0B-830901BE3699}" ShortID="661749772">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerHit 51-Audio" ID="{9CB3C30E-EEC1-4BED-80B5-AE95B449F550}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerHit 51-Audio.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="178921316"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerHit 51-Audio" ID="{9CB3C30E-EEC1-4BED-80B5-AE95B449F550}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerHit 52-Audio" ID="{34B3B7E9-664C-42FD-8329-70E63F5489F7}" ShortID="1026968022">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerHit 52-Audio" ID="{E936B378-A99B-4400-814A-D0AB746D1AAF}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerHit 52-Audio.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="331865734"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerHit 52-Audio" ID="{E936B378-A99B-4400-814A-D0AB746D1AAF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerHit 53-Audio" ID="{16BB9ED5-94E7-4551-9CFC-3AE54B9B181D}" ShortID="838618067">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerHit 53-Audio" ID="{708AA10E-2955-456D-ADEB-2494E29E306B}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerHit 53-Audio.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="771814435"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerHit 53-Audio" ID="{708AA10E-2955-456D-ADEB-2494E29E306B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerHit 54-Audio" ID="{693B6E53-9B6A-4C18-B841-21345E28DEDB}" ShortID="663245205">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerHit 54-Audio" ID="{40B0BE22-465E-4893-B032-59300FCB15F0}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerHit 54-Audio.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="942115357"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerHit 54-Audio" ID="{40B0BE22-465E-4893-B032-59300FCB15F0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="PlayerShoot" ID="{6DE09AA4-EABB-4EFE-AE3B-9AF697AF09A4}" ShortID="609590532">
+							<ChildrenList>
+								<RandomSequenceContainer Name="Shoot" ID="{F5DE2828-03F1-4C58-883D-827645417520}" ShortID="320827713">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="AttackPluck" ID="{9AD9122E-F012-4ED8-8FCB-7473273F2612}" ShortID="315079328">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AttackPluck" ID="{8BED102F-5B00-49F5-8989-97EED790512F}">
+													<Language>SFX</Language>
+													<AudioFile>AttackPluck.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="644434276"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AttackPluck" ID="{8BED102F-5B00-49F5-8989-97EED790512F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UX" ID="{4FF35526-A115-4DCF-B233-34F27ADBFAEF}" ShortID="418231461">
+					<ChildrenList>
+						<Folder Name="HealItem" ID="{8E2D099A-4578-4C84-BA44-4B282156DE72}" ShortID="232461991">
+							<ChildrenList>
+								<Sound Name="PickupHealItem" ID="{DAADFF14-FA2A-4485-8F27-1724FF278C73}" ShortID="698009728">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Pickup" ID="{13758C91-CB01-4C61-AF5A-2D2C489B574C}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.2"/>
+												<Property Name="FadeOutShape" Type="int16" Value="4"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Pickup.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="412773908"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Pickup" ID="{13758C91-CB01-4C61-AF5A-2D2C489B574C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="StageRestored" ID="{D7407942-3CEE-4C37-A195-CE8ADDCFEF22}" ShortID="753952">
+							<ChildrenList>
+								<Sound Name="StageRestoredSound" ID="{BF44ECA0-D052-4095-9CF0-69FCC05563FF}" ShortID="792449059">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LevelCleared" ID="{91B96664-E8F2-4B86-9D63-CD56C4EF3760}">
+											<Language>SFX</Language>
+											<AudioFile>LevelCleared.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="707114209"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LevelCleared" ID="{91B96664-E8F2-4B86-9D63-CD56C4EF3760}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

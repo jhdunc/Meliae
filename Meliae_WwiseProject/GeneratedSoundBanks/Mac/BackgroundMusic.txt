@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3827058668	StartMusic			\BackgroundMusicEventWorkUnit\StartMusic	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2166867310	BackgroundMusicStateGroup			\Default Work Unit\BackgroundMusicStateGroup	
+
+State	ID	Name	State Group			Notes
+	565721261	FirstStage	BackgroundMusicStateGroup			
+	748895195	None	BackgroundMusicStateGroup			
+	2607556080	Menu	BackgroundMusicStateGroup			
+	2693282833	SecondStage	BackgroundMusicStateGroup			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	8433341	Alarm	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\Alarm_818F3B66.wem		\Actor-Mixer Hierarchy\BackgroundMusicWorkUnit\HighEnergy\Alarm		6158060
+	316178426	SoftKeysMinor	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\SoftKeysMinor_FBC78EF0.wem		\Actor-Mixer Hierarchy\BackgroundMusicWorkUnit\SoftKeysMinor		6158060
+	328183945	1st Violins	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\1st Violins_818F3B66.wem		\Actor-Mixer Hierarchy\BackgroundMusicWorkUnit\HighEnergy\1st Violins		6158060
+	522731968	Celli	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\Celli_818F3B66.wem		\Actor-Mixer Hierarchy\BackgroundMusicWorkUnit\HighEnergy\Celli		6158060
+	617701566	FirstStage	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\Intro Stage_F54517FD.wem		\Actor-Mixer Hierarchy\BackgroundMusicWorkUnit\FirstStage		12316072
+	777174210	RegularEnemyStage	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\RegularEnemyStage_FBC78EF0.wem		\Actor-Mixer Hierarchy\BackgroundMusicWorkUnit\RegularEnemyStage		6158060
+	848631786	Basses	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\Basses_818F3B66.wem		\Actor-Mixer Hierarchy\BackgroundMusicWorkUnit\HighEnergy\Basses		6158060
+	957107462	Background Drone	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\Background Drone_818F3B66.wem		\Actor-Mixer Hierarchy\BackgroundMusicWorkUnit\HighEnergy\Background Drone		6158060
+

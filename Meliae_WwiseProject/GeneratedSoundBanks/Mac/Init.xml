@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{77F934B8-7908-389C-395A-C7D2D4AB2339}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{2CC404C0-D949-E997-644D-174691368510}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -19,7 +19,17 @@
 				<GameParameter Id="1843561328" Name="MainVolume" ObjectPath="\Game Parameters\Default Work Unit\MainVolume" GUID="{7887A6A7-6EDD-4631-984F-DAC025289B79}"/>
 				<GameParameter Id="4118653392" Name="ForestHealth" ObjectPath="\Game Parameters\Default Work Unit\ForestHealth" GUID="{3924D219-0678-4A12-BB74-B5A4411FAC49}"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="2166867310" Name="BackgroundMusicStateGroup" ObjectPath="\States\Default Work Unit\BackgroundMusicStateGroup" GUID="{4C40F3D8-5C46-4FE6-97AC-F532885085F5}">
+					<States>
+						<State Id="565721261" Name="FirstStage" ObjectPath="\States\Default Work Unit\BackgroundMusicStateGroup\FirstStage" GUID="{80A8229F-E6E1-44F7-B2C6-84371ACEE598}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\BackgroundMusicStateGroup\None" GUID="{4AFBDA2D-F04F-4A4C-96F8-A3D25EA9FC72}"/>
+						<State Id="2607556080" Name="Menu" ObjectPath="\States\Default Work Unit\BackgroundMusicStateGroup\Menu" GUID="{4A5444FB-9486-43D4-AED3-370BD493FA45}"/>
+						<State Id="2693282833" Name="SecondStage" ObjectPath="\States\Default Work Unit\BackgroundMusicStateGroup\SecondStage" GUID="{CB0CC6D4-ED80-4642-B4D6-C1ED83914477}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4F24C3C6-0CBE-7CC8-37AF-D8DA3F4A4496}</FileHash>
+	<FileHash>{464719C8-079B-2B09-A716-0518A2F288CF}</FileHash>
 </SoundBanksInfo>
