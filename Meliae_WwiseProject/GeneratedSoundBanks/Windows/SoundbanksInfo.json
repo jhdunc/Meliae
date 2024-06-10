@@ -206,7 +206,7 @@
     "Type": "User",
     "GUID": "{73FF465C-2E5D-4F75-BFD6-4F737D16B83A}",
     "Language": "SFX",
-    "Hash": "{43D84FDE-5B29-D634-4EBF-AF096D21BF6C}",
+    "Hash": "{ECF56C6E-B9D0-DB8C-4DD4-373D4AB9ED21}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -281,7 +281,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "2024-06-09_13-31-02 Rando 120 bpm.wav",
-      "CachePath": "SFX/2024-06-09_13-31-02 Rando 120 bpm_8C0F3470.wem"
+      "CachePath": "SFX/2024-06-09_13-31-02 Rando 120 bpm_B67932D9.wem"
      },
      {
       "Id": "104539329",
@@ -386,6 +386,14 @@
       "Location": "Memory",
       "ShortName": "MetalHit 23-RANDOM.wav",
       "CachePath": "SFX/MetalHit 23-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "217664670",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Destroy4.wav",
+      "CachePath": "SFX/Destroy4_818F3B66.wem"
      },
      {
       "Id": "242355400",
@@ -572,6 +580,14 @@
       "CachePath": "SFX/MetalHit 12-RANDOM_818F3B66.wem"
      },
      {
+      "Id": "480753632",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Destroy2.wav",
+      "CachePath": "SFX/Destroy2_818F3B66.wem"
+     },
+     {
       "Id": "481509670",
       "Language": "SFX",
       "Streaming": "false",
@@ -602,6 +618,14 @@
       "Location": "Memory",
       "ShortName": "WalkingGrass 35 GrassHit.wav",
       "CachePath": "SFX/WalkingGrass 35 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "545210375",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Destroy3.wav",
+      "CachePath": "SFX/Destroy3_818F3B66.wem"
      },
      {
       "Id": "551331426",
@@ -700,12 +724,28 @@
       "CachePath": "SFX/PlayerWalkingGrass 28 GrassHit_818F3B66.wem"
      },
      {
+      "Id": "700328011",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Destroy1.wav",
+      "CachePath": "SFX/Destroy1_818F3B66.wem"
+     },
+     {
       "Id": "706091047",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Walking 12-9_Jun_15.40.wav",
       "CachePath": "SFX/Walking 12-9_Jun_15.40_818F3B66.wem"
+     },
+     {
+      "Id": "707114209",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LevelCleared.wav",
+      "CachePath": "SFX/LevelCleared_818F3B66.wem"
      },
      {
       "Id": "709981680",
@@ -761,7 +801,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "PlayerWalkingGrass 19 GrassHit.wav",
-      "CachePath": "SFX/PlayerWalkingGrass 19 GrassHit_A70FAE71.wem"
+      "CachePath": "SFX/PlayerWalkingGrass 19 GrassHit_58761847.wem"
      },
      {
       "Id": "790771010",
@@ -858,6 +898,14 @@
       "Location": "Memory",
       "ShortName": "Hit 37-RANDOM.wav",
       "CachePath": "SFX/Hit 37-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "917197262",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Destroyed.wav",
+      "CachePath": "SFX/Destroyed_818F3B66.wem"
      },
      {
       "Id": "935450380",
@@ -992,6 +1040,32 @@
       "MediaRefs": [
        {
         "Id": "289791171"
+       }
+      ]
+     },
+     {
+      "Id": "2785366684",
+      "Name": "EnemyDestroyed",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\EnemyDestroyed",
+      "GUID": "{E6101DB3-37B5-4446-87B5-E4D44CFC0875}",
+      "DurationType": "OneShot",
+      "DurationMin": "1",
+      "DurationMax": "1",
+      "MediaRefs": [
+       {
+        "Id": "217664670"
+       },
+       {
+        "Id": "480753632"
+       },
+       {
+        "Id": "545210375"
+       },
+       {
+        "Id": "700328011"
+       },
+       {
+        "Id": "917197262"
        }
       ]
      },
@@ -1321,6 +1395,20 @@
       ]
      },
      {
+      "Id": "1251387103",
+      "Name": "StageRestored",
+      "ObjectPath": "\\Events\\Default Work Unit\\UX\\StageRestored",
+      "GUID": "{FF189B06-05EF-49B8-A71C-175687DEA3B5}",
+      "DurationType": "OneShot",
+      "DurationMin": "1",
+      "DurationMax": "1",
+      "MediaRefs": [
+       {
+        "Id": "707114209"
+       }
+      ]
+     },
+     {
       "Id": "340271938",
       "Name": "Walking",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Walking",
@@ -1441,6 +1529,6 @@
     ]
    }
   ],
-  "FileHash": "{A342A12A-FE24-F343-291B-D937D086B60F}"
+  "FileHash": "{286224B2-0AEA-6C61-BCDD-F41CDC89F106}"
  }
 }

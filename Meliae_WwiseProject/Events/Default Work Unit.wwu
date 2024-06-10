@@ -180,6 +180,32 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="EnemyDestroyed" ID="{E6101DB3-37B5-4446-87B5-E4D44CFC0875}">
+							<ChildrenList>
+								<Action Name="" ID="{8C0B1D11-F084-401C-895F-6F7EE99EA9BB}" ShortID="992999163">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DestroyEnemy" ID="{BC647245-094F-4006-A914-3656E1DEE6A9}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UX" ID="{F32BAA6B-622E-4422-A9A4-46106637842D}" ShortID="731380421">
+					<ChildrenList>
+						<Event Name="StageRestored" ID="{FF189B06-05EF-49B8-A71C-175687DEA3B5}">
+							<ChildrenList>
+								<Action Name="" ID="{CD88DBAC-1EFA-4E5B-BE73-EE9974E8F6A1}" ShortID="489368433">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="StageRestoredSound" ID="{BF44ECA0-D052-4095-9CF0-69FCC05563FF}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

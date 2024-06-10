@@ -86,7 +86,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4056684167" Type="User" GUID="{73FF465C-2E5D-4F75-BFD6-4F737D16B83A}" Language="SFX" Hash="{43D84FDE-5B29-D634-4EBF-AF096D21BF6C}">
+		<SoundBank Id="4056684167" Type="User" GUID="{73FF465C-2E5D-4F75-BFD6-4F737D16B83A}" Language="SFX" Hash="{ECF56C6E-B9D0-DB8C-4DD4-373D4AB9ED21}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -125,7 +125,7 @@
 				</File>
 				<File Id="101721338" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>2024-06-09_13-31-02 Rando 120 bpm.wav</ShortName>
-					<CachePath>SFX/2024-06-09_13-31-02 Rando 120 bpm_8C0F3470.wem</CachePath>
+					<CachePath>SFX/2024-06-09_13-31-02 Rando 120 bpm_B67932D9.wem</CachePath>
 				</File>
 				<File Id="104539329" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PlayerWalkingGrass 30 GrassHit.wav</ShortName>
@@ -178,6 +178,10 @@
 				<File Id="215550662" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MetalHit 23-RANDOM.wav</ShortName>
 					<CachePath>SFX/MetalHit 23-RANDOM_818F3B66.wem</CachePath>
+				</File>
+				<File Id="217664670" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Destroy4.wav</ShortName>
+					<CachePath>SFX/Destroy4_818F3B66.wem</CachePath>
 				</File>
 				<File Id="242355400" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MetalHit 25-RANDOM.wav</ShortName>
@@ -271,6 +275,10 @@
 					<ShortName>MetalHit 12-RANDOM.wav</ShortName>
 					<CachePath>SFX/MetalHit 12-RANDOM_818F3B66.wem</CachePath>
 				</File>
+				<File Id="480753632" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Destroy2.wav</ShortName>
+					<CachePath>SFX/Destroy2_818F3B66.wem</CachePath>
+				</File>
 				<File Id="481509670" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MetalHit 22-RANDOM.wav</ShortName>
 					<CachePath>SFX/MetalHit 22-RANDOM_818F3B66.wem</CachePath>
@@ -286,6 +294,10 @@
 				<File Id="533045900" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WalkingGrass 35 GrassHit.wav</ShortName>
 					<CachePath>SFX/WalkingGrass 35 GrassHit_818F3B66.wem</CachePath>
+				</File>
+				<File Id="545210375" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Destroy3.wav</ShortName>
+					<CachePath>SFX/Destroy3_818F3B66.wem</CachePath>
 				</File>
 				<File Id="551331426" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Hit 35-RANDOM.wav</ShortName>
@@ -335,9 +347,17 @@
 					<ShortName>PlayerWalkingGrass 28 GrassHit.wav</ShortName>
 					<CachePath>SFX/PlayerWalkingGrass 28 GrassHit_818F3B66.wem</CachePath>
 				</File>
+				<File Id="700328011" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Destroy1.wav</ShortName>
+					<CachePath>SFX/Destroy1_818F3B66.wem</CachePath>
+				</File>
 				<File Id="706091047" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Walking 12-9_Jun_15.40.wav</ShortName>
 					<CachePath>SFX/Walking 12-9_Jun_15.40_818F3B66.wem</CachePath>
+				</File>
+				<File Id="707114209" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LevelCleared.wav</ShortName>
+					<CachePath>SFX/LevelCleared_818F3B66.wem</CachePath>
 				</File>
 				<File Id="709981680" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WalkingGrass 37 GrassHit.wav</ShortName>
@@ -365,7 +385,7 @@
 				</File>
 				<File Id="773039608" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PlayerWalkingGrass 19 GrassHit.wav</ShortName>
-					<CachePath>SFX/PlayerWalkingGrass 19 GrassHit_A70FAE71.wem</CachePath>
+					<CachePath>SFX/PlayerWalkingGrass 19 GrassHit_58761847.wem</CachePath>
 				</File>
 				<File Id="790771010" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MetalHit 13-RANDOM.wav</ShortName>
@@ -414,6 +434,10 @@
 				<File Id="914221359" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Hit 37-RANDOM.wav</ShortName>
 					<CachePath>SFX/Hit 37-RANDOM_818F3B66.wem</CachePath>
+				</File>
+				<File Id="917197262" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Destroyed.wav</ShortName>
+					<CachePath>SFX/Destroyed_818F3B66.wem</CachePath>
 				</File>
 				<File Id="935450380" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PlayerWalkingGrass 35 GrassHit.wav</ShortName>
@@ -480,6 +504,15 @@
 				<Event Id="1942692385" Name="Dash" ObjectPath="\Events\Default Work Unit\Player\Dash" GUID="{2424C118-B787-471E-8AD7-496C6A022D8E}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
 					<MediaRefs>
 						<MediaRef Id="289791171"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2785366684" Name="EnemyDestroyed" ObjectPath="\Events\Default Work Unit\Enemy\EnemyDestroyed" GUID="{E6101DB3-37B5-4446-87B5-E4D44CFC0875}" DurationType="OneShot" DurationMin="1" DurationMax="1">
+					<MediaRefs>
+						<MediaRef Id="217664670"/>
+						<MediaRef Id="480753632"/>
+						<MediaRef Id="545210375"/>
+						<MediaRef Id="700328011"/>
+						<MediaRef Id="917197262"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1365126062" Name="GrassWalking" ObjectPath="\Events\Default Work Unit\Player\Walking\Grass\GrassWalking" GUID="{703983FA-6CC1-4B1C-B199-6FB69F7F867E}" DurationType="Infinite">
@@ -589,6 +622,11 @@
 						<MediaRef Id="644434276"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1251387103" Name="StageRestored" ObjectPath="\Events\Default Work Unit\UX\StageRestored" GUID="{FF189B06-05EF-49B8-A71C-175687DEA3B5}" DurationType="OneShot" DurationMin="1" DurationMax="1">
+					<MediaRefs>
+						<MediaRef Id="707114209"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="340271938" Name="Walking" ObjectPath="\Events\Default Work Unit\Enemy\Walking" GUID="{F179C591-7C60-4CA5-90DA-11A6BB3FA246}" DurationType="OneShot" DurationMin="1" DurationMax="1">
 					<MediaRefs>
 						<MediaRef Id="34872186"/>
@@ -631,5 +669,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8E9060DA-41D4-4562-4B81-68875E9F2B10}</FileHash>
+	<FileHash>{CB594C2C-B944-44F9-8A95-64BE56E98B02}</FileHash>
 </SoundBanksInfo>
