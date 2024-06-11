@@ -191,6 +191,57 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Folder Name="Heavy" ID="{D61CC267-A82E-4796-9411-2135A8AF02C1}" ShortID="399804695">
+							<ChildrenList>
+								<Event Name="HeavyStomping" ID="{B789B7FB-7435-4D63-B829-2087933272C6}">
+									<ChildrenList>
+										<Action Name="" ID="{A52CFD19-BFBA-44B1-A43B-E1604D2F37BA}" ShortID="540082018">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="HeavyStompMetal" ID="{AAE2BD5A-91B1-4C55-B0AE-DC3FEBD75572}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{51124C10-5F6E-4AC5-889E-E62C0AE2B2DE}" ShortID="191991814">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="WalkingSoundGrass" ID="{ADD58D73-4F23-49D6-B151-7A950E0D39EE}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="HeavyShooting" ID="{3EB424E8-B788-496E-91C0-54DBA3773628}">
+									<ChildrenList>
+										<Action Name="" ID="{32C6AAE9-713D-4858-85CB-BD54394FE0B7}" ShortID="96291479">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="HeavyShoot" ID="{A4FD21F9-CC61-4D58-892C-788DDECFCE28}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{6628905A-E6A0-4463-AA2F-456F40F6BCBD}" ShortID="287158994">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="HeavyShootThomp" ID="{E80D9191-C598-47E0-ADB7-8B6F3DE52473}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="HeavyLand" ID="{4415B29B-9407-4BA5-B4EB-95335244010E}">
+									<ChildrenList>
+										<Action Name="" ID="{8F10ACDE-31EB-407D-9ECA-1C8B6185AD20}" ShortID="1048035459">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="HeavyLand" ID="{7ACB6270-1B35-47F0-A678-E5A269B29E2C}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UX" ID="{F32BAA6B-622E-4422-A9A4-46106637842D}" ShortID="731380421">
