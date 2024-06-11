@@ -15,7 +15,8 @@
 						<Property Name="Max" Type="Real64" Value="1"/>
 					</PropertyList>
 				</GameParameter>
-				<GameParameter Name="MainVolume" ID="{7887A6A7-6EDD-4631-984F-DAC025289B79}"/>
+				<GameParameter Name="SoundEffectsVolume" ID="{7887A6A7-6EDD-4631-984F-DAC025289B79}"/>
+				<GameParameter Name="MusicVolume" ID="{EBB8387B-AB67-437D-986D-CEA7C7970198}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

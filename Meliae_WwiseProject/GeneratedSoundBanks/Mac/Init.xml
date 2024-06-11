@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{2CC404C0-D949-E997-644D-174691368510}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{C54097CD-4BA4-A931-185D-31904381CC37}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -12,11 +12,13 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
-				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Id="3898083304" Name="SoundEffects" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SoundEffects" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Id="3991942870" Name="Music" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Music" GUID="{9D6BFBB2-AC26-4A54-82E6-96297BF4B55E}"/>
 			</Busses>
 			<GameParameters>
 				<GameParameter Id="669816173" Name="EnemyHealth" ObjectPath="\Game Parameters\Default Work Unit\EnemyHealth" GUID="{73308350-D2C8-4AA7-B609-5CFFF9B0FE7E}"/>
-				<GameParameter Id="1843561328" Name="MainVolume" ObjectPath="\Game Parameters\Default Work Unit\MainVolume" GUID="{7887A6A7-6EDD-4631-984F-DAC025289B79}"/>
+				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume" GUID="{EBB8387B-AB67-437D-986D-CEA7C7970198}"/>
+				<GameParameter Id="3402092638" Name="SoundEffectsVolume" ObjectPath="\Game Parameters\Default Work Unit\SoundEffectsVolume" GUID="{7887A6A7-6EDD-4631-984F-DAC025289B79}"/>
 				<GameParameter Id="4118653392" Name="ForestHealth" ObjectPath="\Game Parameters\Default Work Unit\ForestHealth" GUID="{3924D219-0678-4A12-BB74-B5A4411FAC49}"/>
 			</GameParameters>
 			<StateGroups>
@@ -31,5 +33,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{464719C8-079B-2B09-A716-0518A2F288CF}</FileHash>
+	<FileHash>{7191A556-C60F-FF70-D347-DF3D4906FBF8}</FileHash>
 </SoundBanksInfo>

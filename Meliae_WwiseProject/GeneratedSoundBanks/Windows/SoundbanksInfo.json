@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{48E72166-C9F4-4E47-B2EC-5AC63D0B1074}",
     "Language": "SFX",
-    "Hash": "{AD5FF216-128D-1FB8-3153-3695C6DE33C5}",
+    "Hash": "{56F6CEBE-9519-59F2-EF4D-7672B91DB19C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\BackgroundMusic",
     "ShortName": "BackgroundMusic",
     "Path": "BackgroundMusic.bnk",
@@ -114,7 +114,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{5E38FEFC-0897-9673-CA64-5B51EF5255FA}",
+    "Hash": "{D2B59FFE-F246-D2B6-1CF4-C211E3BDD2AE}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -140,10 +140,16 @@
     },
     "Busses": [
      {
-      "Id": "3803692087",
-      "Name": "Master Audio Bus",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "Id": "3898083304",
+      "Name": "SoundEffects",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\SoundEffects",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Music",
+      "GUID": "{9D6BFBB2-AC26-4A54-82E6-96297BF4B55E}"
      }
     ],
     "GameParameters": [
@@ -154,9 +160,15 @@
       "GUID": "{73308350-D2C8-4AA7-B609-5CFFF9B0FE7E}"
      },
      {
-      "Id": "1843561328",
-      "Name": "MainVolume",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MainVolume",
+      "Id": "2346531308",
+      "Name": "MusicVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MusicVolume",
+      "GUID": "{EBB8387B-AB67-437D-986D-CEA7C7970198}"
+     },
+     {
+      "Id": "3402092638",
+      "Name": "SoundEffectsVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\SoundEffectsVolume",
       "GUID": "{7887A6A7-6EDD-4631-984F-DAC025289B79}"
      },
      {
@@ -206,7 +218,7 @@
     "Type": "User",
     "GUID": "{73FF465C-2E5D-4F75-BFD6-4F737D16B83A}",
     "Language": "SFX",
-    "Hash": "{11AB8E94-C08C-DD32-F0AD-BC025B41B798}",
+    "Hash": "{61C3BFAB-0FBF-59E8-E419-7CCA7DD8D19F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -2070,6 +2082,6 @@
     ]
    }
   ],
-  "FileHash": "{684B093D-C355-59BA-FFA9-AAD0EAF5A61C}"
+  "FileHash": "{3956A1A7-A9AF-B20B-B5D7-33D37148C837}"
  }
 }

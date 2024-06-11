@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="626769978" Type="User" GUID="{48E72166-C9F4-4E47-B2EC-5AC63D0B1074}" Language="SFX" Hash="{AD5FF216-128D-1FB8-3153-3695C6DE33C5}">
+		<SoundBank Id="626769978" Type="User" GUID="{48E72166-C9F4-4E47-B2EC-5AC63D0B1074}" Language="SFX" Hash="{56F6CEBE-9519-59F2-EF4D-7672B91DB19C}">
 			<ObjectPath>\SoundBanks\Default Work Unit\BackgroundMusic</ObjectPath>
 			<ShortName>BackgroundMusic</ShortName>
 			<Path>BackgroundMusic.bnk</Path>
@@ -57,7 +57,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{5E38FEFC-0897-9673-CA64-5B51EF5255FA}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{D2B59FFE-F246-D2B6-1CF4-C211E3BDD2AE}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -68,11 +68,13 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
-				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Id="3898083304" Name="SoundEffects" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SoundEffects" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Id="3991942870" Name="Music" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Music" GUID="{9D6BFBB2-AC26-4A54-82E6-96297BF4B55E}"/>
 			</Busses>
 			<GameParameters>
 				<GameParameter Id="669816173" Name="EnemyHealth" ObjectPath="\Game Parameters\Default Work Unit\EnemyHealth" GUID="{73308350-D2C8-4AA7-B609-5CFFF9B0FE7E}"/>
-				<GameParameter Id="1843561328" Name="MainVolume" ObjectPath="\Game Parameters\Default Work Unit\MainVolume" GUID="{7887A6A7-6EDD-4631-984F-DAC025289B79}"/>
+				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume" GUID="{EBB8387B-AB67-437D-986D-CEA7C7970198}"/>
+				<GameParameter Id="3402092638" Name="SoundEffectsVolume" ObjectPath="\Game Parameters\Default Work Unit\SoundEffectsVolume" GUID="{7887A6A7-6EDD-4631-984F-DAC025289B79}"/>
 				<GameParameter Id="4118653392" Name="ForestHealth" ObjectPath="\Game Parameters\Default Work Unit\ForestHealth" GUID="{3924D219-0678-4A12-BB74-B5A4411FAC49}"/>
 			</GameParameters>
 			<StateGroups>
@@ -86,7 +88,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4056684167" Type="User" GUID="{73FF465C-2E5D-4F75-BFD6-4F737D16B83A}" Language="SFX" Hash="{11AB8E94-C08C-DD32-F0AD-BC025B41B798}">
+		<SoundBank Id="4056684167" Type="User" GUID="{73FF465C-2E5D-4F75-BFD6-4F737D16B83A}" Language="SFX" Hash="{61C3BFAB-0FBF-59E8-E419-7CCA7DD8D19F}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -904,5 +906,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CDCC44A2-E563-8E27-5AA1-0E53667B9879}</FileHash>
+	<FileHash>{D9A32B2F-1957-DB54-68FC-CC52DD8970E0}</FileHash>
 </SoundBanksInfo>
