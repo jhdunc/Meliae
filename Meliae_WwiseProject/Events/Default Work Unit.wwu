@@ -211,6 +211,24 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="HeavyShooting" ID="{3EB424E8-B788-496E-91C0-54DBA3773628}">
+									<ChildrenList>
+										<Action Name="" ID="{32C6AAE9-713D-4858-85CB-BD54394FE0B7}" ShortID="96291479">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="HeavyShoot" ID="{A4FD21F9-CC61-4D58-892C-788DDECFCE28}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{6628905A-E6A0-4463-AA2F-456F40F6BCBD}" ShortID="287158994">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="HeavyShootThomp" ID="{E80D9191-C598-47E0-ADB7-8B6F3DE52473}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

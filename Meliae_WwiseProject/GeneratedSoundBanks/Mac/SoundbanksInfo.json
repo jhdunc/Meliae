@@ -206,7 +206,7 @@
     "Type": "User",
     "GUID": "{73FF465C-2E5D-4F75-BFD6-4F737D16B83A}",
     "Language": "SFX",
-    "Hash": "{E4E5EDCD-27A6-AB20-B25F-1A9FF20118E0}",
+    "Hash": "{5938F011-F0F9-A157-4539-45DC83B2EC34}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -266,6 +266,22 @@
       "Location": "Memory",
       "ShortName": "PlayerWalkingGrass 33 GrassHit.wav",
       "CachePath": "SFX/PlayerWalkingGrass 33 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "74963988",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyShoot 47-Audio.wav",
+      "CachePath": "SFX/HeavyShoot 47-Audio_818F3B66.wem"
+     },
+     {
+      "Id": "76739229",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyShoot 46-Audio.wav",
+      "CachePath": "SFX/HeavyShoot 46-Audio_818F3B66.wem"
      },
      {
       "Id": "87955643",
@@ -492,6 +508,14 @@
       "CachePath": "SFX/MetalHit 6-RANDOM_818F3B66.wem"
      },
      {
+      "Id": "315381624",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyShoot 45-Audio.wav",
+      "CachePath": "SFX/HeavyShoot 45-Audio_818F3B66.wem"
+     },
+     {
       "Id": "328985746",
       "Language": "SFX",
       "Streaming": "false",
@@ -514,6 +538,14 @@
       "Location": "Memory",
       "ShortName": "HeavyStompMetal 17-9_Jun_15.40.wav",
       "CachePath": "SFX/HeavyStompMetal 17-9_Jun_15.40_818F3B66.wem"
+     },
+     {
+      "Id": "339669718",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyShoot 50-Audio.wav",
+      "CachePath": "SFX/HeavyShoot 50-Audio_818F3B66.wem"
      },
      {
       "Id": "339955164",
@@ -650,6 +682,14 @@
       "Location": "Memory",
       "ShortName": "WalkingGrass 20 GrassHit.wav",
       "CachePath": "SFX/WalkingGrass 20 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "517058605",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyShoot 48-Audio.wav",
+      "CachePath": "SFX/HeavyShoot 48-Audio_818F3B66.wem"
      },
      {
       "Id": "533045900",
@@ -892,6 +932,14 @@
       "CachePath": "SFX/A#2 Beep_818F3B66.wem"
      },
      {
+      "Id": "824327681",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyShootThomp.wav",
+      "CachePath": "SFX/HeavyShootThomp_818F3B66.wem"
+     },
+     {
       "Id": "830990940",
       "Language": "SFX",
       "Streaming": "false",
@@ -1050,6 +1098,14 @@
       "Location": "Memory",
       "ShortName": "MetalHit 20-RANDOM.wav",
       "CachePath": "SFX/MetalHit 20-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "970363778",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyShoot 49-Audio.wav",
+      "CachePath": "SFX/HeavyShoot 49-Audio_818F3B66.wem"
      },
      {
       "Id": "982542825",
@@ -1239,6 +1295,38 @@
        },
        {
         "Id": "1050135430"
+       }
+      ]
+     },
+     {
+      "Id": "1813598597",
+      "Name": "HeavyShooting",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Heavy\\HeavyShooting",
+      "GUID": "{3EB424E8-B788-496E-91C0-54DBA3773628}",
+      "DurationType": "OneShot",
+      "DurationMin": "1",
+      "DurationMax": "1",
+      "MediaRefs": [
+       {
+        "Id": "74963988"
+       },
+       {
+        "Id": "76739229"
+       },
+       {
+        "Id": "315381624"
+       },
+       {
+        "Id": "339669718"
+       },
+       {
+        "Id": "517058605"
+       },
+       {
+        "Id": "824327681"
+       },
+       {
+        "Id": "970363778"
        }
       ]
      },
@@ -1743,6 +1831,6 @@
     ]
    }
   ],
-  "FileHash": "{E4901033-6FF6-DBF3-A057-8AE9A078FC74}"
+  "FileHash": "{B50A1B52-BA71-5B2A-C68B-5A6CCA83F742}"
  }
 }

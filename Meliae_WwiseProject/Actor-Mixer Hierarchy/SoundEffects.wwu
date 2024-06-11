@@ -1918,6 +1918,190 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<Folder Name="HeavyShooting" ID="{E6B09CBA-79DF-4926-BE11-E05439161DDF}" ShortID="111833208">
+									<ChildrenList>
+										<RandomSequenceContainer Name="HeavyShoot" ID="{A4FD21F9-CC61-4D58-892C-788DDECFCE28}" ShortID="4386100">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="HeavyShoot 45-Audio" ID="{92A956F7-1486-4414-9D99-AC307D7BA447}" ShortID="1026707290">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="HeavyShoot 45-Audio" ID="{A0A05B6B-D635-4AA7-A46D-457854248B03}">
+															<Language>SFX</Language>
+															<AudioFile>HeavyShoot 45-Audio.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="315381624"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="HeavyShoot 45-Audio" ID="{A0A05B6B-D635-4AA7-A46D-457854248B03}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="HeavyShoot 46-Audio" ID="{79C8FDCC-A8E8-4F16-9D42-6A4EE8CF4719}" ShortID="280398536">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="HeavyShoot 46-Audio" ID="{EDF9317D-D0F9-4A2B-857C-4F6DD31B3D26}">
+															<Language>SFX</Language>
+															<AudioFile>HeavyShoot 46-Audio.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="76739229"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="HeavyShoot 46-Audio" ID="{EDF9317D-D0F9-4A2B-857C-4F6DD31B3D26}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="HeavyShoot 47-Audio" ID="{5D916ED1-F461-4CAA-91DA-3E38BA1ACC9E}" ShortID="70697489">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="HeavyShoot 47-Audio" ID="{B79346A2-5E14-4D7E-9EED-999E93099AEB}">
+															<Language>SFX</Language>
+															<AudioFile>HeavyShoot 47-Audio.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="74963988"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="HeavyShoot 47-Audio" ID="{B79346A2-5E14-4D7E-9EED-999E93099AEB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="HeavyShoot 48-Audio" ID="{707ADC06-FF40-4D21-88D5-4FF080FEF842}" ShortID="825621103">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="HeavyShoot 48-Audio" ID="{F4B0EF77-1AE5-43E6-8941-43047C20EAE1}">
+															<Language>SFX</Language>
+															<AudioFile>HeavyShoot 48-Audio.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="517058605"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="HeavyShoot 48-Audio" ID="{F4B0EF77-1AE5-43E6-8941-43047C20EAE1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="HeavyShoot 49-Audio" ID="{48B027CD-BABC-4FC3-BCCB-A2F78FA67208}" ShortID="84142416">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="HeavyShoot 49-Audio" ID="{A17A3421-3AC7-49DF-B2FC-C257D68CE59C}">
+															<Language>SFX</Language>
+															<AudioFile>HeavyShoot 49-Audio.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="970363778"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="HeavyShoot 49-Audio" ID="{A17A3421-3AC7-49DF-B2FC-C257D68CE59C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="HeavyShoot 50-Audio" ID="{45D3E3C6-BCB4-4B7B-918D-ED64E93BE018}" ShortID="1030061860">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="HeavyShoot 50-Audio" ID="{9823DAC3-DFDF-420D-9D05-5477D0E8BACF}">
+															<Language>SFX</Language>
+															<AudioFile>HeavyShoot 50-Audio.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="339669718"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="HeavyShoot 50-Audio" ID="{9823DAC3-DFDF-420D-9D05-5477D0E8BACF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<Sound Name="HeavyShootThomp" ID="{E80D9191-C598-47E0-ADB7-8B6F3DE52473}" ShortID="1002904092">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EEAA83C6-D474-4C5F-98FA-9D44967237A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7E1DA80-1452-47F1-9864-1E8D0A4E7165}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="HeavyShootThomp" ID="{FAB1DF6E-90EC-4548-A74A-362ABFB3C0C7}">
+													<Language>SFX</Language>
+													<AudioFile>HeavyShootThomp.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="824327681"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="HeavyShootThomp" ID="{FAB1DF6E-90EC-4548-A74A-362ABFB3C0C7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
