@@ -206,7 +206,7 @@
     "Type": "User",
     "GUID": "{73FF465C-2E5D-4F75-BFD6-4F737D16B83A}",
     "Language": "SFX",
-    "Hash": "{5938F011-F0F9-A157-4539-45DC83B2EC34}",
+    "Hash": "{225D2D2C-099A-51DC-84B9-13219CDF9880}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -244,12 +244,28 @@
       "CachePath": "SFX/Walking 14-9_Jun_15.40_818F3B66.wem"
      },
      {
+      "Id": "41602832",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyDestroyedThomp.wav",
+      "CachePath": "SFX/HeavyDestroyedThomp_818F3B66.wem"
+     },
+     {
       "Id": "43453150",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "MetalHit 19-RANDOM.wav",
       "CachePath": "SFX/MetalHit 19-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "45599081",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyLand 34-9_Jun_15.40.wav",
+      "CachePath": "SFX/HeavyLand 34-9_Jun_15.40_818F3B66.wem"
      },
      {
       "Id": "55864292",
@@ -282,6 +298,14 @@
       "Location": "Memory",
       "ShortName": "HeavyShoot 46-Audio.wav",
       "CachePath": "SFX/HeavyShoot 46-Audio_818F3B66.wem"
+     },
+     {
+      "Id": "79665097",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyLand 31-9_Jun_15.40.wav",
+      "CachePath": "SFX/HeavyLand 31-9_Jun_15.40_818F3B66.wem"
      },
      {
       "Id": "87955643",
@@ -418,6 +442,14 @@
       "Location": "Memory",
       "ShortName": "Destroy4.wav",
       "CachePath": "SFX/Destroy4_818F3B66.wem"
+     },
+     {
+      "Id": "239512518",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyDestroyed 88-Enemy_Destroyed.wav",
+      "CachePath": "SFX/HeavyDestroyed 88-Enemy_Destroyed_818F3B66.wem"
      },
      {
       "Id": "242355400",
@@ -564,6 +596,14 @@
       "CachePath": "SFX/PlayerWalkingGrass 25 GrassHit_818F3B66.wem"
      },
      {
+      "Id": "355647867",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyDestroyed 90-Enemy_Destroyed.wav",
+      "CachePath": "SFX/HeavyDestroyed 90-Enemy_Destroyed_818F3B66.wem"
+     },
+     {
       "Id": "361492288",
       "Language": "SFX",
       "Streaming": "false",
@@ -586,6 +626,14 @@
       "Location": "Memory",
       "ShortName": "Walking 5-9_Jun_15.40.wav",
       "CachePath": "SFX/Walking 5-9_Jun_15.40_818F3B66.wem"
+     },
+     {
+      "Id": "387388135",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyLand 37-9_Jun_15.40.wav",
+      "CachePath": "SFX/HeavyLand 37-9_Jun_15.40_818F3B66.wem"
      },
      {
       "Id": "412773908",
@@ -676,12 +724,28 @@
       "CachePath": "SFX/Hit 42-RANDOM_818F3B66.wem"
      },
      {
+      "Id": "510359150",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyDestroyed 92-Enemy_Destroyed.wav",
+      "CachePath": "SFX/HeavyDestroyed 92-Enemy_Destroyed_818F3B66.wem"
+     },
+     {
       "Id": "512990256",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "WalkingGrass 20 GrassHit.wav",
       "CachePath": "SFX/WalkingGrass 20 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "516445092",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyDestroyed 89-Enemy_Destroyed.wav",
+      "CachePath": "SFX/HeavyDestroyed 89-Enemy_Destroyed_818F3B66.wem"
      },
      {
       "Id": "517058605",
@@ -770,6 +834,22 @@
       "Location": "Memory",
       "ShortName": "AttackPluck.wav",
       "CachePath": "SFX/AttackPluck_818F3B66.wem"
+     },
+     {
+      "Id": "655890685",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyLand 32-9_Jun_15.40.wav",
+      "CachePath": "SFX/HeavyLand 32-9_Jun_15.40_818F3B66.wem"
+     },
+     {
+      "Id": "664785522",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyLand 33-9_Jun_15.40.wav",
+      "CachePath": "SFX/HeavyLand 33-9_Jun_15.40_818F3B66.wem"
      },
      {
       "Id": "674838887",
@@ -868,6 +948,14 @@
       "CachePath": "SFX/PlayerWalkingGrass 24 GrassHit_818F3B66.wem"
      },
      {
+      "Id": "736695671",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyLand 36-9_Jun_15.40.wav",
+      "CachePath": "SFX/HeavyLand 36-9_Jun_15.40_818F3B66.wem"
+     },
+     {
       "Id": "757545993",
       "Language": "SFX",
       "Streaming": "false",
@@ -954,6 +1042,14 @@
       "Location": "Memory",
       "ShortName": "HeavyStompMetal 16-9_Jun_15.40.wav",
       "CachePath": "SFX/HeavyStompMetal 16-9_Jun_15.40_818F3B66.wem"
+     },
+     {
+      "Id": "837891654",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HeavyLand 35-9_Jun_15.40.wav",
+      "CachePath": "SFX/HeavyLand 35-9_Jun_15.40_818F3B66.wem"
      },
      {
       "Id": "846984518",
@@ -1295,6 +1391,64 @@
        },
        {
         "Id": "1050135430"
+       }
+      ]
+     },
+     {
+      "Id": "1336969871",
+      "Name": "HeavyDestroyed",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Heavy\\HeavyDestroyed",
+      "GUID": "{2B6D8E80-544C-42DF-B490-04C4396B8EBF}",
+      "DurationType": "OneShot",
+      "DurationMin": "2",
+      "DurationMax": "2",
+      "MediaRefs": [
+       {
+        "Id": "41602832"
+       },
+       {
+        "Id": "239512518"
+       },
+       {
+        "Id": "355647867"
+       },
+       {
+        "Id": "510359150"
+       },
+       {
+        "Id": "516445092"
+       }
+      ]
+     },
+     {
+      "Id": "2457776585",
+      "Name": "HeavyLand",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Heavy\\HeavyLand",
+      "GUID": "{4415B29B-9407-4BA5-B4EB-95335244010E}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5",
+      "DurationMax": "1.5",
+      "MediaRefs": [
+       {
+        "Id": "45599081"
+       },
+       {
+        "Id": "79665097"
+       },
+       {
+        "Id": "387388135"
+       },
+       {
+        "Id": "655890685"
+       },
+       {
+        "Id": "664785522"
+       },
+       {
+        "Id": "736695671"
+       },
+       {
+        "Id": "837891654"
        }
       ]
      },
@@ -1831,6 +1985,6 @@
     ]
    }
   ],
-  "FileHash": "{3D23B2EC-7238-E53B-48A9-1B07F88A7AD8}"
+  "FileHash": "{B9D57F00-04E4-CE31-AEE3-0485BD51BCBC}"
  }
 }

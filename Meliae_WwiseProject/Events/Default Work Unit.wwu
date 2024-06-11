@@ -229,6 +229,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="HeavyLand" ID="{4415B29B-9407-4BA5-B4EB-95335244010E}">
+									<ChildrenList>
+										<Action Name="" ID="{8F10ACDE-31EB-407D-9ECA-1C8B6185AD20}" ShortID="1048035459">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="HeavyLand" ID="{7ACB6270-1B35-47F0-A678-E5A269B29E2C}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
