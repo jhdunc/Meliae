@@ -86,7 +86,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4056684167" Type="User" GUID="{73FF465C-2E5D-4F75-BFD6-4F737D16B83A}" Language="SFX" Hash="{20F103AD-9A50-F1EF-6110-FC42F5AFB4FC}">
+		<SoundBank Id="4056684167" Type="User" GUID="{73FF465C-2E5D-4F75-BFD6-4F737D16B83A}" Language="SFX" Hash="{11AB8E94-C08C-DD32-F0AD-BC025B41B798}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -118,6 +118,10 @@
 				<File Id="55864292" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WalkingGrass 19 GrassHit.wav</ShortName>
 					<CachePath>SFX/WalkingGrass 19 GrassHit_818F3B66.wem</CachePath>
+				</File>
+				<File Id="65903075" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dash5.wav</ShortName>
+					<CachePath>SFX/Dash5_818F3B66.wem</CachePath>
 				</File>
 				<File Id="70258969" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PlayerWalkingGrass 33 GrassHit.wav</ShortName>
@@ -186,6 +190,10 @@
 				<File Id="179541410" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PlayerWalkingGrass 21 GrassHit.wav</ShortName>
 					<CachePath>SFX/PlayerWalkingGrass 21 GrassHit_818F3B66.wem</CachePath>
+				</File>
+				<File Id="206833593" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dash2.wav</ShortName>
+					<CachePath>SFX/Dash2_818F3B66.wem</CachePath>
 				</File>
 				<File Id="207441468" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MetalHit 9-RANDOM.wav</ShortName>
@@ -535,6 +543,10 @@
 					<ShortName>MetalHit 8-RANDOM.wav</ShortName>
 					<CachePath>SFX/MetalHit 8-RANDOM_818F3B66.wem</CachePath>
 				</File>
+				<File Id="902888197" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dash1.wav</ShortName>
+					<CachePath>SFX/Dash1_818F3B66.wem</CachePath>
+				</File>
 				<File Id="911173519" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PlayerWalkingGrass 22 GrassHit.wav</ShortName>
 					<CachePath>SFX/PlayerWalkingGrass 22 GrassHit_818F3B66.wem</CachePath>
@@ -559,6 +571,10 @@
 					<ShortName>HeavyStompMetal 25-9_Jun_15.40.wav</ShortName>
 					<CachePath>SFX/HeavyStompMetal 25-9_Jun_15.40_818F3B66.wem</CachePath>
 				</File>
+				<File Id="939779105" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dash4.wav</ShortName>
+					<CachePath>SFX/Dash4_818F3B66.wem</CachePath>
+				</File>
 				<File Id="942115357" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PlayerHit 54-Audio.wav</ShortName>
 					<CachePath>SFX/PlayerHit 54-Audio_818F3B66.wem</CachePath>
@@ -582,6 +598,10 @@
 				<File Id="958544373" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Shoot 48-Audio.wav</ShortName>
 					<CachePath>SFX/Shoot 48-Audio_818F3B66.wem</CachePath>
+				</File>
+				<File Id="963155072" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dash3.wav</ShortName>
+					<CachePath>SFX/Dash3_818F3B66.wem</CachePath>
 				</File>
 				<File Id="964295609" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PlayerWalkingGrass 29 GrassHit.wav</ShortName>
@@ -643,7 +663,11 @@
 			<Events>
 				<Event Id="1942692385" Name="Dash" ObjectPath="\Events\Default Work Unit\Player\Dash" GUID="{2424C118-B787-471E-8AD7-496C6A022D8E}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
 					<MediaRefs>
-						<MediaRef Id="289791171"/>
+						<MediaRef Id="65903075"/>
+						<MediaRef Id="206833593"/>
+						<MediaRef Id="902888197"/>
+						<MediaRef Id="939779105"/>
+						<MediaRef Id="963155072"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2785366684" Name="EnemyDestroyed" ObjectPath="\Events\Default Work Unit\Enemy\EnemyDestroyed" GUID="{E6101DB3-37B5-4446-87B5-E4D44CFC0875}" DurationType="OneShot" DurationMin="1" DurationMax="1">
@@ -880,5 +904,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D6ED75ED-F9E6-7C66-0A7F-4DAD0C24E0CC}</FileHash>
+	<FileHash>{6C89D5F7-020D-F429-D56E-28A1F8F8AF10}</FileHash>
 </SoundBanksInfo>

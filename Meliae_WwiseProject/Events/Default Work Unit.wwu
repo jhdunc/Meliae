@@ -10,7 +10,7 @@
 								<Action Name="" ID="{3CB2E67E-46D4-4EFF-A434-8E605264B5DA}" ShortID="943927243">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Dash" ID="{387E9B02-EDCA-4B47-8BF8-0EF45669670A}" WorkUnitID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}"/>
+											<ObjectRef Name="RandSeqDashPlayer" ID="{FC5D6581-5DCD-48B9-AF44-A1661A8B34F9}" WorkUnitID="{14BCC48C-FCA8-46A6-B406-6D9B7A6577CC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

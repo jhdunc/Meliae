@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{73FF465C-2E5D-4F75-BFD6-4F737D16B83A}",
     "Language": "SFX",
-    "Hash": "{20F103AD-9A50-F1EF-6110-FC42F5AFB4FC}",
+    "Hash": "{11AB8E94-C08C-DD32-F0AD-BC025B41B798}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -70,6 +70,14 @@
       "Location": "Memory",
       "ShortName": "WalkingGrass 19 GrassHit.wav",
       "CachePath": "SFX/WalkingGrass 19 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "65903075",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dash5.wav",
+      "CachePath": "SFX/Dash5_818F3B66.wem"
      },
      {
       "Id": "70258969",
@@ -206,6 +214,14 @@
       "Location": "Memory",
       "ShortName": "PlayerWalkingGrass 21 GrassHit.wav",
       "CachePath": "SFX/PlayerWalkingGrass 21 GrassHit_818F3B66.wem"
+     },
+     {
+      "Id": "206833593",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dash2.wav",
+      "CachePath": "SFX/Dash2_818F3B66.wem"
      },
      {
       "Id": "207441468",
@@ -904,6 +920,14 @@
       "CachePath": "SFX/MetalHit 8-RANDOM_818F3B66.wem"
      },
      {
+      "Id": "902888197",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dash1.wav",
+      "CachePath": "SFX/Dash1_818F3B66.wem"
+     },
+     {
       "Id": "911173519",
       "Language": "SFX",
       "Streaming": "false",
@@ -952,6 +976,14 @@
       "CachePath": "SFX/HeavyStompMetal 25-9_Jun_15.40_818F3B66.wem"
      },
      {
+      "Id": "939779105",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dash4.wav",
+      "CachePath": "SFX/Dash4_818F3B66.wem"
+     },
+     {
       "Id": "942115357",
       "Language": "SFX",
       "Streaming": "false",
@@ -998,6 +1030,14 @@
       "Location": "Memory",
       "ShortName": "Shoot 48-Audio.wav",
       "CachePath": "SFX/Shoot 48-Audio_818F3B66.wem"
+     },
+     {
+      "Id": "963155072",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dash3.wav",
+      "CachePath": "SFX/Dash3_818F3B66.wem"
      },
      {
       "Id": "964295609",
@@ -1123,7 +1163,19 @@
       "DurationMax": "0.5",
       "MediaRefs": [
        {
-        "Id": "289791171"
+        "Id": "65903075"
+       },
+       {
+        "Id": "206833593"
+       },
+       {
+        "Id": "902888197"
+       },
+       {
+        "Id": "939779105"
+       },
+       {
+        "Id": "963155072"
        }
       ]
      },
@@ -1822,6 +1874,6 @@
     ]
    }
   ],
-  "FileHash": "{62FF1885-610A-6696-996D-602C2F318727}"
+  "FileHash": "{ED6AB325-9FF7-D4B1-9F35-253D2DA8E179}"
  }
 }
