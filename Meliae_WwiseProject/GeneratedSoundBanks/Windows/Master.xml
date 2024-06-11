@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="4056684167" Type="User" GUID="{73FF465C-2E5D-4F75-BFD6-4F737D16B83A}" Language="SFX" Hash="{225D2D2C-099A-51DC-84B9-13219CDF9880}">
+		<SoundBank Id="4056684167" Type="User" GUID="{73FF465C-2E5D-4F75-BFD6-4F737D16B83A}" Language="SFX" Hash="{20F103AD-9A50-F1EF-6110-FC42F5AFB4FC}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -21,10 +21,6 @@
 				<File Id="38069380" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Walking 14-9_Jun_15.40.wav</ShortName>
 					<CachePath>SFX/Walking 14-9_Jun_15.40_818F3B66.wem</CachePath>
-				</File>
-				<File Id="41602832" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>HeavyDestroyedThomp.wav</ShortName>
-					<CachePath>SFX/HeavyDestroyedThomp_818F3B66.wem</CachePath>
 				</File>
 				<File Id="43453150" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MetalHit 19-RANDOM.wav</ShortName>
@@ -122,9 +118,9 @@
 					<ShortName>Destroy4.wav</ShortName>
 					<CachePath>SFX/Destroy4_818F3B66.wem</CachePath>
 				</File>
-				<File Id="239512518" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>HeavyDestroyed 88-Enemy_Destroyed.wav</ShortName>
-					<CachePath>SFX/HeavyDestroyed 88-Enemy_Destroyed_818F3B66.wem</CachePath>
+				<File Id="219517242" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ShootThomp.wav</ShortName>
+					<CachePath>SFX/ShootThomp_818F3B66.wem</CachePath>
 				</File>
 				<File Id="242355400" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MetalHit 25-RANDOM.wav</ShortName>
@@ -162,6 +158,10 @@
 					<ShortName>Beep.wav</ShortName>
 					<CachePath>SFX/Beep_818F3B66.wem</CachePath>
 				</File>
+				<File Id="292914656" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Shoot 53-Audio.wav</ShortName>
+					<CachePath>SFX/Shoot 53-Audio_818F3B66.wem</CachePath>
+				</File>
 				<File Id="306713969" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WalkingGrass 22 GrassHit.wav</ShortName>
 					<CachePath>SFX/WalkingGrass 22 GrassHit_818F3B66.wem</CachePath>
@@ -169,6 +169,10 @@
 				<File Id="307125574" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MetalHit 6-RANDOM.wav</ShortName>
 					<CachePath>SFX/MetalHit 6-RANDOM_818F3B66.wem</CachePath>
+				</File>
+				<File Id="314497957" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Shoot 47-Audio.wav</ShortName>
+					<CachePath>SFX/Shoot 47-Audio_818F3B66.wem</CachePath>
 				</File>
 				<File Id="315381624" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>HeavyShoot 45-Audio.wav</ShortName>
@@ -197,10 +201,6 @@
 				<File Id="343610143" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PlayerWalkingGrass 25 GrassHit.wav</ShortName>
 					<CachePath>SFX/PlayerWalkingGrass 25 GrassHit_818F3B66.wem</CachePath>
-				</File>
-				<File Id="355647867" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>HeavyDestroyed 90-Enemy_Destroyed.wav</ShortName>
-					<CachePath>SFX/HeavyDestroyed 90-Enemy_Destroyed_818F3B66.wem</CachePath>
 				</File>
 				<File Id="361492288" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Walking 4-9_Jun_15.40.wav</ShortName>
@@ -262,17 +262,9 @@
 					<ShortName>Hit 42-RANDOM.wav</ShortName>
 					<CachePath>SFX/Hit 42-RANDOM_818F3B66.wem</CachePath>
 				</File>
-				<File Id="510359150" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>HeavyDestroyed 92-Enemy_Destroyed.wav</ShortName>
-					<CachePath>SFX/HeavyDestroyed 92-Enemy_Destroyed_818F3B66.wem</CachePath>
-				</File>
 				<File Id="512990256" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WalkingGrass 20 GrassHit.wav</ShortName>
 					<CachePath>SFX/WalkingGrass 20 GrassHit_818F3B66.wem</CachePath>
-				</File>
-				<File Id="516445092" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>HeavyDestroyed 89-Enemy_Destroyed.wav</ShortName>
-					<CachePath>SFX/HeavyDestroyed 89-Enemy_Destroyed_818F3B66.wem</CachePath>
 				</File>
 				<File Id="517058605" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>HeavyShoot 48-Audio.wav</ShortName>
@@ -309,6 +301,10 @@
 				<File Id="635209506" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>HeavyStompMetal 28-9_Jun_15.40.wav</ShortName>
 					<CachePath>SFX/HeavyStompMetal 28-9_Jun_15.40_818F3B66.wem</CachePath>
+				</File>
+				<File Id="636114857" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Shoot 50-Audio.wav</ShortName>
+					<CachePath>SFX/Shoot 50-Audio_818F3B66.wem</CachePath>
 				</File>
 				<File Id="639938064" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Walking 10-9_Jun_15.40.wav</ShortName>
@@ -377,6 +373,10 @@
 				<File Id="736695671" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>HeavyLand 36-9_Jun_15.40.wav</ShortName>
 					<CachePath>SFX/HeavyLand 36-9_Jun_15.40_818F3B66.wem</CachePath>
+				</File>
+				<File Id="740418218" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Shoot 49-Audio.wav</ShortName>
+					<CachePath>SFX/Shoot 49-Audio_818F3B66.wem</CachePath>
 				</File>
 				<File Id="757545993" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PlayerWalkingGrass 37 GrassHit.wav</ShortName>
@@ -482,6 +482,10 @@
 					<ShortName>PlayerWalkingGrass 32 GrassHit.wav</ShortName>
 					<CachePath>SFX/PlayerWalkingGrass 32 GrassHit_818F3B66.wem</CachePath>
 				</File>
+				<File Id="947547312" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Shoot 51-Audio.wav</ShortName>
+					<CachePath>SFX/Shoot 51-Audio_818F3B66.wem</CachePath>
+				</File>
 				<File Id="953201254" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PlayerWalkingGrass 26 GrassHit.wav</ShortName>
 					<CachePath>SFX/PlayerWalkingGrass 26 GrassHit_818F3B66.wem</CachePath>
@@ -489,6 +493,10 @@
 				<File Id="953425312" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Walking 3-9_Jun_15.40.wav</ShortName>
 					<CachePath>SFX/Walking 3-9_Jun_15.40_818F3B66.wem</CachePath>
+				</File>
+				<File Id="958544373" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Shoot 48-Audio.wav</ShortName>
+					<CachePath>SFX/Shoot 48-Audio_818F3B66.wem</CachePath>
 				</File>
 				<File Id="964295609" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PlayerWalkingGrass 29 GrassHit.wav</ShortName>
@@ -501,6 +509,10 @@
 				<File Id="970363778" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>HeavyShoot 49-Audio.wav</ShortName>
 					<CachePath>SFX/HeavyShoot 49-Audio_818F3B66.wem</CachePath>
+				</File>
+				<File Id="974718051" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Shoot 52-Audio.wav</ShortName>
+					<CachePath>SFX/Shoot 52-Audio_818F3B66.wem</CachePath>
 				</File>
 				<File Id="982542825" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WalkingGrass 33 GrassHit.wav</ShortName>
@@ -558,6 +570,18 @@
 						<MediaRef Id="917197262"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4061053204" Name="EventShootingEnemy" ObjectPath="\Events\Default Work Unit\Enemy\EventShootingEnemy" GUID="{50B33158-0D1C-41C3-8E98-F7A6E63DFD5D}" DurationType="OneShot" DurationMin="1" DurationMax="1">
+					<MediaRefs>
+						<MediaRef Id="219517242"/>
+						<MediaRef Id="292914656"/>
+						<MediaRef Id="314497957"/>
+						<MediaRef Id="636114857"/>
+						<MediaRef Id="740418218"/>
+						<MediaRef Id="947547312"/>
+						<MediaRef Id="958544373"/>
+						<MediaRef Id="974718051"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1365126062" Name="GrassWalking" ObjectPath="\Events\Default Work Unit\Player\Walking\Grass\GrassWalking" GUID="{703983FA-6CC1-4B1C-B199-6FB69F7F867E}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="70258969"/>
@@ -580,15 +604,6 @@
 						<MediaRef Id="964295609"/>
 						<MediaRef Id="1030249328"/>
 						<MediaRef Id="1050135430"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1336969871" Name="HeavyDestroyed" ObjectPath="\Events\Default Work Unit\Enemy\Heavy\HeavyDestroyed" GUID="{2B6D8E80-544C-42DF-B490-04C4396B8EBF}" DurationType="OneShot" DurationMin="2" DurationMax="2">
-					<MediaRefs>
-						<MediaRef Id="41602832"/>
-						<MediaRef Id="239512518"/>
-						<MediaRef Id="355647867"/>
-						<MediaRef Id="510359150"/>
-						<MediaRef Id="516445092"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2457776585" Name="HeavyLand" ObjectPath="\Events\Default Work Unit\Enemy\Heavy\HeavyLand" GUID="{4415B29B-9407-4BA5-B4EB-95335244010E}" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
@@ -780,5 +795,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3D419FEE-23D5-BE78-600B-24EF41E285E0}</FileHash>
+	<FileHash>{86CEA888-AF75-2A7A-42CE-8C19742CC279}</FileHash>
 </SoundBanksInfo>

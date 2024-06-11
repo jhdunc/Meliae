@@ -206,7 +206,7 @@
     "Type": "User",
     "GUID": "{73FF465C-2E5D-4F75-BFD6-4F737D16B83A}",
     "Language": "SFX",
-    "Hash": "{225D2D2C-099A-51DC-84B9-13219CDF9880}",
+    "Hash": "{20F103AD-9A50-F1EF-6110-FC42F5AFB4FC}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
     "ShortName": "Master",
     "Path": "Master.bnk",
@@ -242,14 +242,6 @@
       "Location": "Memory",
       "ShortName": "Walking 14-9_Jun_15.40.wav",
       "CachePath": "SFX/Walking 14-9_Jun_15.40_818F3B66.wem"
-     },
-     {
-      "Id": "41602832",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "HeavyDestroyedThomp.wav",
-      "CachePath": "SFX/HeavyDestroyedThomp_818F3B66.wem"
      },
      {
       "Id": "43453150",
@@ -444,12 +436,12 @@
       "CachePath": "SFX/Destroy4_818F3B66.wem"
      },
      {
-      "Id": "239512518",
+      "Id": "219517242",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "HeavyDestroyed 88-Enemy_Destroyed.wav",
-      "CachePath": "SFX/HeavyDestroyed 88-Enemy_Destroyed_818F3B66.wem"
+      "ShortName": "ShootThomp.wav",
+      "CachePath": "SFX/ShootThomp_818F3B66.wem"
      },
      {
       "Id": "242355400",
@@ -524,6 +516,14 @@
       "CachePath": "SFX/Beep_818F3B66.wem"
      },
      {
+      "Id": "292914656",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Shoot 53-Audio.wav",
+      "CachePath": "SFX/Shoot 53-Audio_818F3B66.wem"
+     },
+     {
       "Id": "306713969",
       "Language": "SFX",
       "Streaming": "false",
@@ -538,6 +538,14 @@
       "Location": "Memory",
       "ShortName": "MetalHit 6-RANDOM.wav",
       "CachePath": "SFX/MetalHit 6-RANDOM_818F3B66.wem"
+     },
+     {
+      "Id": "314497957",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Shoot 47-Audio.wav",
+      "CachePath": "SFX/Shoot 47-Audio_818F3B66.wem"
      },
      {
       "Id": "315381624",
@@ -594,14 +602,6 @@
       "Location": "Memory",
       "ShortName": "PlayerWalkingGrass 25 GrassHit.wav",
       "CachePath": "SFX/PlayerWalkingGrass 25 GrassHit_818F3B66.wem"
-     },
-     {
-      "Id": "355647867",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "HeavyDestroyed 90-Enemy_Destroyed.wav",
-      "CachePath": "SFX/HeavyDestroyed 90-Enemy_Destroyed_818F3B66.wem"
      },
      {
       "Id": "361492288",
@@ -724,28 +724,12 @@
       "CachePath": "SFX/Hit 42-RANDOM_818F3B66.wem"
      },
      {
-      "Id": "510359150",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "HeavyDestroyed 92-Enemy_Destroyed.wav",
-      "CachePath": "SFX/HeavyDestroyed 92-Enemy_Destroyed_818F3B66.wem"
-     },
-     {
       "Id": "512990256",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "WalkingGrass 20 GrassHit.wav",
       "CachePath": "SFX/WalkingGrass 20 GrassHit_818F3B66.wem"
-     },
-     {
-      "Id": "516445092",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "HeavyDestroyed 89-Enemy_Destroyed.wav",
-      "CachePath": "SFX/HeavyDestroyed 89-Enemy_Destroyed_818F3B66.wem"
      },
      {
       "Id": "517058605",
@@ -818,6 +802,14 @@
       "Location": "Memory",
       "ShortName": "HeavyStompMetal 28-9_Jun_15.40.wav",
       "CachePath": "SFX/HeavyStompMetal 28-9_Jun_15.40_818F3B66.wem"
+     },
+     {
+      "Id": "636114857",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Shoot 50-Audio.wav",
+      "CachePath": "SFX/Shoot 50-Audio_818F3B66.wem"
      },
      {
       "Id": "639938064",
@@ -954,6 +946,14 @@
       "Location": "Memory",
       "ShortName": "HeavyLand 36-9_Jun_15.40.wav",
       "CachePath": "SFX/HeavyLand 36-9_Jun_15.40_818F3B66.wem"
+     },
+     {
+      "Id": "740418218",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Shoot 49-Audio.wav",
+      "CachePath": "SFX/Shoot 49-Audio_818F3B66.wem"
      },
      {
       "Id": "757545993",
@@ -1164,6 +1164,14 @@
       "CachePath": "SFX/PlayerWalkingGrass 32 GrassHit_818F3B66.wem"
      },
      {
+      "Id": "947547312",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Shoot 51-Audio.wav",
+      "CachePath": "SFX/Shoot 51-Audio_818F3B66.wem"
+     },
+     {
       "Id": "953201254",
       "Language": "SFX",
       "Streaming": "false",
@@ -1178,6 +1186,14 @@
       "Location": "Memory",
       "ShortName": "Walking 3-9_Jun_15.40.wav",
       "CachePath": "SFX/Walking 3-9_Jun_15.40_818F3B66.wem"
+     },
+     {
+      "Id": "958544373",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Shoot 48-Audio.wav",
+      "CachePath": "SFX/Shoot 48-Audio_818F3B66.wem"
      },
      {
       "Id": "964295609",
@@ -1202,6 +1218,14 @@
       "Location": "Memory",
       "ShortName": "HeavyShoot 49-Audio.wav",
       "CachePath": "SFX/HeavyShoot 49-Audio_818F3B66.wem"
+     },
+     {
+      "Id": "974718051",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Shoot 52-Audio.wav",
+      "CachePath": "SFX/Shoot 52-Audio_818F3B66.wem"
      },
      {
       "Id": "982542825",
@@ -1326,6 +1350,41 @@
       ]
      },
      {
+      "Id": "4061053204",
+      "Name": "EventShootingEnemy",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\EventShootingEnemy",
+      "GUID": "{50B33158-0D1C-41C3-8E98-F7A6E63DFD5D}",
+      "DurationType": "OneShot",
+      "DurationMin": "1",
+      "DurationMax": "1",
+      "MediaRefs": [
+       {
+        "Id": "219517242"
+       },
+       {
+        "Id": "292914656"
+       },
+       {
+        "Id": "314497957"
+       },
+       {
+        "Id": "636114857"
+       },
+       {
+        "Id": "740418218"
+       },
+       {
+        "Id": "947547312"
+       },
+       {
+        "Id": "958544373"
+       },
+       {
+        "Id": "974718051"
+       }
+      ]
+     },
+     {
       "Id": "1365126062",
       "Name": "GrassWalking",
       "ObjectPath": "\\Events\\Default Work Unit\\Player\\Walking\\Grass\\GrassWalking",
@@ -1391,32 +1450,6 @@
        },
        {
         "Id": "1050135430"
-       }
-      ]
-     },
-     {
-      "Id": "1336969871",
-      "Name": "HeavyDestroyed",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Heavy\\HeavyDestroyed",
-      "GUID": "{2B6D8E80-544C-42DF-B490-04C4396B8EBF}",
-      "DurationType": "OneShot",
-      "DurationMin": "2",
-      "DurationMax": "2",
-      "MediaRefs": [
-       {
-        "Id": "41602832"
-       },
-       {
-        "Id": "239512518"
-       },
-       {
-        "Id": "355647867"
-       },
-       {
-        "Id": "510359150"
-       },
-       {
-        "Id": "516445092"
        }
       ]
      },
@@ -1985,6 +2018,6 @@
     ]
    }
   ],
-  "FileHash": "{C6674D19-144F-C6C9-4AAE-FB1631227EA8}"
+  "FileHash": "{77E3CDE5-68B5-9687-B3F5-FE19176884FA}"
  }
 }

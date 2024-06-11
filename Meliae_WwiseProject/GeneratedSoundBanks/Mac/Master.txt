@@ -4,7 +4,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	796055179	NoGrassWalking			\Default Work Unit\Player\Walking\Grass\NoGrassWalking	
 	1116398592	Hit			\Default Work Unit\Player\Hit	
 	1251387103	StageRestored			\Default Work Unit\UX\StageRestored	
-	1336969871	HeavyDestroyed			\Default Work Unit\Enemy\Heavy\HeavyDestroyed	
 	1365126062	GrassWalking			\Default Work Unit\Player\Walking\Grass\GrassWalking	
 	1813598597	HeavyShooting			\Default Work Unit\Enemy\Heavy\HeavyShooting	
 	1942692385	Dash			\Default Work Unit\Player\Dash	
@@ -15,6 +14,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3581033663	HeavyStomping			\Default Work Unit\Enemy\Heavy\HeavyStomping	
 	3733591335	NoMudWalking			\Default Work Unit\Player\Walking\Mud\NoMudWalking	
 	3966132538	PickupHealItem			\Default Work Unit\Player\Heal\PickupHealItem	
+	4061053204	EventShootingEnemy			\Default Work Unit\Enemy\EventShootingEnemy	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	669816173	EnemyHealth			\Default Work Unit\EnemyHealth	
@@ -25,7 +25,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	26402324	HeavyStompMetal 24-9_Jun_15_40	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\HeavyStompMetal 24-9_Jun_15.40_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Heavy\HeavyStompMetal\HeavyStompMetal 24-9_Jun_15_40		176496
 	34872186	WalkingGrass 29 GrassHit	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\WalkingGrass 29 GrassHit_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Walking\WalkingSoundGrass\WalkingGrass 29 GrassHit		176496
 	38069380	Walking 14-9_Jun_15_40	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\Walking 14-9_Jun_15.40_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Walking\WalkingSoundOne\Walking 14-9_Jun_15_40		176496
-	41602832	SoundEFXHeavyDestroyed	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\HeavyDestroyedThomp_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Heavy\HeavyDestroyed\SoundEFXHeavyDestroyed		352896
 	43453150	MetalHit 19-RANDOM	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\MetalHit 19-RANDOM_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\MetalHit2\MetalHit 19-RANDOM		88296
 	45599081	HeavyLand 34-9_Jun_15_40	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\HeavyLand 34-9_Jun_15.40_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Heavy\HeavyLand\HeavyLand\HeavyLand 34-9_Jun_15_40		264696
 	55864292	WalkingGrass 19 GrassHit	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\WalkingGrass 19 GrassHit_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Walking\WalkingSoundGrass\WalkingGrass 19 GrassHit		176496
@@ -50,7 +49,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	210031203	MetalHit 24-RANDOM	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\MetalHit 24-RANDOM_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\MetalHit2\MetalHit 24-RANDOM		88296
 	215550662	MetalHit 23-RANDOM	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\MetalHit 23-RANDOM_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\MetalHit2\MetalHit 23-RANDOM		88296
 	217664670	Destroy4	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\Destroy4_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\DestroyEnemy\Destroy4		176496
-	239512518	HeavyDestroyed 88-Enemy_Destroyed	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\HeavyDestroyed 88-Enemy_Destroyed_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Heavy\HeavyDestroyed\RandSeqHeavyDestroyed\HeavyDestroyed 88-Enemy_Destroyed		352896
+	219517242	SoundEFXShootingEnemy	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\ShootThomp_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Shooting\SoundEFXShootingEnemy		176496
 	242355400	MetalHit 25-RANDOM	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\MetalHit 25-RANDOM_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\MetalHit2\MetalHit 25-RANDOM		88296
 	244363605	PlayerHit 49-Audio	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\PlayerHit 49-Audio_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Player\PlayerHit\PlayerHit\PlayerHit 49-Audio		88296
 	245250048	Hit 43-RANDOM	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\Hit 43-RANDOM_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Hit Part 1\Hit 43-RANDOM		88296
@@ -60,8 +59,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	260529802	Walking 11-9_Jun_15_40	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\Walking 11-9_Jun_15.40_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Walking\WalkingSoundOne\Walking 11-9_Jun_15_40		176496
 	262852702	WalkingGrass 34 GrassHit	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\WalkingGrass 34 GrassHit_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Walking\WalkingSoundGrass\WalkingGrass 34 GrassHit		176496
 	289791171	Beep	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\Beep_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\MudWalking\Beep		88296
+	292914656	Shoot 53-Audio	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\Shoot 53-Audio_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Shooting\RandSeqShootingEnemy\Shoot 53-Audio		176496
 	306713969	WalkingGrass 22 GrassHit	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\WalkingGrass 22 GrassHit_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Walking\WalkingSoundGrass\WalkingGrass 22 GrassHit		176496
 	307125574	MetalHit 6-RANDOM	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\MetalHit 6-RANDOM_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\MetalHit\MetalHit 6-RANDOM		88296
+	314497957	Shoot 47-Audio	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\Shoot 47-Audio_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Shooting\RandSeqShootingEnemy\Shoot 47-Audio		176496
 	315381624	HeavyShoot 45-Audio	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\HeavyShoot 45-Audio_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Heavy\HeavyShooting\HeavyShoot\HeavyShoot 45-Audio		176496
 	328985746	PlayerWalkingGrass 20 GrassHit	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\PlayerWalkingGrass 20 GrassHit_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Player\Walking\PlayerWalkingGrass\PlayerWalkingGrass 20 GrassHit		110348
 	331865734	PlayerHit 52-Audio	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\PlayerHit 52-Audio_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Player\PlayerHit\PlayerHit\PlayerHit 52-Audio		88296
@@ -69,7 +70,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	339669718	HeavyShoot 50-Audio	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\HeavyShoot 50-Audio_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Heavy\HeavyShooting\HeavyShoot\HeavyShoot 50-Audio		176496
 	339955164	HeavyStompMetal 26-9_Jun_15_40	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\HeavyStompMetal 26-9_Jun_15.40_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Heavy\HeavyStompMetal\HeavyStompMetal 26-9_Jun_15_40		176496
 	343610143	PlayerWalkingGrass 25 GrassHit	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\PlayerWalkingGrass 25 GrassHit_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Player\Walking\PlayerWalkingGrass\PlayerWalkingGrass 25 GrassHit		110348
-	355647867	HeavyDestroyed 90-Enemy_Destroyed	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\HeavyDestroyed 90-Enemy_Destroyed_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Heavy\HeavyDestroyed\RandSeqHeavyDestroyed\HeavyDestroyed 90-Enemy_Destroyed		352896
 	361492288	Walking 4-9_Jun_15_40	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\Walking 4-9_Jun_15.40_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Walking\WalkingSoundOne\Walking 4-9_Jun_15_40		176496
 	374179396	WalkingGrass 28 GrassHit	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\WalkingGrass 28 GrassHit_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Walking\WalkingSoundGrass\WalkingGrass 28 GrassHit		176496
 	375260587	Walking 5-9_Jun_15_40	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\Walking 5-9_Jun_15.40_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Walking\WalkingSoundOne\Walking 5-9_Jun_15_40		176496
@@ -85,9 +85,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	481509670	MetalHit 22-RANDOM	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\MetalHit 22-RANDOM_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\MetalHit2\MetalHit 22-RANDOM		88296
 	496629524	HeavyStompMetal 27-9_Jun_15_40	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\HeavyStompMetal 27-9_Jun_15.40_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Heavy\HeavyStompMetal\HeavyStompMetal 27-9_Jun_15_40		176496
 	505463667	Hit 42-RANDOM	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\Hit 42-RANDOM_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Hit Part 1\Hit 42-RANDOM		88296
-	510359150	HeavyDestroyed 92-Enemy_Destroyed	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\HeavyDestroyed 92-Enemy_Destroyed_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Heavy\HeavyDestroyed\RandSeqHeavyDestroyed\HeavyDestroyed 92-Enemy_Destroyed		352896
 	512990256	WalkingGrass 20 GrassHit	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\WalkingGrass 20 GrassHit_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Walking\WalkingSoundGrass\WalkingGrass 20 GrassHit		176496
-	516445092	HeavyDestroyed 89-Enemy_Destroyed	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\HeavyDestroyed 89-Enemy_Destroyed_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Heavy\HeavyDestroyed\RandSeqHeavyDestroyed\HeavyDestroyed 89-Enemy_Destroyed		352896
 	517058605	HeavyShoot 48-Audio	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\HeavyShoot 48-Audio_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Heavy\HeavyShooting\HeavyShoot\HeavyShoot 48-Audio		176496
 	533045900	WalkingGrass 35 GrassHit	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\WalkingGrass 35 GrassHit_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Walking\WalkingSoundGrass\WalkingGrass 35 GrassHit		176496
 	545210375	Destroy3	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\Destroy3_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\DestroyEnemy\Destroy3		176496
@@ -97,6 +95,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	608734124	WalkingGrass 27 GrassHit	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\WalkingGrass 27 GrassHit_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Walking\WalkingSoundGrass\WalkingGrass 27 GrassHit		176496
 	623666477	Hit 44-RANDOM	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\Hit 44-RANDOM_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Hit Part 1\Hit 44-RANDOM		88296
 	635209506	HeavyStompMetal 28-9_Jun_15_40	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\HeavyStompMetal 28-9_Jun_15.40_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Heavy\HeavyStompMetal\HeavyStompMetal 28-9_Jun_15_40		176496
+	636114857	Shoot 50-Audio	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\Shoot 50-Audio_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Shooting\RandSeqShootingEnemy\Shoot 50-Audio		176496
 	639938064	Walking 10-9_Jun_15_40	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\Walking 10-9_Jun_15.40_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Walking\WalkingSoundOne\Walking 10-9_Jun_15_40		176496
 	644434276	AttackPluck	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\AttackPluck_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Player\PlayerShoot\Shoot\AttackPluck		88296
 	655890685	HeavyLand 32-9_Jun_15_40	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\HeavyLand 32-9_Jun_15.40_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Heavy\HeavyLand\HeavyLand\HeavyLand 32-9_Jun_15_40		264696
@@ -114,6 +113,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	728831614	HeavyStompMetal 23-9_Jun_15_40	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\HeavyStompMetal 23-9_Jun_15.40_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Heavy\HeavyStompMetal\HeavyStompMetal 23-9_Jun_15_40		176496
 	731149071	PlayerWalkingGrass 24 GrassHit	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\PlayerWalkingGrass 24 GrassHit_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Player\Walking\PlayerWalkingGrass\PlayerWalkingGrass 24 GrassHit		110348
 	736695671	HeavyLand 36-9_Jun_15_40	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\HeavyLand 36-9_Jun_15.40_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Heavy\HeavyLand\HeavyLand\HeavyLand 36-9_Jun_15_40		264696
+	740418218	Shoot 49-Audio	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\Shoot 49-Audio_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Shooting\RandSeqShootingEnemy\Shoot 49-Audio		176496
 	757545993	PlayerWalkingGrass 37 GrassHit	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\PlayerWalkingGrass 37 GrassHit_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Player\Walking\PlayerWalkingGrass\PlayerWalkingGrass 37 GrassHit		110348
 	760478632	Hit 39-RANDOM	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\Hit 39-RANDOM_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Hit Part 1\Hit 39-RANDOM		88296
 	769364730	WalkingGrass 30 GrassHit	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\WalkingGrass 30 GrassHit_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Walking\WalkingSoundGrass\WalkingGrass 30 GrassHit		176496
@@ -140,11 +140,14 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	938895768	HeavyStompMetal 25-9_Jun_15_40	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\HeavyStompMetal 25-9_Jun_15.40_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Heavy\HeavyStompMetal\HeavyStompMetal 25-9_Jun_15_40		176496
 	942115357	PlayerHit 54-Audio	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\PlayerHit 54-Audio_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Player\PlayerHit\PlayerHit\PlayerHit 54-Audio		88296
 	945510887	PlayerWalkingGrass 32 GrassHit	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\PlayerWalkingGrass 32 GrassHit_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Player\Walking\PlayerWalkingGrass\PlayerWalkingGrass 32 GrassHit		110348
+	947547312	Shoot 51-Audio	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\Shoot 51-Audio_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Shooting\RandSeqShootingEnemy\Shoot 51-Audio		176496
 	953201254	PlayerWalkingGrass 26 GrassHit	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\PlayerWalkingGrass 26 GrassHit_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Player\Walking\PlayerWalkingGrass\PlayerWalkingGrass 26 GrassHit		110348
 	953425312	Walking 3-9_Jun_15_40	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\Walking 3-9_Jun_15.40_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Walking\WalkingSoundOne\Walking 3-9_Jun_15_40		176496
+	958544373	Shoot 48-Audio	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\Shoot 48-Audio_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Shooting\RandSeqShootingEnemy\Shoot 48-Audio		176496
 	964295609	PlayerWalkingGrass 29 GrassHit	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\PlayerWalkingGrass 29 GrassHit_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Player\Walking\PlayerWalkingGrass\PlayerWalkingGrass 29 GrassHit		110348
 	966266207	MetalHit 20-RANDOM	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\MetalHit 20-RANDOM_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\MetalHit2\MetalHit 20-RANDOM		88296
 	970363778	HeavyShoot 49-Audio	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\HeavyShoot 49-Audio_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Heavy\HeavyShooting\HeavyShoot\HeavyShoot 49-Audio		176496
+	974718051	Shoot 52-Audio	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\Shoot 52-Audio_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Shooting\RandSeqShootingEnemy\Shoot 52-Audio		176496
 	982542825	WalkingGrass 33 GrassHit	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\WalkingGrass 33 GrassHit_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Walking\WalkingSoundGrass\WalkingGrass 33 GrassHit		176496
 	1016878780	WalkingGrass 32 GrassHit	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\WalkingGrass 32 GrassHit_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Walking\WalkingSoundGrass\WalkingGrass 32 GrassHit		176496
 	1019976163	HeavyStompMetal 22-9_Jun_15_40	C:\Users\bas\Git\Hanze\Meliae\Meliae_WwiseProject\.cache\Mac\SFX\HeavyStompMetal 22-9_Jun_15.40_818F3B66.wem		\Actor-Mixer Hierarchy\SoundEffects\Enemy\Heavy\HeavyStompMetal\HeavyStompMetal 22-9_Jun_15_40		176496

@@ -242,6 +242,24 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Event Name="EventShootingEnemy" ID="{50B33158-0D1C-41C3-8E98-F7A6E63DFD5D}">
+							<ChildrenList>
+								<Action Name="" ID="{BE588A31-C39C-490E-A468-8D67BC0B0078}" ShortID="290482281">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RandSeqShootingEnemy" ID="{27FC8088-A7B8-45D9-A9B2-28C40BA63A19}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3DDEF80E-560A-45C2-8AD3-F2D4D91C3440}" ShortID="285703944">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SoundEFXShootingEnemy" ID="{0B28687A-09A8-4A74-BB9C-7595E22945B7}" WorkUnitID="{3C908C3C-EC40-4E61-B168-564B32D23840}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UX" ID="{F32BAA6B-622E-4422-A9A4-46106637842D}" ShortID="731380421">
